@@ -1,6 +1,8 @@
 // Dados das batalhas em massa de Jornada Heroica: Guerra Artoniana (Apêndice B e capítulos de cada batalha).
 // "ficha" = _id do ator no compêndio "personagens" (o mesmo id fica no mundo quando a aventura é importada).
 // Sem "ficha", o painel procura um ator com o mesmo nome no mundo e depois no compêndio.
+// "sistema" = nome da ficha no compêndio Ameaças do sistema Tormenta20 (livro básico).
+// "aproximada" = a ficha ligada é a versão base; os valores da tabela da batalha valem mais.
 
 export const TAMANHOS = {
 	escaramuca: { nome: "Escaramuça", cd: 20, limiar: 20, vitoria: 5 },
@@ -89,7 +91,7 @@ export const BATALHAS = [
 			com({ nome: "Goblin", def: 13, res: "Fort +2, Ref +3, Von –1", ataque: "Duas adagas +7 (1d4, 19)" }, "0QVu9SxIT7BFnzBy"),
 			com({ nome: "Bandido preso", def: 13, res: "Fort +1, Ref +3, Von –1", ataque: "Clava +7 (1d6+3)" }, "wChzNq9mB427gEHn"),
 			{ nome: "Recruta purista", def: 16, res: "Fort +6, Ref +2, Von +0", ataque: "Alabarda +8 (1d10+5, x3)" },
-			{ nome: "Soldado purista", def: 20, res: "Fort +10, Ref +4, Von +1", ataque: "Espada bastarda +9 (1d10+9, 19)" },
+			com({ nome: "Soldado purista", def: 20, res: "Fort +10, Ref +4, Von +1", ataque: "Espada bastarda +9 (1d10+9, 19)" }, "vGRXgiIQkVGsKbOm"),
 			{ nome: "Grupo de assalto alabardeiro", def: 18, res: "Fort +10, Ref +4, Von +1", ataque: "Alabarda +12 (2d8+9, 19)" },
 			{ nome: "Sargento-mor", def: 24, res: "Fort +14, Ref +9, Von +5", ataque: "Espada bastarda +14 (1d12+15, 19)" }
 		]
@@ -121,7 +123,7 @@ export const BATALHAS = [
 			com({ nome: "Centopeia-dragão acorrentada", def: 27, res: "Fort +15, Ref +20, Von +9", ataque: "Mordida +24 (2d8+18 mais 2d6 fogo)" }, "fMI80OLNr8noLA2E"),
 			com({ nome: "Gnoll caçador de cabeças", def: 33, res: "Fort +16, Ref +7, Von +15", ataque: "Espada longa x2 +26 (1d8+15, 19) e mordida +26 (1d6+15)" }, "L5wwuLUkJ2xDyiZy"),
 			com({ nome: "Quimera acorrentada", def: 33, res: "Fort +21, Ref +15, Von +8", ataque: "Três mordidas +26 (3d12+12)" }, "RJxIErBRA0nxz2Tw"),
-			{ nome: "Trog mercenário", def: 33, res: "Fort +22, Ref +6, Von +16, +1 de dano por dado de dano de frio", ataque: "Machado de guerra +26 (3d6+20, x3) e mordida +26 (2d6+18)" },
+			{ nome: "Trog mercenário", sistema: "Trog", aproximada: true, def: 33, res: "Fort +22, Ref +6, Von +16, +1 de dano por dado de dano de frio", ataque: "Machado de guerra +26 (3d6+20, x3) e mordida +26 (2d6+18)" },
 			com({ nome: "Cavaleiro traidor", def: 34, res: "Fort +21, Ref +10, Von +15, RD 5", ataque: "Espada longa x2 +27 (2d8+23, 19)" }, "a9JGqMfz57O59F1l"),
 			com({ nome: "Furioso púrpura", def: 31, res: "Fort +21, Ref +15, Von +9, RD 10", ataque: "Machado de batalha x2 +25 (2d12+20, x3)" }, "zd7cDM6lnyEjz0NJ"),
 			com({ nome: "Agente do Graath", def: 33, res: "Fort +10, Ref +16, Von +22, resistência a magia +2", ataque: "Espada longa +27 (2d8+30, 19, mais 12d6 trevas)" }, "WwTeYZAKmDzSJAHF")
@@ -188,7 +190,7 @@ export const BATALHAS = [
 			com({ nome: "Companhia blindada veterana", def: 36, res: "Fort +17, Ref +8, Von +16, RD 5/mágico", ataque: "Martelo de guerra x2 +27 (2d8+12, x3, dobro de dano se acertar por 10 ou mais)" }, "89Iz8NXquWTD5G5c"),
 			{ nome: "Companhia blindada de elite", def: 38, res: "Fort +19, Ref +9, Von +18, RD 5/mágico", ataque: "Martelo de guerra x2 +29 (2d8+15, x3, dobro de dano se acertar por 10 ou mais)" },
 			com({ nome: "Artilharia alquímica", def: 37, res: "Fort +18, Ref +8, Von +22", ataque: "Saraivada fumegante (10d12 fogo, Ref CD 30 reduz à metade)" }, "YV4nSq8MJHqYmU0A"),
-			SERPE,
+			com(SERPE, "16dDqOdXP8VLt29V"),
 			MESTRE_CACADOR,
 			com(GOLEM_ASSALTO, "yRFCiGVIPXJHqcjT"),
 			com(COMANDANTE, "ICDnuCtMyymWTX34"),
@@ -204,7 +206,7 @@ export const BATALHAS = [
 		inimigo: { nome: "General Supremo Hermann Von Krauser", guerra: 38, detalhe: "+31 base, +2 personalidade presente, +5 tropas de melhor qualidade", substituto: { nome: "Dama Comandante Lady Mievna Yudennach", guerra: 20 } },
 		inimigos: [
 			{ nome: "Companhia blindada veterana", def: 38, res: "Fort +19, Ref +9, Von +18, RD 5/mágico", ataque: "Martelo de guerra x2 +29 (2d8+15, x3, dobro de dano se acertar por 10 ou mais)" },
-			SERPE,
+			com(SERPE, "16dDqOdXP8VLt29V"),
 			MESTRE_CACADOR,
 			com(GOLEM_ASSALTO, "Cuh9eIj00obf97yV"),
 			com(COMANDANTE, "WUMrmiUG1vhdjFmK"),

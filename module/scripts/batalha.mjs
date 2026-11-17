@@ -98,10 +98,21 @@ function uuidInimigo(inimigo) {
 	const doMundo = game.actors.find((a) => norm(a.name) === nome);
 	if (doMundo) return doMundo.uuid;
 	const pack = game.packs.get(`${ID}.personagens`);
-	if (!pack) return null;
-	if (inimigo.ficha && pack.index.has(inimigo.ficha)) return pack.getUuid(inimigo.ficha);
-	const entrada = pack.index.find((e) => norm(e.name) === nome);
-	return entrada ? pack.getUuid(entrada._id) : null;
+	if (pack) {
+		if (inimigo.ficha && pack.index.has(inimigo.ficha)) return pack.getUuid(inimigo.ficha);
+		const entrada = pack.index.find((e) => norm(e.name) === nome);
+		if (entrada) return pack.getUuid(entrada._id);
+	}
+	// Ficha base do livro básico, no compêndio Ameaças do sistema Tormenta20.
+	if (inimigo.sistema) {
+		const base = norm(inimigo.sistema);
+		const doMundoBase = game.actors.find((a) => norm(a.name) === base);
+		if (doMundoBase) return doMundoBase.uuid;
+		const ameacas = game.packs.get("tormenta20.ameacas");
+		const e = ameacas?.index.find((x) => norm(x.name) === base);
+		if (e) return ameacas.getUuid(e._id);
+	}
+	return null;
 }
 
 /* ---------------- chat ---------------- */
@@ -119,7 +130,8 @@ function htmlInimigo(inimigo, dado) {
 	if (!inimigo) return "";
 	const uuid = uuidInimigo(inimigo);
 	const nome = uuid ? `@UUID[${uuid}]{${inimigo.nome}}` : `<b>${esc(inimigo.nome)}</b>`;
-	return `<p><b>Inimigo (${dado}):</b> ${nome}<br>Defesa ${inimigo.def} · ${esc(inimigo.res)}<br>${esc(inimigo.ataque)}</p>`;
+	const aviso = uuid && inimigo.aproximada ? `<br><small>A ficha ligada é a versão base (${esc(inimigo.sistema ?? "")}); nesta batalha valem os números abaixo.</small>` : "";
+	return `<p><b>Inimigo (${dado}):</b> ${nome}${aviso}<br>Defesa ${inimigo.def} · ${esc(inimigo.res)}<br>${esc(inimigo.ataque)}</p>`;
 }
 
 /* ---------------- ações ---------------- */
