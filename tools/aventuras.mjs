@@ -51,7 +51,7 @@ export const AVENTURAS = [
 		itens: ["rwWEolS3jX8b9wu9", "3FQoVWxdKvK6kNUq"],
 		tabelas: ["2INq4Ge5gYyS4dJ9", "XCNldSHNt8P8CO9O", "l3sUAI3lTomjkKag", "bdOJOfultA9Lhwqy", "uWedfkqBtcbAM0Ga"],
 		macros: ["sqQaXE7GZfXgKRs3"],
-		aviso: "A macro \"É Guerra!\" usa o módulo <b>Requestor</b> e procura as tabelas pelo nome no mundo; importe esta aventura antes de usá-la."
+		aviso: "A macro \"É Guerra!\" abre uma janela com os quatro tipos de evento e rola a tabela escolhida (não precisa de outros módulos)."
 	}
 ];
 

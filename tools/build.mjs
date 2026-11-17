@@ -8,7 +8,7 @@ import path from "node:path";
 import { montarAventuras, conferirCobertura } from "./aventuras.mjs";
 
 const ID = "guerra-artoniana";
-const VERSAO = "2.1.1";
+const VERSAO = "2.1.2";
 const REPO = "https://github.com/Maicon-Lara/t20-guerra-artoniana-foundryvtt";
 const RAIZ = path.resolve(import.meta.dirname, "..");
 const SRC = path.join(RAIZ, "src");
