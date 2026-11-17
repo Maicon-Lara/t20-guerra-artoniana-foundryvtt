@@ -1,0 +1,2455 @@
+{
+  "folder": "uTH25iuEjOHWWxwv",
+  "name": "Coronel Reggar Wortric",
+  "type": "npc",
+  "_id": "bynFBwnKZ3vV1KwZ",
+  "img": "Coronel-Reggar-Wortric.png",
+  "system": {
+    "atributos": {
+      "for": {
+        "value": 0,
+        "bonus": 0,
+        "base": 10,
+        "racial": 0
+      },
+      "des": {
+        "value": 0,
+        "bonus": 0,
+        "base": 7,
+        "racial": 0
+      },
+      "con": {
+        "value": 0,
+        "bonus": 0,
+        "base": 7,
+        "racial": 0
+      },
+      "int": {
+        "value": 0,
+        "bonus": 0,
+        "base": 3,
+        "racial": 0
+      },
+      "sab": {
+        "value": 0,
+        "bonus": 0,
+        "base": 0,
+        "racial": 0
+      },
+      "car": {
+        "value": 0,
+        "bonus": 0,
+        "base": 0,
+        "racial": 0
+      }
+    },
+    "attributes": {
+      "cd": 10,
+      "pv": {
+        "value": 330,
+        "min": 0,
+        "max": 330,
+        "temp": 0
+      },
+      "pm": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "temp": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 12,
+        "unit": "m",
+        "hover": false,
+        "notes": ""
+      },
+      "defesa": {
+        "base": 27,
+        "value": 10,
+        "outros": 0,
+        "atributo": "des",
+        "pda": 0,
+        "bonus": [],
+        "condi": 0
+      },
+      "sentidos": {
+        "value": [
+          "escuro"
+        ],
+        "custom": ""
+      },
+      "conjuracao": "int",
+      "nivel": {
+        "value": 0,
+        "xp": {
+          "value": 0,
+          "pct": 0,
+          "proximo": 0
+        }
+      },
+      "carga": {
+        "value": 0,
+        "atributo": "for",
+        "base": 10,
+        "bonus": [],
+        "max": 0,
+        "pct": 0,
+        "encumbered": false
+      },
+      "treino": 0,
+      "nd": "7"
+    },
+    "detalhes": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "raca": "Humano",
+      "tipo": "hum",
+      "alinhamento": "",
+      "divindade": "",
+      "nd": "",
+      "equipamento": "",
+      "resistencias": "",
+      "tesouro": "",
+      "role": "solo",
+      "origem": "",
+      "movimento": "",
+      "ataquescac": "Doutrinadora +30 (3d6+10, x3, mais 1d6 frio) e ataque desarmado +25 (2d10+10 letal, mais 1d10 frio).",
+      "ataquesad": "Doutrinadora +30 (3d6+10, x3)."
+    },
+    "tracos": {
+      "tamanho": "gra",
+      "resistencias": {
+        "perda": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "acido": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "corte": {
+          "value": 0,
+          "base": 10,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "eletricidade": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "essencia": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "fogo": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": true,
+          "excecao": 0
+        },
+        "frio": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": true,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "impacto": {
+          "value": 0,
+          "base": 10,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "luz": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "psiquico": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "perfuracao": {
+          "value": 0,
+          "base": 10,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "trevas": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "dano": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        }
+      },
+      "ic": {
+        "value": [
+          "medo",
+          "mental",
+          "doente",
+          "veneno",
+          "surpreendido"
+        ],
+        "custom": "Não pode ser Flanqueado"
+      },
+      "idiomas": {
+        "value": [
+          "comum"
+        ]
+      }
+    },
+    "dinheiro": {
+      "tl": 0,
+      "to": 0,
+      "tp": 0,
+      "tc": 0
+    },
+    "resources": {
+      "primary": {
+        "value": 0,
+        "max": 0,
+        "label": ""
+      },
+      "secondary": {
+        "value": 0,
+        "max": 0,
+        "label": ""
+      },
+      "tertiary": {
+        "value": 0,
+        "max": 0,
+        "label": ""
+      },
+      "deathsave": {
+        "value": 0,
+        "max": 3,
+        "label": ""
+      },
+      "shadow": {
+        "value": 0,
+        "max": 5,
+        "label": ""
+      },
+      "catarse": {
+        "value": 0,
+        "max": 3,
+        "label": ""
+      }
+    },
+    "pericias": {
+      "acro": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": true,
+        "st": true,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ades": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atle": {
+        "value": 0,
+        "atributo": "for",
+        "outros": 0,
+        "treinado": true,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atua": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cava": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "conh": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cura": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "dipl": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "enga": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "fort": {
+        "value": 0,
+        "atributo": "con",
+        "outros": 17,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "furt": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": true,
+        "pda": false,
+        "size": true,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "guer": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 5,
+        "treinado": true,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inic": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 4,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inti": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 5,
+        "treinado": true,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "intu": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inve": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "joga": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ladi": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": true,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "luta": {
+        "value": 0,
+        "atributo": "for",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "mist": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "nobr": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ofi0": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "perc": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 7,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pilo": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pont": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "refl": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 13,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "reli": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "sobr": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "vont": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 15,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "_pc0": {
+        "value": 0,
+        "atributo": "for",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ofi1": {
+        "treinado": false,
+        "label": "Pintor",
+        "atributo": "int",
+        "outros": 4,
+        "condi": 0,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "bonus": [],
+        "custom": false,
+        "nome": ""
+      },
+      "_pc1": {
+        "treinado": true,
+        "label": "Guerra (BdK)",
+        "atributo": "for",
+        "outros": 12,
+        "condi": 0,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "bonus": [],
+        "custom": false,
+        "nome": ""
+      }
+    },
+    "modificadores": {
+      "atributos": {
+        "for": [],
+        "des": [],
+        "con": [],
+        "int": [],
+        "sab": [],
+        "car": [],
+        "fisicos": [],
+        "mentais": [],
+        "geral": []
+      },
+      "ataque": {
+        "geral": [],
+        "cac": [],
+        "ad": []
+      },
+      "dano": {
+        "ad": [],
+        "alq": [],
+        "cac": [],
+        "geral": [],
+        "mag": []
+      },
+      "pericias": {
+        "geral": [],
+        "resistencia": [],
+        "semataque": [],
+        "ataque": [],
+        "atr": {
+          "for": [],
+          "des": [],
+          "con": [],
+          "int": [],
+          "sab": [],
+          "car": []
+        }
+      }
+    },
+    "builder": {
+      "attributes": {
+        "cr": "",
+        "size": "",
+        "attack": {
+          "value": 0,
+          "cr": ""
+        },
+        "damage": {
+          "value": 0,
+          "cr": ""
+        },
+        "defense": {
+          "value": 0,
+          "cr": ""
+        },
+        "fort": {
+          "value": 0,
+          "rank": 2,
+          "cr": ""
+        },
+        "refl": {
+          "value": 0,
+          "rank": 1,
+          "cr": ""
+        },
+        "vont": {
+          "value": 0,
+          "rank": 0,
+          "cr": ""
+        },
+        "topsave": {
+          "value": 0,
+          "cr": ""
+        },
+        "midsave": {
+          "value": 0,
+          "cr": ""
+        },
+        "botsave": {
+          "value": 0,
+          "cr": ""
+        },
+        "hp": {
+          "value": 0,
+          "cr": ""
+        },
+        "mp": {
+          "value": 0,
+          "cr": ""
+        },
+        "dc": {
+          "value": 0,
+          "cr": ""
+        }
+      },
+      "details": {
+        "concept": "",
+        "creatureType": "",
+        "role": "",
+        "treasure": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Coronel Reggar Wortric",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "Token_M_-_Coronel-Reggar-Wortric-2.png",
+      "scaleX": 1.8,
+      "scaleY": 1.8,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attributes.pv"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "attributes.pv",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 50,
+            "otherVisibility": 0,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null,
+            "max": null
+          }
+        }
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "about-face": {
+        "indicatorDisabled": false,
+        "flipOrRotate": "global",
+        "facingDirection": "global",
+        "rotationOffset": 0
+      },
+      "tokenflip": {
+        "tokenfaces": [
+          {
+            "actorId": "bynFBwnKZ3vV1KwZ",
+            "img": "Token_M_-_Coronel-Reggar-Wortric-2.png",
+            "id": "3Pww1ITUFu0oU0g3OUjW",
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          {
+            "actorId": "bynFBwnKZ3vV1KwZ",
+            "img": "Token_M_-_Coronel-Reggar-Wortric.png",
+            "id": "P2P7SWEMTkX1PXIoY8ns",
+            "scaleX": 1.8,
+            "scaleY": 1.8
+          }
+        ]
+      }
+    },
+    "randomImg": false,
+    "hexagonalShape": 1,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "folder": "QslOkfS8kZuyufA9",
+      "name": "Maior que a morte",
+      "type": "poder",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify\"><span class=\"fontstyle2\">Enquanto tiver pelo menos metade de seus PV, a criatura é imune a habilidades de “morte instantânea”. Isso inclui efeitos que reduzem seus PV a 0 ou menos instantaneamente (como </span><span class=\"fontstyle3\">Assassino Fantasmagórico</span><span class=\"fontstyle2\">), que aprisionam ou destroem sua alma ou corpo (como </span><span class=\"fontstyle3\">Roubar a Alma </span><span class=\"fontstyle2\">e </span><span class=\"fontstyle3\">Buraco Negro</span><span class=\"fontstyle2\">) e similares. O mestre tem a palavra final se um efeito é ou não de morte instantânea. A criatura ainda pode ser reduzida a 0 PV ou menos por dano ou perda de vida.</span></p><p style=\"text-align: justify\"></p><p style=\"text-align: justify\"></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Ameaças de Arton, Pág. 17",
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "racial",
+        "subtipo": "Hab. Gerais de Criaturas",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "effects": [],
+      "sort": 161915,
+      "ownership": {
+        "default": 0,
+        "gaAtrNzABNupkS9K": 3,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "t20-ameatlas",
+          "system": "tormenta20",
+          "coreVersion": "11.313",
+          "systemVersion": "1.4.203d2"
+        },
+        "core": {
+          "sourceId": "Compendium.ameatlas.habilidades-de-ameacas.Item.lHnXVBHFQvgsYJnZ"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.ameatlas.habilidades-de-ameacas.Item.lHnXVBHFQvgsYJnZ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "qFuX6GkpenaYn8Wu",
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.qFuX6GkpenaYn8Wu"
+    },
+    {
+      "_id": "6iMBjG0nrzE8Jihk",
+      "name": "Doutrinadora",
+      "type": "arma",
+      "img": "icons/weapons/swords/greatsword-crossguard-flanged-purple.webp",
+      "effects": [],
+      "folder": "gPXFBgeZ55y1tJDq",
+      "sort": 300000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.tormenta20.equipamentos.Vl8EoLKtzI7wyT1V"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Esta <em>espada bastarda de adamante pungente maciça de arremesso</em> pode ser usada para fazer ataques à distância em alcance curto, sendo lançada e rodopiando através do ar. Em vez da espada voltar voando, ela se teletransporta para a mão do portador, independente de qualquer obstáculo, desde que ele pronuncie a ordem de retorno. Esta arma tem uma conexão arcana com Wortric, desintagrando-se junto com ele depois que o vilão é derrotado. Porém, se o grupo jogou a aventura no modo “A vida é desafio”, ela permanece ao final do combate. Para conectar a arma a alguém, fazendo sua habilidade de teletransporte funcionar com o novo portador, é necessário um ritual que exige passar em um teste de <strong>Misticismo (CD 30)</strong> e uma semana de trabalho.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 147 (JdA)",
+        "equipado": 0,
+        "equipado2": {
+          "slot": 0,
+          "type": "hand"
+        },
+        "carregado": true,
+        "peso": 3,
+        "espacos": 1,
+        "qtd": 1,
+        "preco": 35,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "rolls": [
+          {
+            "name": "Ataque",
+            "key": "ataque0",
+            "type": "ataque",
+            "parts": [
+              [
+                "1d20",
+                "",
+                ""
+              ],
+              [
+                "luta",
+                "",
+                ""
+              ],
+              [
+                "27",
+                "",
+                ""
+              ]
+            ],
+            "versatil": ""
+          },
+          {
+            "name": "Dano",
+            "key": "dano1",
+            "type": "dano",
+            "parts": [
+              [
+                "4d8+10",
+                "corte",
+                ""
+              ],
+              [
+                "",
+                "",
+                ""
+              ],
+              [
+                "1d6",
+                "frio",
+                ""
+              ]
+            ],
+            "versatil": "1d12"
+          }
+        ],
+        "criticoM": 19,
+        "criticoX": 3,
+        "alcance": "",
+        "tipoUso": "sim",
+        "propriedades": {
+          "ada": true,
+          "agi": false,
+          "alo": false,
+          "dup": false,
+          "ver": false,
+          "adaptavel": false,
+          "agil": false,
+          "alongada": false,
+          "arremesso": false,
+          "ataqueDistancia": false,
+          "duasMaos": false,
+          "dupla": false,
+          "leve": false,
+          "municao": false,
+          "versatil": false,
+          "des": false,
+          "hib": false
+        },
+        "encantos": {
+          "arremesso": false,
+          "lancinante": false,
+          "lancinating": false
+        },
+        "ativacao": {
+          "custo": null,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "chatFlavor": "",
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "origin": "",
+        "tags": [],
+        "chatGif": "",
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "ataques": 1,
+        "proficiencia": "exotica",
+        "proposito": "corpo-a-corpo",
+        "empunhadura": "uma",
+        "size": "normal",
+        "rolltags": []
+      },
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.equipamentos.Vl8EoLKtzI7wyT1V",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.6iMBjG0nrzE8Jihk"
+    },
+    {
+      "_id": "GJbChSy7V7UyOQ77",
+      "name": "Braço das Uivantes",
+      "type": "arma",
+      "img": "Bra%C3%A7o-das-Uivantes.png",
+      "effects": [],
+      "folder": "6yKwaoggW8DufEjj",
+      "sort": 300000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.tormenta20.equipamentos.NFepeG0ojjq3Xggs"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>A prótese concede +2 em For, +5 na Defesa e imunidade a frio. Ataques corpo a corpo do personagem passam a causar +1d6 pontos de dano de frio. Se o ataque for desarmado, este dano sobe para +1d10. Entretanto, após alguns dias, o personagem desenvolve vulnerabilidade a fogo — um efeito irreversível e permanente.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 143 (JdA)",
+        "equipado": 0,
+        "equipado2": {
+          "slot": 0,
+          "type": "hand"
+        },
+        "carregado": true,
+        "peso": 0,
+        "espacos": 0,
+        "qtd": 1,
+        "preco": 0,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "rolls": [
+          {
+            "name": "Ataque",
+            "key": "ataque0",
+            "type": "ataque",
+            "parts": [
+              [
+                "1d20",
+                "",
+                ""
+              ],
+              [
+                "luta",
+                "",
+                ""
+              ],
+              [
+                "27",
+                "",
+                ""
+              ]
+            ],
+            "versatil": ""
+          },
+          {
+            "name": "Dano",
+            "key": "dano1",
+            "type": "dano",
+            "parts": [
+              [
+                "2d8+10",
+                "impacto",
+                ""
+              ],
+              [
+                "",
+                "",
+                ""
+              ],
+              [
+                "1d6",
+                "frio",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "criticoM": 20,
+        "criticoX": 2,
+        "alcance": "",
+        "tipoUso": "sim",
+        "propriedades": {
+          "ada": false,
+          "agi": false,
+          "alo": false,
+          "dup": false,
+          "ver": false,
+          "adaptavel": false,
+          "agil": false,
+          "alongada": false,
+          "arremesso": false,
+          "ataqueDistancia": false,
+          "duasMaos": false,
+          "dupla": false,
+          "leve": true,
+          "municao": false,
+          "versatil": false,
+          "des": false,
+          "hib": false
+        },
+        "encantos": {
+          "arremesso": false,
+          "lancinante": false,
+          "lancinating": false
+        },
+        "ativacao": {
+          "custo": null,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "chatFlavor": "",
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "origin": "",
+        "tags": [],
+        "chatGif": "",
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "ataques": 1,
+        "proficiencia": "simples",
+        "proposito": "corpo-a-corpo",
+        "empunhadura": "leve",
+        "size": "normal",
+        "rolltags": []
+      },
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.equipamentos.NFepeG0ojjq3Xggs",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.GJbChSy7V7UyOQ77"
+    },
+    {
+      "_id": "utot3XScc1jtfMV6",
+      "name": "Cinto do Campeão",
+      "type": "equipamento",
+      "img": "systems/tormenta20/icons/itens/itens-magicos/cinto-do-campeao.webp",
+      "effects": [
+        {
+          "origin": "Item.402QJlcWzp7gaZYo",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": false,
+              "durationScene": false
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "2F2h8pqnK77FT9eA",
+          "changes": [
+            {
+              "key": "system.atributos.for.value",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "name": "Cinto do Campeão",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/tormenta20/icons/itens/itens-magicos/cinto-do-campeao.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!bynFBwnKZ3vV1KwZ.utot3XScc1jtfMV6.2F2h8pqnK77FT9eA"
+        }
+      ],
+      "folder": "BgJUCrqjG6EVBIfP",
+      "sort": 2600000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.tormenta20.equipamentos-magicos.402QJlcWzp7gaZYo"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Este cintur&atilde;o de ouro &eacute; cravejado de joias e possui gravuras de gladiadores e pugilistas minotauros. Voc&ecirc; recebe +1 em For&ccedil;a e a habilidade @UUID[Compendium.tormenta20.poderes.1gvsbH8ljOuhBdKM]{Briga} (veja a p&aacute;gina 76). Caso j&aacute; a possua, seu dano desarmado ser&aacute; calculado como se voc&ecirc; possu&iacute;sse quatro n&iacute;veis de lutador a mais (m&aacute;ximo 2d12). Por fim, caso possua o poder Torcida, o b&ocirc;nus que voc&ecirc; recebe por ele aumenta para +3. Em tempos antigos, estes cintos eram dados aos vencedores dos jogos gladiatoriais do Imp&eacute;rio de Tauron. A cada ano, diversos combatentes de toda Arton viajavam a Tiberus para competir e ter uma chance de ganhar um destes itens.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 343 (JdA)",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": ""
+        },
+        "carregado": true,
+        "peso": 0,
+        "espacos": 1,
+        "qtd": 1,
+        "preco": 51000,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "tipo": "acessorio",
+        "armadura": {
+          "value": 0,
+          "penalidade": 0,
+          "maxAtr": 0
+        },
+        "rolls": [],
+        "melhorias": {
+          "enhanced": null,
+          "golden": null,
+          "gems": null,
+          "discreet": null,
+          "macabre": null
+        },
+        "origin": "",
+        "tags": [],
+        "chatFlavor": "",
+        "chatGif": "",
+        "ativacao": {
+          "custo": 0,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "encantos": {},
+        "rolltags": []
+      },
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.equipamentos-magicos.402QJlcWzp7gaZYo",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.utot3XScc1jtfMV6"
+    },
+    {
+      "name": "Até o Fim!",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Quando o Coronel Reggar Wortric é reduzido a 100 PV ou menos, entra em um frenesi de combate. Ele recebe +10 em testes de ataque e rolagens de dano e seu deslocamento muda para 18m (12q). Entretanto, perde suas reduções de dano.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "79QaIZ7Xi0CzyjJf",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "effects": [
+        {
+          "name": "Até o Fim",
+          "origin": "Actor.bynFBwnKZ3vV1KwZ.Item.vtvqDYt1VaiUAdiI",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": true,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "equipment": false,
+              "spell": false,
+              "consumable": false,
+              "items": "",
+              "aumenta": false,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "CtznjwrMWwVxr37y",
+          "changes": [
+            {
+              "key": "ataque",
+              "mode": 2,
+              "value": "5",
+              "priority": 0
+            },
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "5",
+              "priority": 0
+            }
+          ],
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!bynFBwnKZ3vV1KwZ.79QaIZ7Xi0CzyjJf.CtznjwrMWwVxr37y"
+        }
+      ],
+      "folder": "FwXbeT79yKEBTcPG",
+      "sort": 137500,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.bynFBwnKZ3vV1KwZ.Item.vtvqDYt1VaiUAdiI"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Actor.bynFBwnKZ3vV1KwZ.Item.vtvqDYt1VaiUAdiI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.79QaIZ7Xi0CzyjJf"
+    },
+    {
+      "name": "Eles Não São Humanos!",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Wortric recebe +5 em testes de ataque e rolagens de dano contra não humanos.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "3L99U89mKyLvkkx3",
+      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+      "effects": [
+        {
+          "name": "Eles Não São Humanos!",
+          "origin": "Actor.bynFBwnKZ3vV1KwZ.Item.lemKAgqF9k4JLbP5",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": true,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "equipment": false,
+              "spell": false,
+              "consumable": false,
+              "items": "",
+              "aumenta": false,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "XF4uSlmMABph0Jtx",
+          "changes": [
+            {
+              "key": "ataque",
+              "mode": 2,
+              "value": "5",
+              "priority": 0
+            },
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "5",
+              "priority": 0
+            }
+          ],
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!bynFBwnKZ3vV1KwZ.3L99U89mKyLvkkx3.XF4uSlmMABph0Jtx"
+        }
+      ],
+      "folder": "FwXbeT79yKEBTcPG",
+      "sort": 125000,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.bynFBwnKZ3vV1KwZ.Item.lemKAgqF9k4JLbP5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Actor.bynFBwnKZ3vV1KwZ.Item.lemKAgqF9k4JLbP5",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.3L99U89mKyLvkkx3"
+    },
+    {
+      "name": "Mestre Tático",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Quando acerta um ataque corpo a corpo com sua espada em uma criatura de tamanho igual ou menor que o seu, Wortric a empurra até 12m para qualquer direção em linha reta. A criatura sofre 2d6 pontos de dano de impacto e, se houver outra criatura no trajeto, o movimento é interrompido e ambas ficam caídas.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "reaction",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [
+          {
+            "name": "Dano",
+            "key": "dano0",
+            "type": "dano",
+            "parts": [
+              [
+                "2d6",
+                "impacto",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "3nZnNyHU4U7aD0iB",
+      "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+      "effects": [],
+      "folder": "FwXbeT79yKEBTcPG",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Scene.M7zidUbFOttUbPtE.Token.MJuPdkYJLELlKGxS.Actor.bynFBwnKZ3vV1KwZ.Item.nxIrjcySwX4QeNIh"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Scene.M7zidUbFOttUbPtE.Token.MJuPdkYJLELlKGxS.Actor.bynFBwnKZ3vV1KwZ.Item.nxIrjcySwX4QeNIh",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.3nZnNyHU4U7aD0iB"
+    },
+    {
+      "name": "Pata do Leopardo",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Quando acerta um ataque desarmado, Wortric ignora quaisquer reduções de dano do alvo.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "reaction",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "HGNavoYVzKd33W1E",
+      "img": "icons/skills/melee/shield-damaged-broken-blue.webp",
+      "effects": [],
+      "folder": "FwXbeT79yKEBTcPG",
+      "sort": 175000,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.bynFBwnKZ3vV1KwZ.Item.qZmWX5F5S0Q6vLFp"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Actor.bynFBwnKZ3vV1KwZ.Item.qZmWX5F5S0Q6vLFp",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.HGNavoYVzKd33W1E"
+    },
+    {
+      "name": "Soldado Universal",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Uma vez o rodada, quando é alvo de um ataque ou habilidade, Wortric faz um ataque contra a criatura que o realizou, mas perde suas reduções de dano por 1 rodada.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "reaction",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "AdbhUDJC4xnclJnt",
+      "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
+      "effects": [],
+      "folder": "FwXbeT79yKEBTcPG",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Scene.M7zidUbFOttUbPtE.Token.MJuPdkYJLELlKGxS.Actor.bynFBwnKZ3vV1KwZ.Item.SGqonuJv9S3En4y4"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Scene.M7zidUbFOttUbPtE.Token.MJuPdkYJLELlKGxS.Actor.bynFBwnKZ3vV1KwZ.Item.SGqonuJv9S3En4y4",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.AdbhUDJC4xnclJnt"
+    },
+    {
+      "name": "Braço das Uivantes",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Caso seja convencido a remover sua prótese (veja o quadro “As Armas de Reggar Wortric”), Wortric perde sofre –2 em testes de ataque e em rolagens de dano, –5 na Defesa, perde suas reduções de dano, não causa dano de frio e deixa de ser imune a ele. Além disso, faz apenas um ataque por turno.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "Ftlt5RYY16d5ehj5",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
+      "effects": [
+        {
+          "name": "Braço das Uivantes",
+          "origin": "Actor.bynFBwnKZ3vV1KwZ.Item.1zXJVFJ6Sclzvgga",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": false,
+              "durationScene": false
+            }
+          },
+          "duration": {
+            "rounds": 1,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "0pjwLG90znY9wWSV",
+          "changes": [
+            {
+              "key": "system.attributes.defesa.bonus",
+              "mode": 2,
+              "value": "-5",
+              "priority": null
+            },
+            {
+              "key": "system.modificadores.dano.geral",
+              "mode": 2,
+              "value": "-2",
+              "priority": null
+            },
+            {
+              "key": "system.modificadores.pericias.geral",
+              "mode": 2,
+              "value": "-2",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "transfer": false,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/magic/defensive/armor-stone-skin.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!bynFBwnKZ3vV1KwZ.Ftlt5RYY16d5ehj5.0pjwLG90znY9wWSV"
+        }
+      ],
+      "folder": "FwXbeT79yKEBTcPG",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Scene.M7zidUbFOttUbPtE.Token.MJuPdkYJLELlKGxS.Actor.bynFBwnKZ3vV1KwZ.Item.1zXJVFJ6Sclzvgga"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Scene.M7zidUbFOttUbPtE.Token.MJuPdkYJLELlKGxS.Actor.bynFBwnKZ3vV1KwZ.Item.1zXJVFJ6Sclzvgga",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bynFBwnKZ3vV1KwZ.Ftlt5RYY16d5ehj5"
+    }
+  ],
+  "effects": [
+    {
+      "origin": "Actor.bynFBwnKZ3vV1KwZ.Item.utot3XScc1jtfMV6",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "startTime": 18907230,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "EQD4IFmcwHA1QWOW",
+      "changes": [
+        {
+          "key": "system.atributos.for.value",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "transfer": false,
+      "name": "Cinto do Campeão",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "systems/tormenta20/icons/itens/itens-magicos/cinto-do-campeao.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!actors.effects!bynFBwnKZ3vV1KwZ.EQD4IFmcwHA1QWOW"
+    },
+    {
+      "name": "Até o Fim",
+      "origin": "Actor.bynFBwnKZ3vV1KwZ.Item.79QaIZ7Xi0CzyjJf",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": true,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 20325636,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "gzpPpMXm3fIDAj3j",
+      "changes": [
+        {
+          "key": "ataque",
+          "mode": 2,
+          "value": "5",
+          "priority": 0
+        },
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "5",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!actors.effects!bynFBwnKZ3vV1KwZ.gzpPpMXm3fIDAj3j"
+    },
+    {
+      "name": "Eles Não São Humanos!",
+      "origin": "Actor.bynFBwnKZ3vV1KwZ.Item.3L99U89mKyLvkkx3",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": true,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 20325636,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "v3zRB8aP1l44opW9",
+      "changes": [
+        {
+          "key": "ataque",
+          "mode": 2,
+          "value": "5",
+          "priority": 0
+        },
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "5",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!actors.effects!bynFBwnKZ3vV1KwZ.v3zRB8aP1l44opW9"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623464897,
+    "modifiedTime": 1736623464897,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!actors!bynFBwnKZ3vV1KwZ"
+}

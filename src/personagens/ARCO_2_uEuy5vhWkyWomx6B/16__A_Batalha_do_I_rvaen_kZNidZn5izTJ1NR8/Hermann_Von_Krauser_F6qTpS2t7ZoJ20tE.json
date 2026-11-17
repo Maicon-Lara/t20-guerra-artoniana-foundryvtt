@@ -1,0 +1,2062 @@
+{
+  "folder": "kZNidZn5izTJ1NR8",
+  "name": "Hermann Von Krauser",
+  "type": "npc",
+  "_id": "F6qTpS2t7ZoJ20tE",
+  "img": "Token_M_-_Hermann-Von-Krauser.png",
+  "system": {
+    "atributos": {
+      "for": {
+        "value": 0,
+        "bonus": 0,
+        "base": 7,
+        "racial": 0
+      },
+      "des": {
+        "value": 0,
+        "bonus": 0,
+        "base": 6,
+        "racial": 0
+      },
+      "con": {
+        "value": 0,
+        "bonus": 0,
+        "base": 7,
+        "racial": 0
+      },
+      "int": {
+        "value": 0,
+        "bonus": 0,
+        "base": 6,
+        "racial": 0
+      },
+      "sab": {
+        "value": 0,
+        "bonus": 0,
+        "base": 6,
+        "racial": 0
+      },
+      "car": {
+        "value": 0,
+        "bonus": 0,
+        "base": 6,
+        "racial": 0
+      }
+    },
+    "attributes": {
+      "cd": 50,
+      "pv": {
+        "value": 650,
+        "min": 0,
+        "max": 650,
+        "temp": 0
+      },
+      "pm": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "temp": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 9,
+        "unit": "m",
+        "hover": false,
+        "notes": ""
+      },
+      "defesa": {
+        "base": 61,
+        "value": 10,
+        "outros": 0,
+        "atributo": "des",
+        "pda": 0,
+        "bonus": [],
+        "condi": 0
+      },
+      "sentidos": {
+        "value": [],
+        "custom": ""
+      },
+      "conjuracao": "int",
+      "nivel": {
+        "value": 0,
+        "xp": {
+          "value": 0,
+          "pct": 0,
+          "proximo": 0
+        }
+      },
+      "carga": {
+        "value": 0,
+        "atributo": "for",
+        "base": 10,
+        "bonus": [],
+        "max": 0,
+        "pct": 0,
+        "encumbered": false
+      },
+      "treino": 0,
+      "nd": "19"
+    },
+    "detalhes": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "raca": "Humano",
+      "tipo": "hum",
+      "alinhamento": "",
+      "divindade": "",
+      "nd": "",
+      "equipamento": "Anel da liberdade, armadura completa sob medida abascanta, espada bastarda de adamante maciça magnífica veloz, mapa bélico, pistola-tambor de mitral precisa anti-humanoides caçadora magnífica.",
+      "resistencias": "",
+      "tesouro": "Dobro.",
+      "role": "solo",
+      "origem": "",
+      "movimento": "",
+      "ataquescac": "Espada bastarda x3 +55 (4d10+40, 17/x3).",
+      "ataquesad": "Pistola-tambor x2 +55 (4d8+40, 15/x3, mais 4d8 contra humanoides não humanos)."
+    },
+    "tracos": {
+      "tamanho": "med",
+      "resistencias": {
+        "perda": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "acido": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "corte": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "eletricidade": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "essencia": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "fogo": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "frio": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "impacto": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "luz": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "psiquico": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "perfuracao": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "trevas": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "imunidade": false,
+          "vulnerabilidade": false,
+          "excecao": 0
+        },
+        "dano": {
+          "value": 0,
+          "base": 10,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        }
+      },
+      "ic": {
+        "value": [],
+        "custom": "Resistência a magia +5"
+      },
+      "idiomas": {
+        "value": [
+          "comum"
+        ]
+      }
+    },
+    "dinheiro": {
+      "tl": 0,
+      "to": 0,
+      "tp": 0,
+      "tc": 0
+    },
+    "resources": {
+      "primary": {
+        "value": 0,
+        "max": 0,
+        "label": ""
+      },
+      "secondary": {
+        "value": 0,
+        "max": 0,
+        "label": ""
+      },
+      "tertiary": {
+        "value": 0,
+        "max": 0,
+        "label": ""
+      },
+      "deathsave": {
+        "value": 0,
+        "max": 3,
+        "label": ""
+      },
+      "shadow": {
+        "value": 0,
+        "max": 5,
+        "label": ""
+      },
+      "catarse": {
+        "value": 0,
+        "max": 3,
+        "label": ""
+      }
+    },
+    "pericias": {
+      "acro": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": true,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ades": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atle": {
+        "value": 0,
+        "atributo": "for",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atua": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cava": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "conh": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": true,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cura": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "dipl": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": true,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "enga": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": true,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "fort": {
+        "value": 0,
+        "atributo": "con",
+        "outros": 27,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "furt": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": true,
+        "pda": false,
+        "size": true,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "guer": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 10,
+        "treinado": true,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inic": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 10,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inti": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": true,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "intu": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": true,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inve": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "joga": {
+        "value": 0,
+        "atributo": "car",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ladi": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": true,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "luta": {
+        "value": 0,
+        "atributo": "for",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "mist": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "nobr": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": true,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ofi0": {
+        "value": 0,
+        "atributo": "int",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "perc": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 6,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pilo": {
+        "value": 0,
+        "atributo": "des",
+        "outros": -6,
+        "treinado": true,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pont": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "refl": {
+        "value": 0,
+        "atributo": "des",
+        "outros": 20,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "reli": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "sobr": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "vont": {
+        "value": 0,
+        "atributo": "sab",
+        "outros": 35,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "_pc0": {
+        "value": 0,
+        "atributo": "for",
+        "outros": 0,
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "_pc1": {
+        "treinado": true,
+        "label": "Guerra (Mapa Bélico)",
+        "atributo": "for",
+        "outros": 11,
+        "condi": 0,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "bonus": [],
+        "custom": false,
+        "nome": ""
+      },
+      "ofi1": {
+        "treinado": true,
+        "label": "Oficio (Soldado)",
+        "atributo": "int",
+        "outros": 0,
+        "condi": 0,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "bonus": [],
+        "custom": false,
+        "nome": ""
+      }
+    },
+    "modificadores": {
+      "atributos": {
+        "for": [],
+        "des": [],
+        "con": [],
+        "int": [],
+        "sab": [],
+        "car": [],
+        "fisicos": [],
+        "mentais": [],
+        "geral": []
+      },
+      "ataque": {
+        "geral": [],
+        "cac": [],
+        "ad": []
+      },
+      "dano": {
+        "ad": [],
+        "alq": [],
+        "cac": [],
+        "geral": [],
+        "mag": []
+      },
+      "pericias": {
+        "geral": [],
+        "resistencia": [],
+        "semataque": [],
+        "ataque": [],
+        "atr": {
+          "for": [],
+          "des": [],
+          "con": [],
+          "int": [],
+          "sab": [],
+          "car": []
+        }
+      }
+    },
+    "builder": {
+      "attributes": {
+        "cr": "",
+        "size": "",
+        "attack": {
+          "value": 0,
+          "cr": ""
+        },
+        "damage": {
+          "value": 0,
+          "cr": ""
+        },
+        "defense": {
+          "value": 0,
+          "cr": ""
+        },
+        "fort": {
+          "value": 0,
+          "rank": 2,
+          "cr": ""
+        },
+        "refl": {
+          "value": 0,
+          "rank": 1,
+          "cr": ""
+        },
+        "vont": {
+          "value": 0,
+          "rank": 0,
+          "cr": ""
+        },
+        "topsave": {
+          "value": 0,
+          "cr": ""
+        },
+        "midsave": {
+          "value": 0,
+          "cr": ""
+        },
+        "botsave": {
+          "value": 0,
+          "cr": ""
+        },
+        "hp": {
+          "value": 0,
+          "cr": ""
+        },
+        "mp": {
+          "value": 0,
+          "cr": ""
+        },
+        "dc": {
+          "value": 0,
+          "cr": ""
+        }
+      },
+      "details": {
+        "concept": "",
+        "creatureType": "",
+        "role": "",
+        "treasure": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Hermann Von Krauser",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "Token_M_-_Hermann-Von-Krauser.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attributes.pv"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "attributes.pv",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 50,
+            "otherVisibility": 0,
+            "hideFull": false,
+            "hideEmpty": false,
+            "hideCombat": false,
+            "hideNoCombat": false,
+            "indentLeft": null,
+            "indentRight": null,
+            "shareHeight": false,
+            "style": "user",
+            "label": "",
+            "invert": false,
+            "invertDirection": false,
+            "subdivisions": null,
+            "subdivisionsOwner": false,
+            "fgImage": "",
+            "bgImage": "",
+            "opacity": null
+          },
+          "bar2": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "attributes.pm",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 0,
+            "otherVisibility": 0
+          }
+        }
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "about-face": {
+        "indicatorDisabled": false,
+        "flipOrRotate": "global",
+        "facingDirection": "global",
+        "rotationOffset": 0
+      }
+    },
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "icn8UAGArYYRVqax",
+      "name": "Anel da Liberdade",
+      "type": "equipamento",
+      "img": "systems/tormenta20/icons/itens/itens-magicos/anel.webp",
+      "effects": [],
+      "folder": "BgJUCrqjG6EVBIfP",
+      "sort": 5800000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.tormenta20.equipamentos-magicos.sAFkdfHvHDqyZlZl"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Forjado em ouro, este anel é uma relíquia da Igreja de Valkaria. Você fica permanentemente sob efeito de @UUID[Compendium.tormenta20.magias.Item.ELDmNrdpN7g8M3iJ]{Libertação}</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 342 (JdA)",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": ""
+        },
+        "carregado": true,
+        "peso": 0,
+        "espacos": 1,
+        "qtd": 1,
+        "preco": 60000,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "tipo": "acessorio",
+        "armadura": {
+          "value": 0,
+          "penalidade": 0,
+          "maxAtr": 0
+        },
+        "rolls": [],
+        "melhorias": {
+          "enhanced": null,
+          "golden": null,
+          "gems": null,
+          "discreet": null,
+          "macabre": null
+        },
+        "origin": "",
+        "tags": [],
+        "chatFlavor": "",
+        "chatGif": "",
+        "ativacao": {
+          "custo": 0,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "encantos": {},
+        "rolltags": []
+      },
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.equipamentos-magicos.sAFkdfHvHDqyZlZl",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.icn8UAGArYYRVqax"
+    },
+    {
+      "_id": "n45FZ6eFpGqnJiUM",
+      "name": "Espada bastarda",
+      "type": "arma",
+      "img": "systems/tormenta20/icons/itens/equipamentos/espada-bastarda.webp",
+      "effects": [],
+      "folder": "gPXFBgeZ55y1tJDq",
+      "sort": 300000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.tormenta20.equipamentos.Vl8EoLKtzI7wyT1V"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Maior e mais pesada que a espada longa, esta arma &eacute; tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda &eacute; uma arma <em>adapt&aacute;vel</em>. &Eacute; muito grande para ser usada com uma s&oacute; m&atilde;o sem treinamento especial; por isso &eacute; uma arma ex&oacute;tica. Ela pode ser usada como uma arma marcial de duas m&atilde;os.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 147 (JdA)",
+        "equipado": 0,
+        "equipado2": {
+          "slot": 0,
+          "type": "hand"
+        },
+        "carregado": true,
+        "peso": 3,
+        "espacos": 1,
+        "qtd": 1,
+        "preco": 35,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "rolls": [
+          {
+            "name": "Ataque",
+            "key": "ataque0",
+            "type": "ataque",
+            "parts": [
+              [
+                "1d20",
+                "",
+                ""
+              ],
+              [
+                "luta",
+                "",
+                ""
+              ],
+              [
+                "+55",
+                "",
+                ""
+              ]
+            ],
+            "versatil": ""
+          },
+          {
+            "name": "Dano",
+            "key": "dano1",
+            "type": "dano",
+            "parts": [
+              [
+                "4d10+40",
+                "corte",
+                ""
+              ],
+              [
+                "",
+                "",
+                ""
+              ]
+            ],
+            "versatil": "1d12"
+          }
+        ],
+        "criticoM": 17,
+        "criticoX": 3,
+        "alcance": "",
+        "tipoUso": "sim",
+        "propriedades": {
+          "ada": true,
+          "agi": false,
+          "alo": false,
+          "dup": false,
+          "ver": false,
+          "adaptavel": false,
+          "agil": false,
+          "alongada": false,
+          "arremesso": false,
+          "ataqueDistancia": false,
+          "duasMaos": false,
+          "dupla": false,
+          "leve": false,
+          "municao": false,
+          "versatil": false,
+          "des": false,
+          "hib": false
+        },
+        "encantos": {
+          "arremesso": false,
+          "lancinante": false,
+          "lancinating": false
+        },
+        "ativacao": {
+          "custo": null,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "chatFlavor": "",
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "origin": "",
+        "tags": [],
+        "chatGif": "",
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "ataques": 1,
+        "proficiencia": "exotica",
+        "proposito": "corpo-a-corpo",
+        "empunhadura": "uma",
+        "size": "normal",
+        "rolltags": []
+      },
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.equipamentos.Vl8EoLKtzI7wyT1V",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.n45FZ6eFpGqnJiUM"
+    },
+    {
+      "name": "Gerador de Escudo de Força",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Hermann Von Krauser possui um engenho mecanomágico que o protege constantemente. No início de cada rodada, esse engenho gera um campo de força que absorve os 150 primeiros pontos de dano sofridos por Von Krauser na rodada.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "U4AhwUbi2ABfQPPR",
+      "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.U4AhwUbi2ABfQPPR"
+    },
+    {
+      "name": "Ordem Inquestionável",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Uma vez por rodada, Von Krauser profere uma ordem da lista a seguir a uma criatura inteligente em alcance médio. Se o alvo falhar no teste de resistência (Von CD 50), deve obedecer à ordem em seu próximo turno da melhor maneira possível.</p><p><strong>• Ataque:</strong> o alvo ataca outra criatura à escolha de Von Krauser, usando suas melhores habilidades para isso.</p><p><strong>• Fuja:</strong> o alvo gasta seu turno se afastando de Von Krauser (usando todas as suas ações).</p><p><strong>• Submeta-se:</strong> o alvo solta quaisquer itens que esteja empunhando e fica pasmo.</p><p><strong>• Venha:</strong> o alvo gasta o turno se aproximando de Von Krauser (usando todas as ações dele para isso).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "free",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 50,
+          "txt": "Vontade evita"
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "iMg7onuOXISFtd89",
+      "img": "icons/magic/control/sleep-bubble-purple.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.iMg7onuOXISFtd89"
+    },
+    {
+      "name": "Plano de Contingência",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Se Von Krauser for afetado por um efeito mental, de movimento, de metamorfose ou de “morte instantânea”, ele anula esse efeito. Efeitos de morte instantânea incluem aqueles que reduzem seus PV a 0 ou menos instantaneamente (como Assassino Fantasmagórico), que aprisionam ou destroem seu corpo ou alma (como Buraco Negro e Roubar a Alma) e similares. O mestre tem a palavra final se um efeito é ou não de morte instantânea. </p><p><em>Recarga (padrão).</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "reaction",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "5kCbRjtxeR8vcZ21",
+      "img": "icons/tools/navigation/map-chart-tan.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.5kCbRjtxeR8vcZ21"
+    },
+    {
+      "name": "Táticas Supremas",
+      "type": "poder",
+      "system": {
+        "description": {
+          "value": "<p>Von Krauser grita ordens para seus aliados em alcance médio. Eles recebem +5 em testes de perícia, +1d8+5 em rolagens de dano e +2 na Defesa até o fim da cena.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "ativacao": {
+          "execucao": "move",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "ability",
+        "subtipo": "",
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": ""
+      },
+      "_id": "li78e6pgCSECTAND",
+      "img": "icons/environment/people/infantry-army.webp",
+      "effects": [
+        {
+          "name": "Táticas Supremas (Dano)",
+          "origin": "Actor.F6qTpS2t7ZoJ20tE.Item.li78e6pgCSECTAND",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": true,
+              "self": false,
+              "attack": true,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "equipment": false,
+              "spell": false,
+              "consumable": false,
+              "items": "",
+              "aumenta": false,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "rounds": 1,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "tty1k9lsLsu0MkPV",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "1d8+5",
+              "priority": 0
+            }
+          ],
+          "description": "",
+          "transfer": false,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/environment/people/infantry-army.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!F6qTpS2t7ZoJ20tE.li78e6pgCSECTAND.tty1k9lsLsu0MkPV"
+        },
+        {
+          "name": "Táticas Supremas (Perícias)",
+          "origin": "Actor.F6qTpS2t7ZoJ20tE.Item.li78e6pgCSECTAND",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": true,
+              "self": false,
+              "attack": false,
+              "skill": true,
+              "ability": false,
+              "power": false,
+              "equipment": false,
+              "spell": false,
+              "consumable": false,
+              "items": "",
+              "aumenta": false,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "rounds": 1,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "nOfmUTKTVF9WBb37",
+          "changes": [
+            {
+              "key": "roll",
+              "mode": 2,
+              "value": "5",
+              "priority": 0
+            }
+          ],
+          "description": "",
+          "transfer": false,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/environment/people/infantry-army.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!F6qTpS2t7ZoJ20tE.li78e6pgCSECTAND.nOfmUTKTVF9WBb37"
+        },
+        {
+          "name": "Táticas Supremas (Defesa)",
+          "origin": "Actor.F6qTpS2t7ZoJ20tE.Item.li78e6pgCSECTAND",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": false,
+              "durationScene": false
+            }
+          },
+          "duration": {
+            "rounds": 1,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "O7afAUNPS4NN3DNs",
+          "changes": [
+            {
+              "key": "system.attributes.defesa.bonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "transfer": false,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/environment/people/infantry-army.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!F6qTpS2t7ZoJ20tE.li78e6pgCSECTAND.O7afAUNPS4NN3DNs"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.li78e6pgCSECTAND"
+    },
+    {
+      "folder": "7znCNJ3hNbcngkUV",
+      "name": "Pistola-Tambor",
+      "type": "arma",
+      "_id": "wPJO16flKyHhf6mW",
+      "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p>Esta arma de fogo possui um tambor giratório que armazena 4 munições. Esse tambor é parte de um mecanismo complexo e por isso conta como uma melhoria para a arma. </p><p>Recarregar uma pistola-tambor é uma ação completa.</p><p>Arma de Fogo • À Distância • Uma Mão</p><p>T$ 2.100 • Dano 2d6 • Crítico 19/x3</p><p>Alcance Curto • Perfuração • 1 Espaço</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "equipado": 0,
+        "equipado2": {
+          "slot": 0,
+          "type": "hand"
+        },
+        "carregado": true,
+        "peso": 0,
+        "espacos": 1,
+        "qtd": 0,
+        "preco": 2100,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "rd": 0,
+        "rolls": [
+          {
+            "name": "Ataque",
+            "key": "ataque0",
+            "type": "ataque",
+            "parts": [
+              [
+                "1d20",
+                "",
+                ""
+              ],
+              [
+                "luta",
+                "",
+                ""
+              ],
+              [
+                "+55",
+                "",
+                ""
+              ]
+            ],
+            "versatil": ""
+          },
+          {
+            "name": "Dano",
+            "key": "dano1",
+            "type": "dano",
+            "parts": [
+              [
+                "4d8+40",
+                "perfuracao",
+                ""
+              ],
+              [
+                "",
+                "",
+                ""
+              ],
+              [
+                "4d8",
+                "perda",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "criticoM": 15,
+        "criticoX": 3,
+        "alcance": "short",
+        "tipoUso": "sim",
+        "propriedades": {
+          "ada": false,
+          "agi": false,
+          "alo": false,
+          "des": false,
+          "dup": false,
+          "ver": false,
+          "hib": false
+        },
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": "",
+        "ativacao": {
+          "custo": 0,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "consume": {
+          "amount": 0,
+          "mpMultiplier": false,
+          "target": "",
+          "type": "ammo"
+        },
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "encantos": {},
+        "ataques": 1,
+        "proficiencia": "fogo",
+        "proposito": "disparo",
+        "empunhadura": "uma",
+        "size": "normal"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.DSUFPyi275pZl2Rm"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.DSUFPyi275pZl2Rm",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.wPJO16flKyHhf6mW"
+    },
+    {
+      "folder": "7znCNJ3hNbcngkUV",
+      "name": "Tabula Militaris",
+      "type": "equipamento",
+      "_id": "r32DRDgvevuKgSJy",
+      "img": "icons/tools/navigation/map-plain-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>O mapa bélico é um artefato antigo. Alguns acreditam que foi criado por uma grandiosa maga estrategista do passado, que estava presente na queda das nações de Lamnor. Outros afirmam que foi feito em algum lugar de Werra, o mundo de Keenn. Espiões do Reinado dizem que, entre as fileiras do inimigo, soldados sussurram que o mapa foi conquistado por Von Krauser em uma busca em sua juventude, enquanto outros afirmam que é uma herança de sua família, mas ninguém tem coragem de perguntar para confirmar a verdade! Este item mostra em tempo real qualquer campo de batalha no qual seu dono esteja, com quaisquer movimentações de tropas que estejam ocorrendo. Por conta disso, fornece +5 em Guerra — uma vantagem que pode ser decisiva em conflitos. <br><br><em>Artefato. 1 espaço.</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": ""
+        },
+        "carregado": true,
+        "peso": 0,
+        "espacos": 1,
+        "qtd": 1,
+        "preco": 0,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "rd": 0,
+        "tipo": "leve",
+        "armadura": {
+          "value": 0,
+          "penalidade": 0,
+          "maxAtr": 0
+        },
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": "",
+        "rolls": [],
+        "ativacao": {
+          "custo": 0,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "encantos": {}
+      },
+      "effects": [
+        {
+          "name": "Tabula Militaris",
+          "origin": "Item.Uut7aQx74daLJP9T",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": false,
+              "durationScene": false
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "MbFIUKutyrFl90k7",
+          "changes": [
+            {
+              "key": "system.pericias.guer.bonus",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "transfer": true,
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/tools/navigation/map-plain-green.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!F6qTpS2t7ZoJ20tE.r32DRDgvevuKgSJy.MbFIUKutyrFl90k7"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.Uut7aQx74daLJP9T"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.Uut7aQx74daLJP9T",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!F6qTpS2t7ZoJ20tE.r32DRDgvevuKgSJy"
+    }
+  ],
+  "effects": [
+    {
+      "name": "Tabula Militaris",
+      "origin": "Actor.F6qTpS2t7ZoJ20tE.Item.r32DRDgvevuKgSJy",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "startTime": 20462472,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "fLdUQyVL6WK7m7Oe",
+      "changes": [
+        {
+          "key": "system.pericias.guer.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/tools/navigation/map-plain-green.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!actors.effects!F6qTpS2t7ZoJ20tE.fLdUQyVL6WK7m7Oe"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623474791,
+    "modifiedTime": 1736623474791,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!actors!F6qTpS2t7ZoJ20tE"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Batalha do Cerco de Valkaria",
+  "sorting": "a",
+  "folder": "ofV9EUhZLv6EPZdw",
+  "type": "Actor",
+  "_id": "yzJCTcev8uvMlK3j",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623619875,
+    "modifiedTime": 1736623619875,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!folders!yzJCTcev8uvMlK3j"
+}

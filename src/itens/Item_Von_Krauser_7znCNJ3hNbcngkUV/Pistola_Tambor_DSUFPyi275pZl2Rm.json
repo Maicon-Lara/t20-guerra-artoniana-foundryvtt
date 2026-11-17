@@ -1,0 +1,140 @@
+{
+  "folder": "7znCNJ3hNbcngkUV",
+  "name": "Pistola-Tambor",
+  "type": "arma",
+  "_id": "DSUFPyi275pZl2Rm",
+  "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Esta arma de fogo possui um tambor giratório que armazena 4 munições. Esse tambor é parte de um mecanismo complexo e por isso conta como uma melhoria para a arma. </p><p>Recarregar uma pistola-tambor é uma ação completa.</p><p>Arma de Fogo • À Distância • Uma Mão</p><p>T$ 2.100 • Dano 2d6 • Crítico 19/x3</p><p>Alcance Curto • Perfuração • 1 Espaço</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 0,
+    "preco": 2100,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "pont",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "2d6",
+            "perfuracao",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 19,
+    "criticoX": 3,
+    "alcance": "short",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "des": false,
+      "dup": false,
+      "ver": false,
+      "hib": false
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "consume": {
+      "amount": 0,
+      "mpMultiplier": false,
+      "target": "",
+      "type": "ammo"
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "ataques": 0,
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "uma",
+    "size": "normal"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623991555,
+    "modifiedTime": 1736623991555,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!DSUFPyi275pZl2Rm"
+}

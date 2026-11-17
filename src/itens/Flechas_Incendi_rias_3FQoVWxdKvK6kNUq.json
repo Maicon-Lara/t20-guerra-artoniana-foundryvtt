@@ -1,0 +1,158 @@
+{
+  "name": "Flechas Incendiárias",
+  "type": "arma",
+  "img": "icons/skills/ranged/arrows-flying-salvo-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Uma flecha incendiária causa 1d6 pontos de dano de fogo extras e deixa alvos em chamas</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": ""
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0.05,
+    "qtd": 20,
+    "preco": 1,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "rolls": [],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "des": false,
+      "dup": false,
+      "ver": false,
+      "hib": false
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "consume": {
+      "amount": 0,
+      "mpMultiplier": false,
+      "target": "",
+      "type": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "ataques": 0,
+    "proficiencia": "simples",
+    "proposito": "",
+    "empunhadura": "",
+    "size": "normal"
+  },
+  "effects": [
+    {
+      "name": "Flechas Incendiárias",
+      "origin": "Item.0GAY5whP7uzuuGKQ",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": true,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "IYofm8R1hMBA6Y8Y",
+      "changes": [
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "1d6",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!3FQoVWxdKvK6kNUq.IYofm8R1hMBA6Y8Y"
+    }
+  ],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624067523,
+    "modifiedTime": 1736625157511,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_id": "3FQoVWxdKvK6kNUq",
+  "sort": 300000,
+  "_key": "!items!3FQoVWxdKvK6kNUq"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Fantasma do Aço",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "eMw24vyz4uVbE4Q6",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623974661,
+    "modifiedTime": 1736623974676,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!folders!eMw24vyz4uVbE4Q6"
+}

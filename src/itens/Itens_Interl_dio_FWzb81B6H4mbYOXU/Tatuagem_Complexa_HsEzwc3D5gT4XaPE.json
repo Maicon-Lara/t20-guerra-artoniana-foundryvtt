@@ -1,0 +1,217 @@
+{
+  "name": "Tatuagem Complexa",
+  "type": "tesouro",
+  "img": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+  "effects": [
+    {
+      "name": "Tatuagem Média",
+      "origin": "Item.u6pUrHeWXdpB8nmg",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+      "_id": "imt5D7f8TxNgDA9Q",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.tracos.resistencias.dano.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.atributos.???.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!HsEzwc3D5gT4XaPE.imt5D7f8TxNgDA9Q"
+    },
+    {
+      "name": "Resistência a Magia +4",
+      "origin": "Item.HsEzwc3D5gT4XaPE",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": true,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "img": "icons/svg/upgrade.svg",
+      "_id": "0uWizbTEUzaqtOCb",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "roll",
+          "mode": 2,
+          "value": "4",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!HsEzwc3D5gT4XaPE.0uWizbTEUzaqtOCb"
+    }
+  ],
+  "folder": "FWzb81B6H4mbYOXU",
+  "sort": 50000,
+  "flags": {
+    "tormenta20": {
+      "version": "1.3.0.0"
+    },
+    "importid": "Jd2xCJUmauunKhH4",
+    "cf": null,
+    "core": {
+      "sourceId": "Compendium.moduloguilda.world-guildaitem-1646800495579.bqKenZeiKBhBJwO5"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>+1 num atributo, redução de dano 2 ou resistência a magia +4</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 88 (JdA)",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": ""
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "container": false,
+    "ativacao": {
+      "execucao": "",
+      "custo": 0,
+      "qtd": "",
+      "condicao": "",
+      "special": ""
+    },
+    "duracao": {
+      "value": 0,
+      "units": "",
+      "special": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "units": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+      "pericia": "",
+      "atributo": "",
+      "bonus": 0,
+      "txt": ""
+    },
+    "rolls": [],
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [],
+    "chatGif": "",
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "0bS8PF9mUpBd2z0H": 3,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.moduloguilda.world-guildaitem-1646800495579.bqKenZeiKBhBJwO5",
+    "duplicateSource": "Item.4NJTPURoXuikWLR0",
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623998996,
+    "modifiedTime": 1736623998996,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_id": "HsEzwc3D5gT4XaPE",
+  "_key": "!items!HsEzwc3D5gT4XaPE"
+}

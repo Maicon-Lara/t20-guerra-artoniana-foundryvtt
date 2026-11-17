@@ -1,0 +1,259 @@
+{
+  "folder": "SxwjKt8w6OQ14TrK",
+  "name": "Carthalkan, a Espada Cristalina",
+  "type": "arma",
+  "_id": "m5udLxJzTmaKMsXP",
+  "img": "icons/weapons/swords/sword-guard-serrated.webp",
+  "system": {
+    "description": {
+      "value": "<p>Símbolo da família Sharpblade, e forjada com um misterioso cristal esmeralda cuja origem é conhecida apenas pela dinastia real de Trebuck, Cartalkhan, a Espada Cristalina, <em>é uma espada longa atroz pungente</em>. Isso para qualquer pessoa que não seja um herdeiro dessa linhagem.</p><p>Quando brandida por um herdeiro da família Sharpblade, a arma emite uma luz límpida e revela todos os seus poderes: torna-se uma <em>espada longa atroz pungente ameaçadora magnífica</em>, que tem dano base 4d8. Cartalkhan conta como um artefato e é indestrutível por meios mundanos.</p><p><em>Artefato.</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Dano",
+        "key": "dano0",
+        "type": "dano",
+        "parts": [
+          [
+            "2d8+2",
+            "corte",
+            ""
+          ],
+          [
+            "@for",
+            "",
+            ""
+          ]
+        ],
+        "versatil": "4d8"
+      },
+      {
+        "name": "Ataque",
+        "key": "ataque1",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "luta",
+            "",
+            ""
+          ],
+          [
+            "2",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 19,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": true,
+      "agi": false,
+      "alo": false,
+      "des": false,
+      "dup": false,
+      "ver": false,
+      "hib": false
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": null,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "consume": {
+      "amount": null,
+      "mpMultiplier": false,
+      "target": "",
+      "type": ""
+    },
+    "upgrades": {
+      "melhoria1": "accurate",
+      "melhoria2": "pungent",
+      "melhoria3": "cruel",
+      "melhoria4": "atrocious",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "ataques": 0,
+    "proficiencia": "marcial",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal"
+  },
+  "effects": [
+    {
+      "name": "Ameaçadora (Herdeiro)",
+      "origin": "Item.m5udLxJzTmaKMsXP",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": true,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "3QzSUaVRjtvC0z2X",
+      "changes": [
+        {
+          "key": "criticoM",
+          "mode": 2,
+          "value": "-2",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!m5udLxJzTmaKMsXP.3QzSUaVRjtvC0z2X"
+    },
+    {
+      "name": "Magnífica (Herdeiro)",
+      "origin": "Item.m5udLxJzTmaKMsXP",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": true,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "5Ywjw6hoWV3tpCTz",
+      "changes": [
+        {
+          "key": "ataque",
+          "mode": 2,
+          "value": "4",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!m5udLxJzTmaKMsXP.5Ywjw6hoWV3tpCTz"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624014040,
+    "modifiedTime": 1736624014040,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!m5udLxJzTmaKMsXP"
+}

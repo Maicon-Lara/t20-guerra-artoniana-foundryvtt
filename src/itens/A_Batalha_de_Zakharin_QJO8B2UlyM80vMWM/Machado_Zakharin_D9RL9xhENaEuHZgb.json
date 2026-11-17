@@ -1,0 +1,218 @@
+{
+  "_id": "D9RL9xhENaEuHZgb",
+  "name": "Machado Zakharin",
+  "type": "arma",
+  "img": "icons/weapons/axes/axe-double-engraved-blue.webp",
+  "effects": [
+    {
+      "name": "Antifintroll: +4d8 de dano contra Finntroll",
+      "origin": "Item.D9RL9xhENaEuHZgb",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": true,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": "2"
+        }
+      },
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "img": "icons/svg/upgrade.svg",
+      "_id": "ZiWaPChKiNc7meIU",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "4d8",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!D9RL9xhENaEuHZgb.ZiWaPChKiNc7meIU"
+    }
+  ],
+  "folder": "QJO8B2UlyM80vMWM",
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.tormenta20.equipamentos.xXK2IqgRyxPdhdmQ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify\">A arma preferida por onze entre dez guerreiros anões. Um machado anão é muito grande para ser usado com uma só mão sem treinamento especial; por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos</p><hr><p><strong>Machado anão pungente maciço de adamante lancinante antifinntroll</strong></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 149 (JdA)",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 4,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 30,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "luta",
+            "",
+            ""
+          ],
+          [
+            "+2",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "1d12",
+            "corte",
+            ""
+          ],
+          [
+            "@for",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 20,
+    "criticoX": 4,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "dup": false,
+      "ver": false,
+      "adaptavel": false,
+      "agil": false,
+      "alongada": false,
+      "arremesso": false,
+      "ataqueDistancia": false,
+      "duasMaos": false,
+      "dupla": false,
+      "leve": false,
+      "municao": false,
+      "versatil": false,
+      "des": false,
+      "hib": false
+    },
+    "encantos": {
+      "arremesso": false,
+      "lancinante": false,
+      "lancinating": false
+    },
+    "ativacao": {
+      "custo": null,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "chatFlavor": "",
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "mpMultiplier": false
+    },
+    "origin": "",
+    "tags": [],
+    "chatGif": "",
+    "upgrades": {
+      "melhoria1": "accurate",
+      "melhoria2": "pungent",
+      "melhoria3": "massive",
+      "melhoria4": "specialmaterial",
+      "material": "adamant",
+      "encanto1": "lacerating",
+      "encanto2": "lancinating",
+      "encanto3": "bane"
+    },
+    "melhorias": {},
+    "ataques": 0,
+    "proficiencia": "exotica",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.tormenta20.equipamentos.xXK2IqgRyxPdhdmQ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623939516,
+    "modifiedTime": 1736623939516,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!D9RL9xhENaEuHZgb"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Batalha de Norm",
+  "sorting": "a",
+  "folder": "FYqBaGA9JFzEbgb6",
+  "type": "Actor",
+  "_id": "JtP6ldNeE3rESMKj",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623467551,
+    "modifiedTime": 1736623467551,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!JtP6ldNeE3rESMKj"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Encontros de Karst",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "BZnpVYq9W9zC2w71",
+      "text": "Goblins",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!uWSW83V11BXOyheu.BZnpVYq9W9zC2w71"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "6XY4U2b7Xo68e9wo",
+      "text": "Bandidos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!uWSW83V11BXOyheu.6XY4U2b7Xo68e9wo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "tYyu5RAs6niotHP2",
+      "text": "Recrutas Puristas",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!uWSW83V11BXOyheu.tYyu5RAs6niotHP2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "fCztgoCUVFhdbpCE",
+      "text": "Soldados",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!uWSW83V11BXOyheu.fCztgoCUVFhdbpCE"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624095415,
+    "modifiedTime": 1736624107118,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "formula": "1d4",
+  "_id": "uWSW83V11BXOyheu",
+  "sort": 400000,
+  "_key": "!tables!uWSW83V11BXOyheu"
+}

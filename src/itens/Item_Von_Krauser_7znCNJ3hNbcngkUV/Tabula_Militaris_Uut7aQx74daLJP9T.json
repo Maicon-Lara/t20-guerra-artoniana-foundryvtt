@@ -1,0 +1,133 @@
+{
+  "folder": "7znCNJ3hNbcngkUV",
+  "name": "Tabula Militaris",
+  "type": "equipamento",
+  "_id": "Uut7aQx74daLJP9T",
+  "img": "icons/tools/navigation/map-plain-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>O mapa bélico é um artefato antigo. Alguns acreditam que foi criado por uma grandiosa maga estrategista do passado, que estava presente na queda das nações de Lamnor. Outros afirmam que foi feito em algum lugar de Werra, o mundo de Keenn. Espiões do Reinado dizem que, entre as fileiras do inimigo, soldados sussurram que o mapa foi conquistado por Von Krauser em uma busca em sua juventude, enquanto outros afirmam que é uma herança de sua família, mas ninguém tem coragem de perguntar para confirmar a verdade! Este item mostra em tempo real qualquer campo de batalha no qual seu dono esteja, com quaisquer movimentações de tropas que estejam ocorrendo. Por conta disso, fornece +5 em Guerra — uma vantagem que pode ser decisiva em conflitos. <br><br><em>Artefato. 1 espaço.</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "tipo": "ferramenta",
+    "armadura": {
+      "value": 0,
+      "penalidade": 0,
+      "maxAtr": 0
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "rolls": [],
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {}
+  },
+  "effects": [
+    {
+      "name": "Tabula Militaris",
+      "origin": "Item.Uut7aQx74daLJP9T",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "MbFIUKutyrFl90k7",
+      "changes": [
+        {
+          "key": "system.pericias.guer.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/tools/navigation/map-plain-green.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!Uut7aQx74daLJP9T.MbFIUKutyrFl90k7"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {
+    "tormenta20": {
+      "needCommit": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623991555,
+    "modifiedTime": 1736623991555,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!Uut7aQx74daLJP9T"
+}

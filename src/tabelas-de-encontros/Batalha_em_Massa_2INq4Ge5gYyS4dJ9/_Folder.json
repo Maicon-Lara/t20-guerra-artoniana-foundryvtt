@@ -1,0 +1,22 @@
+{
+  "name": "Batalha em Massa",
+  "sorting": "a",
+  "folder": null,
+  "type": "RollTable",
+  "_id": "2INq4Ge5gYyS4dJ9",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624897723,
+    "modifiedTime": 1736624897723,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!2INq4Ge5gYyS4dJ9"
+}

@@ -1,0 +1,159 @@
+{
+  "name": "Kum’shrak",
+  "type": "arma",
+  "img": "icons/commodities/bones/bone-red.webp",
+  "effects": [],
+  "folder": "6lMqL05NKGwrSi7q",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.tormenta20.equipamentos.JUlyA7UGoTGdXkCP"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Arma ritualística empunhada apenas pelos melhores guerreiros duyshidakk, um kum’shrak é uma arma especial que extrai poder de suas vítimas. Seguindo as leis de Lamnor e do Akzath, por ser empregado como uma ferramenta de “morte” cujo único propósito é pôr “fim” à vida, o kum’shrak está próximo das “trevas”. Assim, conforme é empunhada em combate, a arma se torna cada vez mais escura, afiada e avessa à vida, até alcançar um ponto em que se torna capaz de ferir qualquer ser vivo que a toque.</p><p>Mesmo seu proprietário pode ser ferido pelo kum’shrak; se a arma não sentir que será usada em combate, pode manifestar seu poder sombrio. Se for usado como ferramenta, o kum’shrak pode impor uma penalidade de –5 em testes, se for usado para cortar alimentos, pode envenená-los, se o portador estiver com medo ou fugir, pode perder 1d4 pontos de vida e assim por diante.</p><p>Um kum’shrak recém-criado é um osso grande, que funciona como uma arma improvisada (–2 em ataques, 1d6 de dano, crítico x2). Quando mata pela primeira vez, torna-se uma clava. Quando mata cinco vítimas, torna-se um machado de batalha. Ao fazer sua décima vítima, o kum’shrak recebe uma melhoria escolhida por seu portador. Depois disso, sempre que dobra seu número de mortes (20, 40 etc.), adquire uma nova melhoria, até um máximo de quatro melhorias. Além das melhorias normais, um kum’shrak tem acesso a três melhorias exclusivas.</p><p><strong>• Eviscerador.</strong> Uma criatura atingida fica sangrando (Fort CD For evita). <br><strong>• Necrótico.</strong> Uma criatura atingida fica fraca (Fort CD For evita).</p><p><strong>• Peçonhento.</strong> Uma criatura atingida perde 1d6 pontos de vida por veneno. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 147 (JdA)",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 1.5,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "luta",
+            "",
+            ""
+          ],
+          [
+            "-2",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "1d6",
+            "impacto",
+            ""
+          ],
+          [
+            "@for",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "dup": false,
+      "ver": false,
+      "adaptavel": false,
+      "agil": false,
+      "alongada": false,
+      "arremesso": false,
+      "ataqueDistancia": false,
+      "duasMaos": false,
+      "dupla": false,
+      "leve": false,
+      "municao": false,
+      "versatil": false,
+      "des": false,
+      "hib": false
+    },
+    "encantos": {
+      "arremesso": false,
+      "lancinante": false,
+      "lancinating": false
+    },
+    "ativacao": {
+      "custo": null,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "chatFlavor": "",
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "mpMultiplier": false
+    },
+    "origin": "",
+    "tags": [],
+    "chatGif": "",
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "ataques": 0,
+    "proficiencia": "exotica",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "Y0ZcqtOwqNFSnXmn": 3,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.tormenta20.equipamentos.JUlyA7UGoTGdXkCP",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736625157479,
+    "modifiedTime": 1736625342626,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_id": "3qIwfGaJzloSsk2W",
+  "sort": 100000,
+  "_key": "!items!3qIwfGaJzloSsk2W"
+}

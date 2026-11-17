@@ -1,0 +1,22 @@
+{
+  "name": "Companhia dos Irmãos",
+  "sorting": "a",
+  "folder": "NSZ5hgIUrfcHojvn",
+  "type": "Actor",
+  "_id": "8Lis5aca9PyjPmH3",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623461788,
+    "modifiedTime": 1736623461788,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!8Lis5aca9PyjPmH3"
+}

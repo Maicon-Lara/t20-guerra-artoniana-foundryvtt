@@ -1,0 +1,139 @@
+{
+  "folder": "SxwjKt8w6OQ14TrK",
+  "name": "Medalha do Torneio dos Lordes",
+  "type": "equipamento",
+  "_id": "K9TC80IKNf43kDAF",
+  "img": "icons/commodities/treasure/medal-ribbon-gold-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Se venceram na arena, ela coloca em cada um a medalha do Torneio dos Lordes (um item vestido que ocupa 1 espaço e fornece +1 em duas perícias).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": "body"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "tipo": "acessorio",
+    "armadura": {
+      "value": 0,
+      "penalidade": 0,
+      "maxAtr": 0
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "rolls": [],
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {}
+  },
+  "effects": [
+    {
+      "name": "Medalha do Torneio dos Lordes",
+      "origin": "Item.K9TC80IKNf43kDAF",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "DWr6Dm4SZ1KUJfZj",
+      "changes": [
+        {
+          "key": "system.pericias.????.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.pericias.????.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/commodities/treasure/medal-ribbon-gold-red.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!K9TC80IKNf43kDAF.DWr6Dm4SZ1KUJfZj"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {
+    "tormenta20": {
+      "needCommit": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624014040,
+    "modifiedTime": 1736624014040,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!K9TC80IKNf43kDAF"
+}

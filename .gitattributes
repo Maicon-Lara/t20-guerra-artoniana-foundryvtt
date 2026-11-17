@@ -1,0 +1,5 @@
+packs/** binary
+module/packs/** binary
+*.png binary
+*.webp binary
+*.jpg binary

@@ -1,0 +1,79 @@
+{
+  "folder": "kAwvIXe2kPRtXFix",
+  "name": "Caminho da Mão Vazia",
+  "type": "poder",
+  "_id": "IF95AzaR3SFXQ1ya",
+  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Você pode gastar uma ação de movimento e 1 PM para fazer uma coreografia que parece uma dança, mas esconde técnicas que o preparam para a luta. Até o fim da cena, sempre que faz um teste de ataque desarmado, você rola dois dados e usa o melhor resultado.</p><p><em>Pré-requisitos: habilidade Briga ou Estilo Desarmado, Sab 1, ser treinado por Kasumi.</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "ativacao": {
+      "execucao": "",
+      "custo": 1,
+      "qtd": "",
+      "condicao": "",
+      "special": ""
+    },
+    "duracao": {
+      "value": 0,
+      "units": "",
+      "special": ""
+    },
+    "target": {
+      "value": 0,
+      "width": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 0,
+      "units": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": 0,
+      "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+      "pericia": "",
+      "atributo": "",
+      "bonus": 0,
+      "txt": ""
+    },
+    "rolls": [],
+    "tipo": "geral",
+    "subtipo": "combate",
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624038947,
+    "modifiedTime": 1736624038947,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!IF95AzaR3SFXQ1ya"
+}

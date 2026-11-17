@@ -1,0 +1,219 @@
+{
+  "name": "Braço Metálico",
+  "type": "arma",
+  "img": "Bra%C3%A7o-Metalico.png",
+  "effects": [
+    {
+      "name": "Braço Metálico",
+      "origin": "Item.McAtK7cHqZCBeK1s",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "5c2IQNxjnTJzesaR",
+      "changes": [
+        {
+          "key": "system.modificadores.ataque.cac",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.tracos.resistencias.dano.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.modificadores.dano.cac",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "Bra%C3%A7o-Metalico.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!McAtK7cHqZCBeK1s.5c2IQNxjnTJzesaR"
+    }
+  ],
+  "folder": "vSKMKnHxbR1JziMX",
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.tormenta20.equipamentos.NFepeG0ojjq3Xggs"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>O braço concede ao usuário redução de dano 5, +2 em testes de ataque e rolagens de dano corpo a corpo e aumenta seu dano desarmado em um passo. Entretanto, devido ao seu peso o braço conta como um item que ocupa 2 espaços..</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 143 (JdA)",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 2,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "luta",
+            "",
+            ""
+          ],
+          [
+            "0",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "1d3",
+            "impacto",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "dup": false,
+      "ver": false,
+      "adaptavel": false,
+      "agil": false,
+      "alongada": false,
+      "arremesso": false,
+      "ataqueDistancia": false,
+      "duasMaos": false,
+      "dupla": false,
+      "leve": true,
+      "municao": false,
+      "versatil": false,
+      "des": false,
+      "hib": false
+    },
+    "encantos": {
+      "arremesso": false,
+      "lancinante": false,
+      "lancinating": false
+    },
+    "ativacao": {
+      "custo": null,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "chatFlavor": "",
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "mpMultiplier": false
+    },
+    "origin": "",
+    "tags": [],
+    "chatGif": "",
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "ataques": 1,
+    "proficiencia": "simples",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "leve",
+    "size": "normal",
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.tormenta20.equipamentos.NFepeG0ojjq3Xggs",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624027789,
+    "modifiedTime": 1736624027789,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_id": "McAtK7cHqZCBeK1s",
+  "_key": "!items!McAtK7cHqZCBeK1s"
+}

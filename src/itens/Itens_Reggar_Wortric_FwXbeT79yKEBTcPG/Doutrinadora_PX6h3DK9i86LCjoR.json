@@ -1,0 +1,163 @@
+{
+  "_id": "PX6h3DK9i86LCjoR",
+  "name": "Doutrinadora",
+  "type": "arma",
+  "img": "icons/weapons/swords/greatsword-crossguard-flanged-purple.webp",
+  "effects": [],
+  "folder": "FwXbeT79yKEBTcPG",
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.tormenta20.equipamentos.Vl8EoLKtzI7wyT1V"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Esta <em>espada bastarda de adamante pungente maciça de arremesso</em> pode ser usada para fazer ataques à distância em alcance curto, sendo lançada e rodopiando através do ar. Em vez da espada voltar voando, ela se teletransporta para a mão do portador, independente de qualquer obstáculo, desde que ele pronuncie a ordem de retorno. Esta arma tem uma conexão arcana com Wortric, desintagrando-se junto com ele depois que o vilão é derrotado. Porém, se o grupo jogou a aventura no modo “A vida é desafio”, ela permanece ao final do combate. Para conectar a arma a alguém, fazendo sua habilidade de teletransporte funcionar com o novo portador, é necessário um ritual que exige passar em um teste de <strong>Misticismo (CD 30)</strong> e uma semana de trabalho.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 147 (JdA)",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 3,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 35,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "luta",
+            "",
+            ""
+          ],
+          [
+            "27",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "4d8+10",
+            "corte",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "1d6",
+            "frio",
+            ""
+          ]
+        ],
+        "versatil": "1d12"
+      }
+    ],
+    "criticoM": 19,
+    "criticoX": 3,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": true,
+      "agi": false,
+      "alo": false,
+      "dup": false,
+      "ver": false,
+      "adaptavel": false,
+      "agil": false,
+      "alongada": false,
+      "arremesso": false,
+      "ataqueDistancia": false,
+      "duasMaos": false,
+      "dupla": false,
+      "leve": false,
+      "municao": false,
+      "versatil": false,
+      "des": false,
+      "hib": false
+    },
+    "encantos": {
+      "arremesso": false,
+      "lancinante": false,
+      "lancinating": false
+    },
+    "ativacao": {
+      "custo": null,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "chatFlavor": "",
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "mpMultiplier": false
+    },
+    "origin": "",
+    "tags": [],
+    "chatGif": "",
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "ataques": 1,
+    "proficiencia": "exotica",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal",
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.tormenta20.equipamentos.Vl8EoLKtzI7wyT1V",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623945959,
+    "modifiedTime": 1736623945959,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!PX6h3DK9i86LCjoR"
+}

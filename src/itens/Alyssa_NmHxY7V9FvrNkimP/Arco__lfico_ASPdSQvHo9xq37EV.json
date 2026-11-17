@@ -1,0 +1,163 @@
+{
+  "folder": "NmHxY7V9FvrNkimP",
+  "name": "Arco Élfico",
+  "type": "arma",
+  "_id": "ASPdSQvHo9xq37EV",
+  "img": "icons/weapons/bows/shortbow-leaves-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Esta arma foi construída utilizando técnicas de antigos mestres de Lenórienn, e com madeira tão resistente como aço (Tormenta20, p. 167). Um arco élfico permite uma puxada mais forte e pode ser usada pelo arqueiro para se defender mesmo em corpo a corpo até que possa sacar uma arma mais adequada. Você pode escolher aplicar seu modificador de Força nas rolagens de dano com um arco élfico. Esta arma também pode ser usada para fazer ataques corpo a corpo com as mesmas estatísticas de um bordão (arma dupla, dano 1d6/1d6 de impacto, crítico x2).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 2,
+    "qtd": 1,
+    "preco": 500,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "pont",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "A Distância",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "1d8",
+            "perfuracao",
+            ""
+          ],
+          [
+            "@for",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano2",
+        "type": "dano",
+        "parts": [
+          [
+            "1d6",
+            "impacto",
+            ""
+          ],
+          [
+            "@for",
+            "",
+            ""
+          ],
+          [
+            "1d6",
+            "impacto",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 20,
+    "criticoX": 3,
+    "alcance": "medium",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": true,
+      "alo": false,
+      "des": false,
+      "dup": false,
+      "ver": false,
+      "hib": false
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "consume": {
+      "amount": 0,
+      "mpMultiplier": false,
+      "target": "",
+      "type": "ammo"
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "ataques": 0,
+    "proficiencia": "marcial",
+    "proposito": "disparo",
+    "empunhadura": "duas",
+    "size": "normal"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623941497,
+    "modifiedTime": 1736623941497,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!ASPdSQvHo9xq37EV"
+}

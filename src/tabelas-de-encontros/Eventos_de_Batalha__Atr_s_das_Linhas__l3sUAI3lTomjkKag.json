@@ -1,0 +1,209 @@
+{
+  "name": "Eventos de Batalha (Atrás das Linhas)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "7gTfbpmXsDCwEmNc",
+      "text": "Curandeiro",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.7gTfbpmXsDCwEmNc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "cMlopNSJGvPFNFH3",
+      "text": "Levar ordens",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.cMlopNSJGvPFNFH3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "S2W6lGSeSHO4pdhg",
+      "text": "Erguer estandarte",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.S2W6lGSeSHO4pdhg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        10
+      ],
+      "drawn": false,
+      "_id": "xyPSqze5FS29Oprj",
+      "text": "Manter posição",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.xyPSqze5FS29Oprj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        14
+      ],
+      "drawn": false,
+      "_id": "ngXC4YzzGDNehbKb",
+      "text": "Quebrar formação",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.ngXC4YzzGDNehbKb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "_id": "yU0H5CLB6Tihb6hE",
+      "text": "Resgatar aliado ferido",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.yU0H5CLB6Tihb6hE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "_id": "Q7QLZ6LRqHhNvXL3",
+      "text": "Interceptar ordens",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.Q7QLZ6LRqHhNvXL3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_id": "ujhi8U6ERYabITFV",
+      "text": "Servir de isca",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.ujhi8U6ERYabITFV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "_id": "wruiUQPo1lawEYUB",
+      "text": "Ataque livre",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.wruiUQPo1lawEYUB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "_id": "lTyIIjgmJLsDOjFc",
+      "text": "Capturar estandarte",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.lTyIIjgmJLsDOjFc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        28
+      ],
+      "drawn": false,
+      "_id": "MVXfBrFwam68QIpM",
+      "text": "Enfrentar capitão",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.MVXfBrFwam68QIpM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "_id": "vcN3H6RmrxS1C16H",
+      "text": "Enfrentar general",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!l3sUAI3lTomjkKag.vcN3H6RmrxS1C16H"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624102071,
+    "modifiedTime": 1736624107118,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "formula": "1d20+10",
+  "_id": "l3sUAI3lTomjkKag",
+  "sort": 100000,
+  "_key": "!tables!l3sUAI3lTomjkKag"
+}

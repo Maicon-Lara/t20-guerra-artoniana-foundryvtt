@@ -1,0 +1,22 @@
+{
+  "name": "ARCO 2",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "uEuy5vhWkyWomx6B",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623467551,
+    "modifiedTime": 1736623495117,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!uEuy5vhWkyWomx6B"
+}

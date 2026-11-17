@@ -1,0 +1,22 @@
+{
+  "name": "Alyssa",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "NmHxY7V9FvrNkimP",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623941492,
+    "modifiedTime": 1736623969765,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!NmHxY7V9FvrNkimP"
+}

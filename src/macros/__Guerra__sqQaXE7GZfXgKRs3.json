@@ -1,0 +1,28 @@
+{
+  "name": "É Guerra!",
+  "type": "script",
+  "command": "await Requestor.request({\n  img: \"icons/environment/people/infantry-army.webp\",\n  title: \"É GUERRA!!!\",\n  description: \"Role um EVENTO!\",\n   buttonData: [{\n    label: \"Role um EVENTO\",\n    command: async ()=> {\n\nconst title = \"É GUERRA!\";\nconst description = \"Role um Evento\";\n\nconst buttonNames = [\n  'Eventos de Batalha (Acampamento)',\n  'Eventos de Batalha (Retaguarda)',\n  'Eventos de Batalha (Front)',\n  'Eventos de Batalha (Atrás das Linhas)',\n];\n\nlet content = `\n  <script>\n  function rollTable(i) {\n    const tables = [\n      'Eventos de Batalha (Acampamento)',\n      'Eventos de Batalha (Atrás das Linhas)',\n      'Eventos de Batalha (Front)',\n      'Eventos de Batalha (Retaguarda)',\n    ];\n    const table = game.tables.getName(tables[i]);\n    if (table == null) {\n      ui.notifications.warn(\"Table not found\");\n      return;\n    }\n    table.draw({rollMode:\"roll\"});\n  }\n  </script>\n  ${description}\n  <div style=\"display: flex; flex-wrap: wrap;\">`;\n\n// Coluna 1\ncontent += '<div style=\"flex: 1;\">';\nfor (let i = 0; i < buttonNames.length; i++) {\n  content += `<button onclick=\"rollTable(${i})\">${buttonNames[i]}</button><br>`;\n}\ncontent += '</div>';\n\nnew Dialog({\n  title: title,\n  content: content,\n  buttons: { close: { label: \"Fechar\" } \n  }\n}).render(true);\ntable.draw()\n    }\n  }]\n});",
+  "img": "icons/weapons/artillery/trebuchet-simple.webp",
+  "author": "PaWgKaP6BJWNZCI4",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "bgO7rzWt9IoLIDCl": 3,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624923629,
+    "modifiedTime": 1736624923629,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_id": "sqQaXE7GZfXgKRs3",
+  "sort": 0,
+  "_key": "!macros!sqQaXE7GZfXgKRs3"
+}

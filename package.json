@@ -1,0 +1,14 @@
+{
+  "name": "t20-guerra-artoniana-foundryvtt",
+  "version": "2.1.0",
+  "description": "Compêndio de NPCs e ameaças da campanha Guerra Artoniana (Tormenta20) para Foundry VTT v13. Uso pessoal da mesa.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "unpack": "node tools/unpack.mjs",
+    "build": "node tools/build.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "3.0.4"
+  }
+}

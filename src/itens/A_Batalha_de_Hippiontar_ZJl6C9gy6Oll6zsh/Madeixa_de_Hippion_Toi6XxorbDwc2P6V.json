@@ -1,0 +1,145 @@
+{
+  "folder": "ZJl6C9gy6Oll6zsh",
+  "name": "Madeixa de Hippion",
+  "type": "equipamento",
+  "_id": "Toi6XxorbDwc2P6V",
+  "img": "icons/commodities/leather/fur-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Esta madeixa pode ser vestida junto ao corpo presa em um colar ou pulseira, ou amarrada a uma peça de roupa. Fornece +5 em Adestramento, Atletismo e Cavalgar. 1 espaço. Artefato.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": "body"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 0,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "tipo": "acessorio",
+    "armadura": {
+      "value": 0,
+      "penalidade": 0,
+      "maxAtr": 0
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "rolls": [],
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {}
+  },
+  "effects": [
+    {
+      "name": "Madeixa de Hippion",
+      "origin": "Item.Toi6XxorbDwc2P6V",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/commodities/leather/fur-blue.webp",
+      "_id": "a6urSJGCmQr3exnv",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.pericias.ades.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.pericias.atle.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.pericias.cava.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!Toi6XxorbDwc2P6V.a6urSJGCmQr3exnv"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {
+    "tormenta20": {
+      "needCommit": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623937093,
+    "modifiedTime": 1736623937093,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!Toi6XxorbDwc2P6V"
+}

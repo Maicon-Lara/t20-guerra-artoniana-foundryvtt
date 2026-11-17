@@ -1,0 +1,188 @@
+{
+  "name": "Soro Supremo",
+  "type": "consumivel",
+  "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify;\"><span class=\"fontstyle2\">Um personagem de posse do corpo de um soldado superior pode tentar extrair uma fração do soro que concede a ele seu poder. Isso é um teste estendido de Ofício (alquimista) com CD 40 em que o personagem precisa obter 5 sucessos antes de 3 falhas. Cada teste representa um dia de trabalho. Se passar, o personagem obtém uma dose de soro supremo. Se falhar, arruína a amostra e não pode mais tentar com este corpo. Ingerir uma dose do soro supremo aumenta permanentemente Força, Destreza ou Constituição (escolhido na fabricação do soro) em +1. Um personagem só pode se beneficiar de uma dose de soro supremo.</span></p><p style=\"text-align: justify;\"><span class=\"fontstyle2\">Além de ser um segredo muito bem guardado pelos puristas, o soro supremo é um composto extremamente volátil, preparado para um indivíduo específico. Por esta razão, não é encontrado à venda.</span> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Ameaças de Arton, Pág. 282",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": ""
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 300,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "ativacao": {
+      "execucao": "",
+      "custo": 0,
+      "qtd": "",
+      "condicao": "",
+      "special": ""
+    },
+    "duracao": {
+      "value": 0,
+      "units": "",
+      "special": ""
+    },
+    "target": {
+      "value": 0,
+      "width": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 0,
+      "units": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": 0,
+      "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+      "pericia": "",
+      "atributo": "",
+      "bonus": 0,
+      "txt": ""
+    },
+    "rolls": [
+      {
+        "name": "Cura",
+        "key": "dano0",
+        "type": "dano",
+        "parts": [
+          [
+            "10d8+10",
+            "curapv",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "tipo": "material",
+    "uses": {
+      "autoDestroy": false
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "subtipo": ""
+  },
+  "effects": [
+    {
+      "name": "Soro Supremo",
+      "origin": "Compendium.guerra-artoniana.itens.Item.yoSNg89kjeTLi9TC",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/consumables/potions/potion-flask-corked-labeled-pink.webp",
+      "_id": "PVSJ7TerRcknauNs",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.atributos.for.racial",
+          "mode": 2,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.atributos.des.racial",
+          "mode": 2,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.atributos.con.racial",
+          "mode": 2,
+          "value": "0",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": 1736625229657,
+        "modifiedTime": 1736625270160,
+        "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+      },
+      "_key": "!items.effects!yoSNg89kjeTLi9TC.PVSJ7TerRcknauNs"
+    }
+  ],
+  "folder": "6lMqL05NKGwrSi7q",
+  "ownership": {
+    "default": 0,
+    "gaAtrNzABNupkS9K": 3,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736625178886,
+    "modifiedTime": 1736625344450,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_id": "yoSNg89kjeTLi9TC",
+  "sort": 200000,
+  "_key": "!items!yoSNg89kjeTLi9TC"
+}

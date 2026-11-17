@@ -1,0 +1,144 @@
+{
+  "folder": "kJOB7pr21cVwo74x",
+  "name": "O Chapéu de Palha",
+  "type": "equipamento",
+  "_id": "3cPNLRVOBf69p4Jp",
+  "img": "icons/equipment/head/hat-belted-simple-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>É um artefato sagrado do caos que não ocupa espaço. Um teste de Identificar Item Mágico (Tormenta20, p. 121) contra CD 15 (veja “O Tibar de Prata”, na página 23, para entender mais sobre a CD), permite identificá-lo e revela seus poderes. Este chapéu de camponês causa uma penalidade de –2 em qualquer teste social feito para falar com nobres preconceituosos em relação a plebeus, mas traz boa sorte. Uma vez por aventura, você pode rolar novamente um teste de uma perícia cujo atributo-chave não seja Carisma e escolher o melhor resultado. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": "body"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 0,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "tipo": "traje",
+    "armadura": {
+      "value": 0,
+      "penalidade": 0,
+      "maxAtr": 0
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "rolls": [],
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {}
+  },
+  "effects": [
+    {
+      "name": "Chapéu de Palha",
+      "origin": "Item.3cPNLRVOBf69p4Jp",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": true,
+          "ability": false,
+          "power": false,
+          "equipment": false,
+          "spell": false,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "5kP4TStb2gBbQdyB",
+      "changes": [
+        {
+          "key": "roll",
+          "mode": 2,
+          "value": "-2",
+          "priority": 0
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!3cPNLRVOBf69p4Jp.5kP4TStb2gBbQdyB"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {
+    "tormenta20": {
+      "needCommit": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623967952,
+    "modifiedTime": 1736623967952,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!3cPNLRVOBf69p4Jp"
+}

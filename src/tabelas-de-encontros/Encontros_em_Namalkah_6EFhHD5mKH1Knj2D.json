@@ -1,0 +1,119 @@
+{
+  "name": "Encontros em Namalkah",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "MT1YmXWyjpHiYWOl",
+      "text": "Cavalaria Purista",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!6EFhHD5mKH1Knj2D.MT1YmXWyjpHiYWOl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "TbsCitH9IKPOnuzV",
+      "text": "Tempestade Gélida",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!6EFhHD5mKH1Knj2D.TbsCitH9IKPOnuzV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "b4BFmpSrpK1S4gNW",
+      "text": "Estouro de Búfalos: [[/r 6d12]]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!6EFhHD5mKH1Knj2D.b4BFmpSrpK1S4gNW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "WqoSo14fYfqWxOhP",
+      "text": "Corcel Indomável",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!6EFhHD5mKH1Knj2D.WqoSo14fYfqWxOhP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "VR5KyxqKSekHa8Um",
+      "text": "Coxilha do Ladrão",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!6EFhHD5mKH1Knj2D.VR5KyxqKSekHa8Um"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "3eDQ98XYPToCncx2",
+      "text": "Vento do Oeste",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!6EFhHD5mKH1Knj2D.3eDQ98XYPToCncx2"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624097523,
+    "modifiedTime": 1736624107118,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "formula": "1d6",
+  "_id": "6EFhHD5mKH1Knj2D",
+  "sort": 600000,
+  "_key": "!tables!6EFhHD5mKH1Knj2D"
+}

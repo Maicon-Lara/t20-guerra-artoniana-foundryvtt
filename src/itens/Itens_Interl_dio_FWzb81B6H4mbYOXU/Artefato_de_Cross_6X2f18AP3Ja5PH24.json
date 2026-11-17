@@ -1,0 +1,140 @@
+{
+  "name": "Artefato de Cross",
+  "type": "arma",
+  "_id": "6X2f18AP3Ja5PH24",
+  "img": "Artefato%20de%20Cross.jpg",
+  "system": {
+    "description": {
+      "value": "<p>O Artefato de Cross é um item puramente mundano e tecnológico, inventado e forjado pelas mentes geniais e doentias de demônios. Ele é composto por diversos canos de mosquete, que giram por meio de engrenagens quando o usuário puxa uma alavanca. O artefato é pesado e desajeitado, mas, quando acionado, dispara todos os seus canos, banhando os alvos com uma chuva de chumbo.</p><p>Esta é uma arma de fogo de duas mãos desbalanceada (dano 2d12, crítico 19/x3, alcance médio, perfuração) que fornece +10 nos testes de ataque e, em caso de acerto, causa +1d12 pontos de dano para cada 2 pontos pelos quais o resultado do ataque passar a Defesa do alvo. <em>Recarregá-lo é uma ação padrão.</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 0,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "pont",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "2d12",
+            "perfuracao",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 19,
+    "criticoX": 3,
+    "alcance": "medium",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "des": true,
+      "dup": false,
+      "ver": false,
+      "hib": false
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "consume": {
+      "amount": 0,
+      "mpMultiplier": false,
+      "target": "",
+      "type": "ammo"
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "ataques": 0,
+    "proficiencia": "fogo",
+    "proposito": "disparo",
+    "empunhadura": "duas",
+    "size": "normal"
+  },
+  "effects": [],
+  "folder": "FWzb81B6H4mbYOXU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623998996,
+    "modifiedTime": 1736623998996,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!6X2f18AP3Ja5PH24"
+}

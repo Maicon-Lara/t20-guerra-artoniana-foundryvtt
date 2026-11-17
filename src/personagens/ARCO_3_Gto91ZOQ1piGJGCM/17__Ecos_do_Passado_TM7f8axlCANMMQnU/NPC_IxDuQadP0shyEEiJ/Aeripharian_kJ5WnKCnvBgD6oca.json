@@ -1,0 +1,1743 @@
+{
+  "folder": "IxDuQadP0shyEEiJ",
+  "name": "Aeripharian",
+  "type": "simple",
+  "_id": "kJ5WnKCnvBgD6oca",
+  "img": "Token_M_-_Aeripharian.png",
+  "system": {
+    "atributos": {
+      "for": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "des": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "con": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "int": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "sab": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "car": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      }
+    },
+    "attributes": {
+      "carga": {
+        "value": 0,
+        "atributo": "for",
+        "base": 10,
+        "bonus": [],
+        "max": 0,
+        "pct": 0,
+        "encumbered": false
+      },
+      "defesa": {
+        "atributo": "des",
+        "pda": 0,
+        "value": 10,
+        "base": 10,
+        "outros": 0,
+        "condi": 0,
+        "bonus": []
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 9,
+        "hover": false,
+        "unit": "m"
+      },
+      "pv": {
+        "value": 0,
+        "temp": 0,
+        "min": 0,
+        "max": 0
+      },
+      "pm": {
+        "value": 0,
+        "temp": 0,
+        "min": 0,
+        "max": 0
+      },
+      "sentidos": {
+        "value": []
+      }
+    },
+    "detalhes": {
+      "biography": {
+        "value": "",
+        "public": ""
+      }
+    },
+    "dinheiro": {
+      "tc": 0,
+      "tl": 0,
+      "to": 0,
+      "tp": 0
+    },
+    "modificadores": {
+      "atributos": {
+        "for": [],
+        "des": [],
+        "con": [],
+        "int": [],
+        "sab": [],
+        "car": [],
+        "fisicos": [],
+        "mentais": [],
+        "geral": []
+      },
+      "ataque": {
+        "geral": [],
+        "cac": [],
+        "ad": []
+      },
+      "dano": {
+        "ad": [],
+        "alq": [],
+        "cac": [],
+        "geral": [],
+        "mag": []
+      },
+      "pericias": {
+        "geral": [],
+        "resistencia": [],
+        "semataque": [],
+        "ataque": [],
+        "atr": {
+          "for": [],
+          "des": [],
+          "con": [],
+          "int": [],
+          "sab": [],
+          "car": []
+        }
+      }
+    },
+    "pericias": {
+      "acro": {
+        "atributo": "des",
+        "treinado": false,
+        "st": true,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ades": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atle": {
+        "atributo": "for",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atua": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cava": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "conh": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cura": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "dipl": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "enga": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "fort": {
+        "atributo": "con",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "furt": {
+        "atributo": "des",
+        "treinado": false,
+        "st": true,
+        "pda": false,
+        "size": true,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "guer": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inic": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inti": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "intu": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inve": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "joga": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ladi": {
+        "atributo": "des",
+        "treinado": false,
+        "st": true,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "luta": {
+        "atributo": "for",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "mist": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "nobr": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "perc": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pilo": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pont": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "refl": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "reli": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "sobr": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "vont": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      }
+    },
+    "resources": {},
+    "tracos": {
+      "ic": {
+        "value": []
+      },
+      "resistencias": {
+        "dano": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "perda": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "acido": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "corte": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "eletricidade": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "essencia": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "fogo": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "frio": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "impacto": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "luz": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "psiquico": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "perfuracao": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "trevas": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        }
+      },
+      "tamanho": "med"
+    }
+  },
+  "prototypeToken": {
+    "name": "Aeripharian",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "Token_M_-_Aeripharian.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attributes.pv,attributes.pm"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": [
+              "bar1",
+              "bar1"
+            ],
+            "order": [
+              0,
+              1
+            ],
+            "attribute": [
+              "attributes.pv",
+              "attributes.pm"
+            ],
+            "mincolor": [
+              "#FF0000",
+              "#FF0000"
+            ],
+            "maxcolor": [
+              "#80FF00",
+              "#80FF00"
+            ],
+            "position": [
+              "bottom-inner",
+              "bottom-inner"
+            ],
+            "gmVisibility": [
+              -1,
+              -1
+            ],
+            "ownerVisibility": [
+              0,
+              0
+            ],
+            "otherVisibility": [
+              0,
+              0
+            ],
+            "hideFull": [
+              false,
+              false
+            ],
+            "hideEmpty": [
+              false,
+              false
+            ],
+            "hideCombat": [
+              false,
+              false
+            ],
+            "hideNoCombat": [
+              false,
+              false
+            ],
+            "hideHud": [
+              false,
+              false
+            ],
+            "indentLeft": [
+              null,
+              null
+            ],
+            "indentRight": [
+              null,
+              null
+            ],
+            "shareHeight": [
+              false,
+              false
+            ],
+            "style": [
+              "user",
+              "user"
+            ],
+            "label": [
+              "",
+              ""
+            ],
+            "invert": [
+              false,
+              false
+            ],
+            "invertDirection": [
+              false,
+              false
+            ],
+            "subdivisions": [
+              null,
+              null
+            ],
+            "subdivisionsOwner": [
+              false,
+              false
+            ],
+            "fgImage": [
+              "",
+              ""
+            ],
+            "bgImage": [
+              "",
+              ""
+            ],
+            "opacity": [
+              null,
+              null
+            ],
+            "max": [
+              0,
+              null
+            ]
+          },
+          "bar2": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "attributes.pm",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 0,
+            "otherVisibility": 0
+          }
+        }
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "about-face": {
+        "indicatorDisabled": false,
+        "flipOrRotate": "global",
+        "facingDirection": "global",
+        "rotationOffset": 0
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Aeripharian: Veterano",
+      "type": "poder",
+      "img": "Token_M_-_Aeripharian.png",
+      "system": {
+        "description": {
+          "value": "<p>Ele é um parceiro magivocador e ajudante (Conhecimento, Misticismo e Ofício [alquimista]) veterano.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 261 (JdA)",
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [],
+        "tipo": "geral",
+        "subtipo": "Parceiros",
+        "chatFlavor": "",
+        "origin": "",
+        "tags": [],
+        "chatGif": "",
+        "rolltags": []
+      },
+      "effects": [
+        {
+          "origin": "Item.EBDU8TfXg0iVLvCT",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": true,
+              "consumable": false,
+              "items": "",
+              "aumenta": true,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "wZ1Ro41vqj7GploK",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "1d4",
+              "priority": 0
+            }
+          ],
+          "transfer": true,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "name": "Magivocador: o dano de suas magias aumenta em +1d4 se for iniciante, ou +2d4 se for mestre.",
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV.wZ1Ro41vqj7GploK"
+        },
+        {
+          "origin": "Item.EBDU8TfXg0iVLvCT",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": true,
+              "consumable": false,
+              "items": "",
+              "aumenta": true,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "8CQ3h2IajvHrSnYb",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "1d6",
+              "priority": 0
+            }
+          ],
+          "transfer": true,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "name": "Magivocador: o dano de suas magias aumenta em +1d6 se for iniciante, ou +2d6 se for mestre.",
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV.8CQ3h2IajvHrSnYb"
+        },
+        {
+          "origin": "Item.EBDU8TfXg0iVLvCT",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": true,
+              "consumable": false,
+              "items": "",
+              "aumenta": true,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "Nspr5owZ6FpCoVeZ",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "1d8",
+              "priority": 0
+            }
+          ],
+          "transfer": true,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "name": "Magivocador: o dano de suas magias aumenta em +1d8 se for iniciante, ou +2d8 se for mestre.",
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV.Nspr5owZ6FpCoVeZ"
+        },
+        {
+          "origin": "Item.EBDU8TfXg0iVLvCT",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": true,
+              "consumable": false,
+              "items": "",
+              "aumenta": true,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "y0zrxJShyVVGWpWu",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "1d10",
+              "priority": 0
+            }
+          ],
+          "transfer": true,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "name": "Magivocador: o dano de suas magias aumenta em +1d10 se for iniciante, ou +2d10 se for mestre.",
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV.y0zrxJShyVVGWpWu"
+        },
+        {
+          "origin": "Item.EBDU8TfXg0iVLvCT",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": true,
+              "consumable": false,
+              "items": "",
+              "aumenta": true,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "u3gTkV1k8lj1GttV",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "1d12",
+              "priority": null
+            }
+          ],
+          "transfer": true,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "name": "Magivocador: o dano de suas magias aumenta em +1d12 se for iniciante, ou +2d12 se for mestre.",
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV.u3gTkV1k8lj1GttV"
+        },
+        {
+          "origin": "Item.EBDU8TfXg0iVLvCT",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": false,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": true,
+              "consumable": false,
+              "items": "",
+              "aumenta": false,
+              "custo": ""
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "zi4HsVUupDZQNV0d",
+          "changes": [
+            {
+              "key": "cd",
+              "mode": 2,
+              "value": "1",
+              "priority": 0
+            }
+          ],
+          "transfer": true,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "name": "Magivocador Veterano: como acima, e a CD para resistir a suas magias aumenta em +1.",
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV.zi4HsVUupDZQNV0d"
+        },
+        {
+          "origin": "Item.EBDU8TfXg0iVLvCT",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": false,
+              "durationScene": true
+            }
+          },
+          "duration": {
+            "rounds": 1,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "aDt6ucvrUZPc0QBF",
+          "changes": [
+            {
+              "key": "system.pericias.mist.bonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.pericias.conh.bonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.pericias.???.bonus",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "transfer": false,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "name": "Aeripharian: Veterano",
+          "img": "Token_M_-_Aeripharian.png",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV.aDt6ucvrUZPc0QBF"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.parceiros.Item.EBDU8TfXg0iVLvCT",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "RVL03xrtLvbxSWQV",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tIn9sSkrT3mDWirx": 3,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_key": "!actors.items!kJ5WnKCnvBgD6oca.RVL03xrtLvbxSWQV"
+    }
+  ],
+  "effects": [
+    {
+      "origin": "Actor.kJ5WnKCnvBgD6oca.Item.RVL03xrtLvbxSWQV",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "spell": true,
+          "consumable": false,
+          "items": "",
+          "aumenta": true,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 8190060,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "EQVkgyNUZbwUo2hv",
+      "changes": [
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 0
+        }
+      ],
+      "transfer": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "name": "Magivocador: o dano de suas magias aumenta em +1d4 se for iniciante, ou +2d4 se for mestre.",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!kJ5WnKCnvBgD6oca.EQVkgyNUZbwUo2hv"
+    },
+    {
+      "origin": "Actor.kJ5WnKCnvBgD6oca.Item.RVL03xrtLvbxSWQV",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "spell": true,
+          "consumable": false,
+          "items": "",
+          "aumenta": true,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 8190060,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "AQP13imdHZgJDWO8",
+      "changes": [
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "1d6",
+          "priority": 0
+        }
+      ],
+      "transfer": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "name": "Magivocador: o dano de suas magias aumenta em +1d6 se for iniciante, ou +2d6 se for mestre.",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!kJ5WnKCnvBgD6oca.AQP13imdHZgJDWO8"
+    },
+    {
+      "origin": "Actor.kJ5WnKCnvBgD6oca.Item.RVL03xrtLvbxSWQV",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "spell": true,
+          "consumable": false,
+          "items": "",
+          "aumenta": true,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 8190060,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "Zzjia7ywDWkmSHUC",
+      "changes": [
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "1d8",
+          "priority": 0
+        }
+      ],
+      "transfer": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "name": "Magivocador: o dano de suas magias aumenta em +1d8 se for iniciante, ou +2d8 se for mestre.",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!kJ5WnKCnvBgD6oca.Zzjia7ywDWkmSHUC"
+    },
+    {
+      "origin": "Actor.kJ5WnKCnvBgD6oca.Item.RVL03xrtLvbxSWQV",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "spell": true,
+          "consumable": false,
+          "items": "",
+          "aumenta": true,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 8190060,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "9vVZ3uTwimb3dopC",
+      "changes": [
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "1d10",
+          "priority": 0
+        }
+      ],
+      "transfer": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "name": "Magivocador: o dano de suas magias aumenta em +1d10 se for iniciante, ou +2d10 se for mestre.",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!kJ5WnKCnvBgD6oca.9vVZ3uTwimb3dopC"
+    },
+    {
+      "origin": "Actor.kJ5WnKCnvBgD6oca.Item.RVL03xrtLvbxSWQV",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "spell": true,
+          "consumable": false,
+          "items": "",
+          "aumenta": true,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 8190060,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "z6Ti87CJ8ZSoUHP7",
+      "changes": [
+        {
+          "key": "dano",
+          "mode": 2,
+          "value": "1d12",
+          "priority": null
+        }
+      ],
+      "transfer": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "name": "Magivocador: o dano de suas magias aumenta em +1d12 se for iniciante, ou +2d12 se for mestre.",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!kJ5WnKCnvBgD6oca.z6Ti87CJ8ZSoUHP7"
+    },
+    {
+      "origin": "Actor.kJ5WnKCnvBgD6oca.Item.RVL03xrtLvbxSWQV",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": true,
+          "durationScene": false,
+          "self": false,
+          "attack": false,
+          "skill": false,
+          "ability": false,
+          "power": false,
+          "spell": true,
+          "consumable": false,
+          "items": "",
+          "aumenta": false,
+          "custo": ""
+        }
+      },
+      "duration": {
+        "startTime": 8190060,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "gaRmIHLCtTbOoMhL",
+      "changes": [
+        {
+          "key": "cd",
+          "mode": 2,
+          "value": "1",
+          "priority": 0
+        }
+      ],
+      "transfer": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "name": "Magivocador Veterano: como acima, e a CD para resistir a suas magias aumenta em +1.",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!kJ5WnKCnvBgD6oca.gaRmIHLCtTbOoMhL"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623621591,
+    "modifiedTime": 1736623621591,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!actors!kJ5WnKCnvBgD6oca"
+}

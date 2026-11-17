@@ -1,0 +1,218 @@
+{
+  "_id": "IgKFbav62eVFTBP7",
+  "name": "Braço das Uivantes",
+  "type": "arma",
+  "img": "Bra%C3%A7o-das-Uivantes.png",
+  "effects": [
+    {
+      "name": "Braço das Uivantes",
+      "origin": "Item.IgKFbav62eVFTBP7",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "3iiVSZQVZRWkNE4q",
+      "changes": [
+        {
+          "key": "system.atributos.for.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.defesa.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "Bra%C3%A7o-das-Uivantes.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!IgKFbav62eVFTBP7.3iiVSZQVZRWkNE4q"
+    }
+  ],
+  "folder": "FwXbeT79yKEBTcPG",
+  "sort": 200000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.tormenta20.equipamentos.NFepeG0ojjq3Xggs"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A prótese concede +2 em For, +5 na Defesa e imunidade a frio. Ataques corpo a corpo do personagem passam a causar +1d6 pontos de dano de frio. Se o ataque for desarmado, este dano sobe para +1d10. Entretanto, após alguns dias, o personagem desenvolve vulnerabilidade a fogo — um efeito irreversível e permanente.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 143 (JdA)",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 0,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "luta",
+            "",
+            ""
+          ],
+          [
+            "0",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "1d3",
+            "impacto",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ],
+          [
+            "1d10",
+            "frio",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 20,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "dup": false,
+      "ver": false,
+      "adaptavel": false,
+      "agil": false,
+      "alongada": false,
+      "arremesso": false,
+      "ataqueDistancia": false,
+      "duasMaos": false,
+      "dupla": false,
+      "leve": true,
+      "municao": false,
+      "versatil": false,
+      "des": false,
+      "hib": false
+    },
+    "encantos": {
+      "arremesso": false,
+      "lancinante": false,
+      "lancinating": false
+    },
+    "ativacao": {
+      "custo": null,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "chatFlavor": "",
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "mpMultiplier": false
+    },
+    "origin": "",
+    "tags": [],
+    "chatGif": "",
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "ataques": 1,
+    "proficiencia": "simples",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "leve",
+    "size": "normal",
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.tormenta20.equipamentos.NFepeG0ojjq3Xggs",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623945959,
+    "modifiedTime": 1736623945959,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!IgKFbav62eVFTBP7"
+}

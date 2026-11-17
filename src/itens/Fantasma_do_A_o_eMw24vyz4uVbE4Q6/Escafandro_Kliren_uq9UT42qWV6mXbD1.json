@@ -1,0 +1,136 @@
+{
+  "_id": "uq9UT42qWV6mXbD1",
+  "name": "Escafandro Kliren",
+  "type": "equipamento",
+  "img": "icons/tools/nautical/diving-helmet.webp",
+  "effects": [
+    {
+      "name": "Escafandro Kliren",
+      "origin": "Item.uq9UT42qWV6mXbD1",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/tools/nautical/diving-helmet.webp",
+      "_id": "hqgkonTwqzkA9Tsc",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.tracos.resistencias.frio.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!uq9UT42qWV6mXbD1.hqgkonTwqzkA9Tsc"
+    }
+  ],
+  "folder": "eMw24vyz4uVbE4Q6",
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.tormenta20.equipamentos.nFV1X6lQbAhbocA6"
+    },
+    "tormenta20": {
+      "needCommit": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>O escafandro kliren é uma armadura própria para a sobrevivência no éter divino. A armadura cobre todo o corpo do usuário, protegendo-o do frio e da descompressão, além de armazenar uma reserva de ar respirável. Um escafandro fornece redução de frio 5 e permite respirar por até 1 hora em ambientes inóspitos como debaixo d'água, no vácuo e em nuvens de gás ou fumaça. Após este período, você deve passar pelo menos 10 minutos em um ambiente com ar respirável para recarregar a reserva de ar da armadura.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 154 (JdA)",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": "body"
+    },
+    "carregado": true,
+    "peso": 22,
+    "espacos": 5,
+    "qtd": 1,
+    "preco": 1200,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "tipo": "pesada",
+    "armadura": {
+      "value": 8,
+      "penalidade": -6,
+      "maxAtr": 0
+    },
+    "rolls": [],
+    "origin": "",
+    "tags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.tormenta20.equipamentos.nFV1X6lQbAhbocA6",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623974668,
+    "modifiedTime": 1736623974668,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!uq9UT42qWV6mXbD1"
+}

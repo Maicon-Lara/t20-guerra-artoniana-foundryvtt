@@ -1,0 +1,179 @@
+{
+  "name": "O Caminho para Casa",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "kHKx8MaTL1Aeicwd",
+      "text": "Trolls errantes",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.kHKx8MaTL1Aeicwd"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "SGe0O7LxpiVBxvKQ",
+      "text": "Vapores nocivos",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.SGe0O7LxpiVBxvKQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "Z3SIKe7ME4ccecWW",
+      "text": "Lago de lava",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.Z3SIKe7ME4ccecWW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ADqZrghjMFkmMhFr",
+      "text": "Símbolo da Morte",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.ADqZrghjMFkmMhFr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "gAtjaVTkEED5Dzqo",
+      "text": "Horda Mycotann",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.gAtjaVTkEED5Dzqo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "sZN9Wa9L8rACJ2eB",
+      "text": "Beijo-de-Tenebra",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.sZN9Wa9L8rACJ2eB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "3KWe1X5jrPPvOQnD",
+      "text": "Tesouro Enterrado",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.3KWe1X5jrPPvOQnD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "YAwmG9zbnkXNSUzj",
+      "text": "Patrulha finntroll",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.YAwmG9zbnkXNSUzj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "gFa9b7m6RCGiEBGr",
+      "text": "Paredão",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.gFa9b7m6RCGiEBGr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "OPWbWuWMC1XOrN60",
+      "text": "Solo Sagrado",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_key": "!tables.results!kYGxwkOTer0tIyt3.OPWbWuWMC1XOrN60"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624110490,
+    "modifiedTime": 1736624110490,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "formula": "1d10",
+  "_id": "kYGxwkOTer0tIyt3",
+  "sort": 0,
+  "_key": "!tables!kYGxwkOTer0tIyt3"
+}

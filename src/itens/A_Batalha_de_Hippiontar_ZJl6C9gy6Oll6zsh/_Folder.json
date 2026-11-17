@@ -1,0 +1,22 @@
+{
+  "name": "A Batalha de Hippiontar",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ZJl6C9gy6Oll6zsh",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623937085,
+    "modifiedTime": 1736623937115,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!folders!ZJl6C9gy6Oll6zsh"
+}

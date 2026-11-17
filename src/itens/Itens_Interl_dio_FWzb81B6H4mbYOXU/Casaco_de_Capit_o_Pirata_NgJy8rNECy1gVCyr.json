@@ -1,0 +1,151 @@
+{
+  "name": "Casaco de Capitão Pirata",
+  "type": "equipamento",
+  "_id": "NgJy8rNECy1gVCyr",
+  "img": "icons/equipment/chest/vest-leather-brown-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Este casacão típico de marinheiro é ornamentado com troféus obtidos pelo capitão, marcando suas maiores conquistas (e atrocidades). Um casacão de capitão pirata só pode ser obtido de um capitão derrotado. Fornece +2 em Enganação, Intimidação e Pilotagem e 2 espaços que só podem ser usados para itens que ocupem 05, espaço cada. </p><p><em>Vestuário, 1 espaço.</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": "body"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 0,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "tipo": "traje",
+    "armadura": {
+      "value": 0,
+      "penalidade": 0,
+      "maxAtr": 0
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "rolls": [],
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {}
+  },
+  "effects": [
+    {
+      "name": "Casaco de Capitão Pirata",
+      "origin": "Item.NgJy8rNECy1gVCyr",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "pXFy2YpLshsFjFXO",
+      "changes": [
+        {
+          "key": "system.attributes.carga.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.pericias.enga.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.pericias.inti.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.pericias.pilo.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "img": "icons/equipment/chest/vest-leather-brown-gold.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!NgJy8rNECy1gVCyr.pXFy2YpLshsFjFXO"
+    }
+  ],
+  "folder": "FWzb81B6H4mbYOXU",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {
+    "tormenta20": {
+      "needCommit": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623998996,
+    "modifiedTime": 1736623998996,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!NgJy8rNECy1gVCyr"
+}

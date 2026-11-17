@@ -1,0 +1,22 @@
+{
+  "name": "Item Von Krauser",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "7znCNJ3hNbcngkUV",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623991547,
+    "modifiedTime": 1736623991568,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!7znCNJ3hNbcngkUV"
+}

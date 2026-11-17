@@ -1,0 +1,140 @@
+{
+  "folder": "eMw24vyz4uVbE4Q6",
+  "name": "Espada da Galáxia",
+  "type": "arma",
+  "_id": "gnjMbBL7xXc2ozyr",
+  "img": "objetos/Espada-da-Gal%C3%A1xia.png",
+  "system": {
+    "description": {
+      "value": "<p>A Espada da Galáxia é feita de um metal superdenso, desconhecido em Arton. Seu fio tem a espessura igual a menor parte componente do mundo material. Nenhum artoniano possui conhecimento ou vocabulário científico para compreender isso, mas a espada é forjada em hidrogênio metálico e seu gume tem a espessura de um átomo desse elemento!</p><p>A densidade extrema de uma Espada da Galáxia a torna pesada demais para ser empunhada por humanos comuns, além de virtualmente indestrutível. Apenas personagens com Força 10 ou maior podem usá-la e, mesmo não sendo mágica, ela é considerada um artefato para efeitos que destroem ou alteram objetos.</p><p>Apenas alguns metalianos conhecem os segredos da fabricação de uma Espada da Galáxia, e ela não pode ser construída em nenhum lugar de Arton. Considerada um dos mais preciosos tesouros da civilização metaliana, uma dessas espadas só pode ser encontrada em posse de um guerreiro ou capitão de destaque dessa raça. O metaliano possui uma ligação especial com sua Espada da Galáxia e pode gastar uma ação de movimento para invocá-la de qualquer lugar no mesmo Plano. Por fim, muitos metalianos preferem destruir a si mesmos (e suas espadas) em vez de permitir que elas sejam tomadas por inimigos.</p><section id=\"secret-zaoiC2QOjaGDvzfn\" class=\"secret\"><p>Não sendo um item mágico, uma Espada da Galáxia pode ainda receber encantos e melhorias. No entanto, apenas um armeiro muito experiente (patamar lendário) é capaz de melhorar essa arma. Meses ou anos de estudo são necessários para obter o conhecimento necessário, além de talvez uma busca (Tormenta20, p. 278). Além disso, uma Espada da Galáxia nunca pode receber melhorias ou encantos relacionados a materiais especiais ou que aumentem sua margem de ameaça. Segundo as leis naturais da Criação, é impossível que essa arma seja ainda mais afiada!</p></section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "equipado": 0,
+    "equipado2": {
+      "slot": 0,
+      "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 0,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 3
+    },
+    "rd": 0,
+    "rolls": [
+      {
+        "name": "Ataque",
+        "key": "ataque0",
+        "type": "ataque",
+        "parts": [
+          [
+            "1d20",
+            "",
+            ""
+          ],
+          [
+            "luta",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      },
+      {
+        "name": "Dano",
+        "key": "dano1",
+        "type": "dano",
+        "parts": [
+          [
+            "4d12",
+            "corte",
+            ""
+          ],
+          [
+            "@for",
+            "",
+            ""
+          ]
+        ],
+        "versatil": ""
+      }
+    ],
+    "criticoM": 17,
+    "criticoX": 2,
+    "alcance": "",
+    "tipoUso": "sim",
+    "propriedades": {
+      "ada": false,
+      "agi": false,
+      "alo": false,
+      "des": false,
+      "dup": false,
+      "ver": false,
+      "hib": false
+    },
+    "origin": "",
+    "tags": [],
+    "rolltags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": 0,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "consume": {
+      "amount": 0,
+      "mpMultiplier": false,
+      "target": "",
+      "type": ""
+    },
+    "upgrades": {
+      "melhoria1": "",
+      "melhoria2": "",
+      "melhoria3": "",
+      "melhoria4": "",
+      "material": "",
+      "encanto1": "",
+      "encanto2": "",
+      "encanto3": ""
+    },
+    "melhorias": {},
+    "encantos": {},
+    "ataques": 0,
+    "proficiencia": "marcial",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "size": "normal"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623974668,
+    "modifiedTime": 1736623974668,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!gnjMbBL7xXc2ozyr"
+}

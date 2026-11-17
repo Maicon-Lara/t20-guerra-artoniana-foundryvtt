@@ -1,0 +1,22 @@
+{
+  "name": "Itens Shivara",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "SxwjKt8w6OQ14TrK",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624014031,
+    "modifiedTime": 1736624014053,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!SxwjKt8w6OQ14TrK"
+}

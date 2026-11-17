@@ -1,0 +1,22 @@
+{
+  "name": "Itens Reggar Wortric",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "FwXbeT79yKEBTcPG",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623945952,
+    "modifiedTime": 1736623969765,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!FwXbeT79yKEBTcPG"
+}

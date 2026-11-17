@@ -1,0 +1,1894 @@
+{
+  "folder": "IgFoDsznsSYCSfTm",
+  "name": "Lasus Galien",
+  "type": "simple",
+  "_id": "15kUz7zpJkmB1ULm",
+  "img": "Token_-_Lasus.png",
+  "system": {
+    "atributos": {
+      "for": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "des": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "con": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "int": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "sab": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      },
+      "car": {
+        "value": 0,
+        "base": 0,
+        "racial": 0,
+        "bonus": 0
+      }
+    },
+    "attributes": {
+      "carga": {
+        "value": 0,
+        "atributo": "for",
+        "base": 10,
+        "bonus": [],
+        "max": 0,
+        "pct": 0,
+        "encumbered": false
+      },
+      "defesa": {
+        "atributo": "des",
+        "pda": 0,
+        "value": 10,
+        "base": 10,
+        "outros": 0,
+        "condi": 0,
+        "bonus": []
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 9,
+        "hover": false,
+        "unit": "m"
+      },
+      "pv": {
+        "value": 0,
+        "temp": 0,
+        "min": 0,
+        "max": 0
+      },
+      "pm": {
+        "value": 0,
+        "temp": 0,
+        "min": 0,
+        "max": 0
+      },
+      "sentidos": {
+        "value": []
+      }
+    },
+    "detalhes": {
+      "biography": {
+        "value": "<p data-pm-slice=\"0 0 []\"><strong>Alquimista e padeiro.</strong> De dia, ele coordena a produção de pães e doces, mas à noite se diverte usando o forno para criar poções e explosivos!</p>",
+        "public": ""
+      }
+    },
+    "dinheiro": {
+      "tc": 8,
+      "tl": 0,
+      "to": 0,
+      "tp": 438
+    },
+    "modificadores": {
+      "atributos": {
+        "for": [],
+        "des": [],
+        "con": [],
+        "int": [],
+        "sab": [],
+        "car": [],
+        "fisicos": [],
+        "mentais": [],
+        "geral": []
+      },
+      "ataque": {
+        "geral": [],
+        "cac": [],
+        "ad": []
+      },
+      "dano": {
+        "ad": [],
+        "alq": [],
+        "cac": [],
+        "geral": [],
+        "mag": []
+      },
+      "pericias": {
+        "geral": [],
+        "resistencia": [],
+        "semataque": [],
+        "ataque": [],
+        "atr": {
+          "for": [],
+          "des": [],
+          "con": [],
+          "int": [],
+          "sab": [],
+          "car": []
+        }
+      }
+    },
+    "pericias": {
+      "acro": {
+        "atributo": "des",
+        "treinado": false,
+        "st": true,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ades": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atle": {
+        "atributo": "for",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "atua": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cava": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "conh": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "cura": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "dipl": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "enga": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "fort": {
+        "atributo": "con",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "furt": {
+        "atributo": "des",
+        "treinado": false,
+        "st": true,
+        "pda": false,
+        "size": true,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "guer": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inic": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inti": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "intu": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "inve": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "joga": {
+        "atributo": "car",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "ladi": {
+        "atributo": "des",
+        "treinado": false,
+        "st": true,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "luta": {
+        "atributo": "for",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "mist": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "nobr": {
+        "atributo": "int",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "perc": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pilo": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "pont": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "refl": {
+        "atributo": "des",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "reli": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": true,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "sobr": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      },
+      "vont": {
+        "atributo": "sab",
+        "treinado": false,
+        "st": false,
+        "pda": false,
+        "size": false,
+        "value": 0,
+        "outros": 0,
+        "condi": 0,
+        "bonus": [],
+        "custom": false,
+        "label": "",
+        "nome": ""
+      }
+    },
+    "resources": {},
+    "tracos": {
+      "ic": {
+        "value": []
+      },
+      "resistencias": {
+        "dano": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "perda": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "acido": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "corte": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "eletricidade": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "essencia": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "fogo": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "frio": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "impacto": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "luz": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "psiquico": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "perfuracao": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        },
+        "trevas": {
+          "value": 0,
+          "base": 0,
+          "bonus": [],
+          "excecao": 0,
+          "imunidade": false,
+          "vulnerabilidade": false
+        }
+      },
+      "tamanho": "med"
+    }
+  },
+  "prototypeToken": {
+    "name": "Lasus",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "Token_-_Lasus.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attributes.pv,attributes.pm"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": [
+              "bar1",
+              "bar1"
+            ],
+            "order": [
+              0,
+              1
+            ],
+            "attribute": [
+              "attributes.pv",
+              "attributes.pm"
+            ],
+            "mincolor": [
+              "#FF0000",
+              "#FF0000"
+            ],
+            "maxcolor": [
+              "#80FF00",
+              "#80FF00"
+            ],
+            "position": [
+              "bottom-inner",
+              "bottom-inner"
+            ],
+            "gmVisibility": [
+              -1,
+              -1
+            ],
+            "ownerVisibility": [
+              0,
+              0
+            ],
+            "otherVisibility": [
+              0,
+              0
+            ],
+            "hideFull": [
+              false,
+              false
+            ],
+            "hideEmpty": [
+              false,
+              false
+            ],
+            "hideCombat": [
+              false,
+              false
+            ],
+            "hideNoCombat": [
+              false,
+              false
+            ],
+            "indentLeft": [
+              null,
+              null
+            ],
+            "indentRight": [
+              null,
+              null
+            ],
+            "shareHeight": [
+              false,
+              false
+            ],
+            "style": [
+              "user",
+              "user"
+            ],
+            "label": [
+              "",
+              ""
+            ],
+            "invert": [
+              false,
+              false
+            ],
+            "invertDirection": [
+              false,
+              false
+            ],
+            "subdivisions": [
+              null,
+              null
+            ],
+            "subdivisionsOwner": [
+              false,
+              false
+            ],
+            "fgImage": [
+              "",
+              ""
+            ],
+            "bgImage": [
+              "",
+              ""
+            ],
+            "opacity": [
+              null,
+              null
+            ],
+            "max": [
+              0,
+              null
+            ]
+          },
+          "bar2": {
+            "id": "bar1",
+            "order": 0,
+            "attribute": "attributes.pm",
+            "mincolor": "#FF0000",
+            "maxcolor": "#80FF00",
+            "position": "bottom-inner",
+            "gmVisibility": -1,
+            "ownerVisibility": 0,
+            "otherVisibility": 0
+          }
+        }
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "about-face": {
+        "indicatorDisabled": false,
+        "flipOrRotate": "global",
+        "facingDirection": "global",
+        "rotationOffset": 0
+      }
+    },
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "2S7fwRkTSV4AwxkD",
+      "name": "Ácido",
+      "type": "consumivel",
+      "img": "systems/tormenta20/icons/itens/gerais/acido.webp",
+      "effects": [],
+      "folder": "FUrcrKKV6smuHI1v",
+      "sort": 100000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.tormenta20.equipamentos.8xfLuPry0uNNnYfz"
+        },
+        "item-piles": {
+          "system": {
+            "quantityForPrice": 1
+          },
+          "item": {
+            "prices": [
+              [
+                {
+                  "id": "iqePTjaUuXQ4PlZq",
+                  "quantity": 10,
+                  "fixed": true,
+                  "percent": false,
+                  "type": "attribute",
+                  "name": "Prata",
+                  "img": "icons/commodities/currency/coin-embossed-unicorn-silver.webp",
+                  "abbreviation": "{#}P",
+                  "data": {
+                    "path": "system.dinheiro.tp"
+                  },
+                  "primary": false,
+                  "exchangeRate": 0.1,
+                  "secondary": false
+                }
+              ]
+            ]
+          },
+          "version": "2.9.1"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Frasco de vidro contendo um &aacute;cido alqu&iacute;mico altamente corrosivo. Para usar o &aacute;cido, voc&ecirc; gasta uma a&ccedil;&atilde;o padr&atilde;o e escolhe uma criatura em alcance curto. Essa criatura sofre 2d4 pontos de dano de &aacute;cido (Reflexos CD Des reduz &agrave; metade).&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 160 (JdA)",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": ""
+        },
+        "carregado": true,
+        "peso": 0.5,
+        "espacos": 0.5,
+        "qtd": 1,
+        "preco": 10,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "ativacao": {
+          "execucao": "action",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "inst",
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "efeito": "2d4",
+        "alcance": "short",
+        "alvo": "1 criatura",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "des",
+          "bonus": null,
+          "txt": "Reflexos reduz a metade"
+        },
+        "rolls": [
+          {
+            "name": "Dano",
+            "key": "dano0",
+            "type": "dano",
+            "parts": [
+              [
+                "2d4",
+                "acido",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "tipo": "alchemy",
+        "uses": {
+          "autoDestroy": false
+        },
+        "chatFlavor": "",
+        "origin": "",
+        "tags": [],
+        "chatGif": "",
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "encantos": {},
+        "subtipo": "",
+        "rolltags": []
+      },
+      "ownership": {
+        "default": 0,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.equipamentos.8xfLuPry0uNNnYfz",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!15kUz7zpJkmB1ULm.2S7fwRkTSV4AwxkD"
+    },
+    {
+      "name": "Névoa Tóxica",
+      "type": "consumivel",
+      "img": "systems/tormenta20/icons/itens/gerais/veneno.webp",
+      "effects": [
+        {
+          "origin": "Item.rVf3avjsoKoSn5q3",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": false,
+              "durationScene": false
+            }
+          },
+          "duration": {
+            "rounds": 3,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "818io8Q3Dg7J9vDq",
+          "changes": [],
+          "transfer": false,
+          "name": "Névoa Tóxica",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "systems/tormenta20/icons/itens/gerais/veneno.webp",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!15kUz7zpJkmB1ULm.eK78sFNlJMDkFOXF.818io8Q3Dg7J9vDq"
+        }
+      ],
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.PuaDbsue2OWjoeF2",
+          "defaultPermission": 2,
+          "hash": "a2492a20e347fb99a44df7fadc02da9be3e8a6e0"
+        },
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.world-arielton-1663050699947.NMYCIIIfCmn7KRbD"
+        },
+        "item-piles": {
+          "system": {
+            "quantityForPrice": 1
+          },
+          "item": {
+            "prices": [
+              [
+                {
+                  "id": "s2KnE9VtdccRIwoa",
+                  "quantity": 30,
+                  "fixed": true,
+                  "percent": false,
+                  "type": "attribute",
+                  "name": "Prata",
+                  "img": "icons/commodities/currency/coin-embossed-unicorn-silver.webp",
+                  "abbreviation": "{#}P",
+                  "data": {
+                    "path": "system.dinheiro.tp",
+                    "item": false
+                  },
+                  "primary": false,
+                  "exchangeRate": 0.1,
+                  "secondary": false
+                }
+              ]
+            ],
+            "hidden": true
+          },
+          "version": "2.9.1"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Este g&aacute;s verde queima e corr&oacute;i a pele e os pulm&otilde;es.</p>\n<p style=\"text-align: justify;\"><strong>Tipo: </strong><em>Inala&ccedil;&atilde;o.</em></p>\n<p style=\"text-align: justify;\"><strong>Efeito:</strong><em> Perde 1d12 PV por rodada </em><em>durante 3 rodadas (perde 1d12 PV).</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 161 (JdA)",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": ""
+        },
+        "carregado": true,
+        "peso": 0.5,
+        "espacos": 0.5,
+        "qtd": 1,
+        "preco": 30,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [
+          {
+            "name": "Dano",
+            "key": "dano0",
+            "type": "dano",
+            "parts": [
+              [
+                "1d12",
+                "perda",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "tipo": "alchemy",
+        "uses": {
+          "autoDestroy": false
+        },
+        "chatFlavor": "",
+        "origin": "",
+        "tags": [],
+        "subtipo": "",
+        "chatGif": "",
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "encantos": {},
+        "rolltags": []
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.world.world-arielton-1663050699947.NMYCIIIfCmn7KRbD",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "eK78sFNlJMDkFOXF",
+      "folder": "bxpHxgHjOuykr5Rh",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "tIn9sSkrT3mDWirx": 3,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_key": "!actors.items!15kUz7zpJkmB1ULm.eK78sFNlJMDkFOXF"
+    },
+    {
+      "name": "Peçonha Comum",
+      "type": "consumivel",
+      "img": "systems/tormenta20/icons/itens/gerais/veneno.webp",
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.JfE9jaQjXzWsbZND",
+          "defaultPermission": 2,
+          "hash": "83d171333455e78841be411b729b2dded8722620"
+        },
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.world-arielton-1663050699947.yQBj45qw9hARFvSh"
+        },
+        "item-piles": {
+          "system": {
+            "quantityForPrice": 1
+          },
+          "item": {
+            "prices": [
+              [
+                {
+                  "id": "Fnqr2azxkfmCSYDG",
+                  "quantity": 15,
+                  "fixed": true,
+                  "percent": false,
+                  "type": "attribute",
+                  "name": "Prata",
+                  "img": "icons/commodities/currency/coin-embossed-unicorn-silver.webp",
+                  "abbreviation": "{#}P",
+                  "data": {
+                    "path": "system.dinheiro.tp",
+                    "item": false
+                  },
+                  "primary": false,
+                  "exchangeRate": 0.1,
+                  "secondary": false
+                }
+              ]
+            ],
+            "hidden": true
+          },
+          "version": "2.9.1"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Veneno t&iacute;pico, extra&iacute;do de animais ou plantas t&oacute;xicas.</p>\n<p><strong>Tipo: </strong><em>Contato.</em></p>\n<p><strong>Efeito: </strong><em>Perde 1d12 PV.</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 161 (JdA)",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": ""
+        },
+        "carregado": true,
+        "peso": 0.5,
+        "espacos": 0.5,
+        "qtd": 1,
+        "preco": 15,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [
+          {
+            "name": "Dano",
+            "key": "dano0",
+            "type": "dano",
+            "parts": [
+              [
+                "1d12",
+                "perda",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "tipo": "alchemy",
+        "uses": {
+          "autoDestroy": false
+        },
+        "chatFlavor": "",
+        "origin": "",
+        "tags": [],
+        "subtipo": "",
+        "chatGif": "",
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "encantos": {},
+        "rolltags": []
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.world.world-arielton-1663050699947.yQBj45qw9hARFvSh",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "wyVimtRnF0GiXYqY",
+      "folder": "bxpHxgHjOuykr5Rh",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "tIn9sSkrT3mDWirx": 3,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_key": "!actors.items!15kUz7zpJkmB1ULm.wyVimtRnF0GiXYqY"
+    },
+    {
+      "folder": "QXbLv6j6WdHu4pIZ",
+      "name": "Bálsamo de Drogadora",
+      "type": "consumivel",
+      "img": "icons/consumables/potions/potion-tube-corked-tied-green.webp",
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\"><span class=\"fontstyle2\">Produzido por curandeiras dos povos-trovão, este pote de cerâmica contém uma pasta gosmenta. Aplicá-la é uma ação completa e cura 4d6+4 PV.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Ameaças de Arton, Pág. 396",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": ""
+        },
+        "carregado": true,
+        "peso": 0,
+        "espacos": 0.5,
+        "qtd": 1,
+        "preco": 60,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "rd": 0,
+        "ativacao": {
+          "execucao": "",
+          "custo": 0,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": 0,
+          "width": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": 0,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "none",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [
+          {
+            "name": "Cura",
+            "key": "dano0",
+            "type": "dano",
+            "parts": [
+              [
+                "4d6+4",
+                "curapv",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "tipo": "alchemy",
+        "uses": {
+          "autoDestroy": false
+        },
+        "origin": "",
+        "tags": [],
+        "rolltags": [],
+        "chatFlavor": "",
+        "chatGif": "",
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "encantos": {},
+        "subtipo": ""
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "gaAtrNzABNupkS9K": 3,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "flags": {
+        "exportSource": {
+          "world": "t20-ameatlas",
+          "system": "tormenta20",
+          "coreVersion": "11.313",
+          "systemVersion": "1.4.203d2"
+        },
+        "core": {
+          "sourceId": "Compendium.ameatlas.equipamentos.Item.xdfWAGwicM0DI5D8"
+        },
+        "item-piles": {
+          "item": {
+            "hidden": true
+          },
+          "version": "2.9.1"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.ameatlas.equipamentos.Item.xdfWAGwicM0DI5D8",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "VARvh4VJ8DLWR3Bl",
+      "_key": "!actors.items!15kUz7zpJkmB1ULm.VARvh4VJ8DLWR3Bl"
+    },
+    {
+      "name": "Equipamento de Viagem",
+      "type": "equipamento",
+      "img": "systems/tormenta20/icons/itens/gerais/equipamento-de-viagem.webp",
+      "system": {
+        "description": {
+          "value": "<p>Um saco de lona com pederneira (pedra para fazer fogo), panelas e talheres para cozinhar, anz&oacute;l e linha para pescar, uma pequena p&aacute; e outras ferramentas &uacute;teis para sobreviver nos ermos. Um personagem sem este item sofre &ndash;5 em testes de Sobreviv&ecirc;ncia para fazer um acampamento. N&atilde;o inclui saco de dormir.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 158 (JdA)",
+        "equipado": false,
+        "equipado2": {
+          "slot": 0,
+          "type": "hand"
+        },
+        "carregado": true,
+        "peso": 0,
+        "espacos": 1,
+        "qtd": 1,
+        "preco": 10,
+        "pv": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "rd": 0,
+        "tipo": "ferramenta",
+        "armadura": {
+          "value": 0,
+          "penalidade": 0,
+          "maxAtr": 0
+        },
+        "origin": "",
+        "tags": [],
+        "chatFlavor": "",
+        "chatGif": "",
+        "rolls": [],
+        "ativacao": {
+          "custo": 0,
+          "condicao": "",
+          "execucao": "",
+          "qtd": "",
+          "special": ""
+        },
+        "upgrades": {
+          "melhoria1": "",
+          "melhoria2": "",
+          "melhoria3": "",
+          "melhoria4": "",
+          "material": "",
+          "encanto1": "",
+          "encanto2": "",
+          "encanto3": ""
+        },
+        "melhorias": {},
+        "encantos": {},
+        "rolltags": []
+      },
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.tormenta20.equipamentos.Item.j0io05hClsF3OR26"
+        },
+        "tormenta20": {
+          "needCommit": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.tormenta20.equipamentos.Item.j0io05hClsF3OR26",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "itMzDuPvaM3FaVXY",
+      "folder": "VqWdhvUwkVTlura5",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "tIn9sSkrT3mDWirx": 3,
+        "RA5Alqvvl248ZXyF": 3,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_key": "!actors.items!15kUz7zpJkmB1ULm.itMzDuPvaM3FaVXY"
+    },
+    {
+      "name": "Lasus (Parceiro)",
+      "type": "poder",
+      "img": "icons/skills/ranged/bomb-grenade-thrown-yellow.webp",
+      "effects": [
+        {
+          "origin": "Item.R5lCWsou4pg0UWZ3",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": true,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": false,
+              "consumable": false,
+              "items": "",
+              "aumenta": false,
+              "custo": "1"
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "KuvqysuEGa5TLU10",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "2d6",
+              "priority": 0
+            }
+          ],
+          "transfer": false,
+          "name": "Veterano: como acima, mas você também pode gastar 2 PM para causar 4d6 pontos de dano.",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!15kUz7zpJkmB1ULm.2VPnlhdXhTJmiklP.KuvqysuEGa5TLU10"
+        },
+        {
+          "origin": "Item.R5lCWsou4pg0UWZ3",
+          "tint": "#ffffff",
+          "flags": {
+            "tormenta20": {
+              "onuse": true,
+              "durationScene": false,
+              "self": true,
+              "attack": false,
+              "skill": false,
+              "ability": false,
+              "power": false,
+              "spell": false,
+              "consumable": false,
+              "items": "",
+              "aumenta": false,
+              "custo": "3"
+            }
+          },
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "vYKggB1hxhT4LRZv",
+          "changes": [
+            {
+              "key": "dano",
+              "mode": 2,
+              "value": "4d6",
+              "priority": 0
+            }
+          ],
+          "transfer": false,
+          "name": "Mestre: como acima, mas você também pode gastar 4 PM para causar 6d6 pontos de dano em uma área de 6m de raio em alcance médio.",
+          "description": "",
+          "statuses": [],
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "tormenta20",
+            "systemVersion": "1.4.213",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "img": "icons/svg/upgrade.svg",
+          "type": "base",
+          "system": {},
+          "sort": 0,
+          "_key": "!actors.items.effects!15kUz7zpJkmB1ULm.2VPnlhdXhTJmiklP.vYKggB1hxhT4LRZv"
+        }
+      ],
+      "flags": {
+        "scene-packer": {
+          "sourceId": "Item.rOO6U1bkk4xrlize",
+          "defaultPermission": 2,
+          "hash": "489a612a8235f62cd560028b82b1bf4c35524979"
+        },
+        "cf": null,
+        "core": {
+          "sourceId": "Compendium.world.world-arielton-1663050699947.Y57phnZDw4ejnfas"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Cada parceiro pode ajudar apenas um personagem por vez. No in&iacute;cio do seu turno, voc&ecirc; pode gastar uma a&ccedil;&atilde;o de movimento para passar um parceiro para outro personagem em alcance curto at&eacute; o fim da cena (para fazer isso com um animal, voc&ecirc; precisa ser treinado em Adestramento).</p>\n<p style=\"text-align: justify;\">Um arcanista ou inventor com itens alqu&iacute;micos.</p>\n<p style=\"text-align: justify;\"><strong>Iniciante</strong>: uma vez por rodada, como uma a&ccedil;&atilde;o livre, voc&ecirc; pode gastar 1 PM para causar 2d6 pontos de dano de &aacute;cido, eletricidade, fogo ou frio (de acordo com o parceiro) em um alvo em alcance curto.</p>\n<p style=\"text-align: justify;\"><strong>Veterano</strong>: como acima, mas voc&ecirc; tamb&eacute;m pode gastar 2 PM para causar 4d6 pontos de dano.</p>\n<p style=\"text-align: justify;\"><strong>Mestre</strong>: como acima, mas voc&ecirc; tamb&eacute;m pode gastar 4 PM para causar 6d6 pontos de dano em uma &aacute;rea de 6m de raio em alcance m&eacute;dio.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "T20, pg. 261 (JdA)",
+        "ativacao": {
+          "execucao": "free",
+          "custo": 1,
+          "qtd": "",
+          "condicao": "",
+          "special": ""
+        },
+        "duracao": {
+          "value": 0,
+          "units": "",
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "units": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "mpMultiplier": false
+        },
+        "efeito": "",
+        "alcance": "short",
+        "alvo": "",
+        "area": "",
+        "resistencia": {
+          "pericia": "",
+          "atributo": "",
+          "bonus": 0,
+          "txt": ""
+        },
+        "rolls": [
+          {
+            "name": "Dano",
+            "key": "dano0",
+            "type": "dano",
+            "parts": [
+              [
+                "2d6",
+                "fogo",
+                ""
+              ]
+            ],
+            "versatil": ""
+          }
+        ],
+        "tipo": "geral",
+        "subtipo": "Parceiros",
+        "chatFlavor": "",
+        "origin": "",
+        "tags": [],
+        "chatGif": "",
+        "rolltags": []
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.world.world-arielton-1663050699947.Y57phnZDw4ejnfas",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "2VPnlhdXhTJmiklP",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tIn9sSkrT3mDWirx": 3,
+        "PaWgKaP6BJWNZCI4": 3
+      },
+      "_key": "!actors.items!15kUz7zpJkmB1ULm.2VPnlhdXhTJmiklP"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {
+    "item-piles": {
+      "data": {
+        "enabled": true,
+        "type": "merchant",
+        "description": "<p><span style=\"font-family: Arial\"><strong>Alquimista e padeiro.</strong> De dia, ele coordena a produção de pães e doces, mas à noite se diverte usando o forno para criar poções e explosivos!</span></p>",
+        "itemTypePriceModifiers": [
+          {
+            "type": "base",
+            "category": "",
+            "override": false,
+            "buyPriceModifier": 0.8,
+            "sellPriceModifier": 0.5
+          }
+        ]
+      },
+      "version": "2.9.1",
+      "sharing": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623464897,
+    "modifiedTime": 1736623464897,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!actors!15kUz7zpJkmB1ULm"
+}

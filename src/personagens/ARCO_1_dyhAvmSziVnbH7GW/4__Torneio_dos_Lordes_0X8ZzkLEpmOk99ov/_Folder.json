@@ -1,0 +1,22 @@
+{
+  "name": "4. Torneio dos Lordes",
+  "sorting": "a",
+  "folder": "dyhAvmSziVnbH7GW",
+  "type": "Actor",
+  "_id": "0X8ZzkLEpmOk99ov",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623461788,
+    "modifiedTime": 1736623544835,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!0X8ZzkLEpmOk99ov"
+}

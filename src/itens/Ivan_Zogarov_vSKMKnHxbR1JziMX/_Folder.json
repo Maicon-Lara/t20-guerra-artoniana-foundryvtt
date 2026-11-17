@@ -1,0 +1,22 @@
+{
+  "name": "Ivan Zogarov",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "vSKMKnHxbR1JziMX",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736624027782,
+    "modifiedTime": 1736624027801,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!vSKMKnHxbR1JziMX"
+}

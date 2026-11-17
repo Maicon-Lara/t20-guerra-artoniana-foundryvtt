@@ -1,0 +1,22 @@
+{
+  "name": "ARCO 3",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "Gto91ZOQ1piGJGCM",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623619875,
+    "modifiedTime": 1736623828743,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!folders!Gto91ZOQ1piGJGCM"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Artefato de Cross",
+  "sorting": "a",
+  "folder": "hT4Wy308vLfW5A2G",
+  "type": "Actor",
+  "_id": "m6HpcsgiX3xtT4VN",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623853701,
+    "modifiedTime": 1736623878019,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "description": "",
+  "_key": "!folders!m6HpcsgiX3xtT4VN"
+}

@@ -1,0 +1,183 @@
+{
+  "_id": "7ax1OMlXzUjhAPIh",
+  "name": "Muralha",
+  "type": "equipamento",
+  "img": "icons/equipment/chest/breastplate-layered-grey.webp",
+  "effects": [
+    {
+      "name": "Muralha",
+      "origin": "Item.7ax1OMlXzUjhAPIh",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
+      "_id": "6SATTbBkp2ldDGSx",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.modificadores.pericias.resistencia",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.tracos.resistencias.dano.bonus",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!7ax1OMlXzUjhAPIh.6SATTbBkp2ldDGSx"
+    },
+    {
+      "name": "Abalado",
+      "origin": "Item.7ax1OMlXzUjhAPIh",
+      "tint": "#ffffff",
+      "flags": {
+        "tormenta20": {
+          "onuse": false,
+          "durationScene": false
+        }
+      },
+      "duration": {
+        "rounds": 1,
+        "seconds": null,
+        "startTime": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "systems/tormenta20/icons/conditions/abalado.svg",
+      "_id": "dB6355KmEbkBcZyi",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "tormenta20",
+        "systemVersion": "1.4.213",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!7ax1OMlXzUjhAPIh.dB6355KmEbkBcZyi"
+    }
+  ],
+  "folder": "ZJl6C9gy6Oll6zsh",
+  "sort": 250000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.tormenta20.equipamentos.CTeeKAq8zZlaJTpA"
+    },
+    "tormenta20": {
+      "needCommit": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify\">A mais forte e pesada das armaduras, formada por placas de metal forjadas e encaixadas de modo a cobrir o corpo inteiro. Inclui manoplas e grevas (luvas e botas metálicas, respectivamente), um elmo com viseira e uma túnica acolchoada para ser usada sob as placas. Correias e fivelas distribuem o peso da armadura pelo corpo inteiro.</p><p style=\"text-align: justify\">Esta armadura precisa ser feita sob medida para cada usuário; um ferreiro cobra T$ 200 para adaptar uma armadura completa a um novo usuário.</p><hr><p style=\"text-align: justify\"><strong>Armadura completa reforçada selada sob medida assustadora fortificada invulnerável</strong></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "T20, pg. 154 (JdA)",
+    "equipado": false,
+    "equipado2": {
+      "slot": 0,
+      "type": "body"
+    },
+    "carregado": true,
+    "peso": 25,
+    "espacos": 5,
+    "qtd": 1,
+    "preco": 3000,
+    "pv": {
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    "rd": 0,
+    "tipo": "pesada",
+    "armadura": {
+      "value": 11,
+      "penalidade": -3,
+      "maxAtr": 0
+    },
+    "rolls": [],
+    "origin": "",
+    "tags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "ativacao": {
+      "custo": 2,
+      "condicao": "",
+      "execucao": "",
+      "qtd": "",
+      "special": ""
+    },
+    "upgrades": {
+      "melhoria1": "reinforced",
+      "melhoria2": "sealed",
+      "melhoria3": "adjusted",
+      "melhoria4": "undermeasure",
+      "material": "",
+      "encanto1": "frightful",
+      "encanto2": "ortification",
+      "encanto3": "invulnerable"
+    },
+    "melhorias": {},
+    "encantos": {},
+    "rolltags": []
+  },
+  "ownership": {
+    "default": 0,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.tormenta20.equipamentos.CTeeKAq8zZlaJTpA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": 1736623937093,
+    "modifiedTime": 1736623937093,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_key": "!items!7ax1OMlXzUjhAPIh"
+}
