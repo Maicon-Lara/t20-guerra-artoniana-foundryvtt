@@ -48,3 +48,11 @@ O mapeamento de nomes divergentes está em `APELIDOS`, no `tools/imagens.py`.
 `node tools/pacote.mjs` (depois do build) gera `dist/guerra-artoniana-dados.json`, com os documentos e os tokens em base64.
 A macro `tools/macro-importar.js`, colada numa Macro de Script e executada pelo Mestre, lê esse arquivo,
 envia os tokens pelo navegador para `guerra-artoniana/tokens` e cria os compêndios do mundo (`world.ga-*`).
+
+## Batalha em Massa
+
+A macro **É Guerra!** abre o painel de batalha (`scripts/batalha.mjs`), com as regras do Apêndice B:
+escolha da batalha (Karst, Svalas, Norm, Hippiontar, Zakharin, Iörvaen ×2, Cerco de Valkaria ou personalizada),
+posição dos heróis, rolagem de evento e inimigo, bônus por dano/perícia/estandarte, teste dos generais,
+pontos de vitória, fuga, destruição e baixas. Os dados de cada batalha ficam em `scripts/batalhas-dados.mjs`.
+O estado fica salvo no mundo; "Desfazer" volta a última ação do painel.

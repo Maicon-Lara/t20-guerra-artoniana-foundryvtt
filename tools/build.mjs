@@ -3,12 +3,12 @@
 // 2. troca as imagens soltas pelos tokens baixados em module/assets/tokens;
 // 3. compila cada pack em module/packs/<pack> e grava o module.json.
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
-import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, cpSync } from "node:fs";
 import path from "node:path";
 import { montarAventuras, conferirCobertura } from "./aventuras.mjs";
 
 const ID = "guerra-artoniana";
-const VERSAO = "2.1.2";
+const VERSAO = "2.2.0";
 const REPO = "https://github.com/Maicon-Lara/t20-guerra-artoniana-foundryvtt";
 const RAIZ = path.resolve(import.meta.dirname, "..");
 const SRC = path.join(RAIZ, "src");
@@ -105,6 +105,10 @@ packs.unshift({
 const fora = conferirCobertura(TMP, aventuras);
 if (fora.length) console.log(`fora de qualquer aventura: ${fora.join(" | ")}`);
 
+// Scripts do módulo (painel de Batalha em Massa).
+rmSync(path.join(MOD, "scripts"), { recursive: true, force: true });
+cpSync(path.join(RAIZ, "scripts"), path.join(MOD, "scripts"), { recursive: true });
+
 const manifesto = {
 	id: ID,
 	title: "Guerra Artoniana — NPCs e Ameaças",
@@ -118,6 +122,7 @@ const manifesto = {
 	relationships: {
 		systems: [{ id: "tormenta20", type: "system", compatibility: { minimum: "1.5.0" } }]
 	},
+	esmodules: ["scripts/batalha.mjs"],
 	packs,
 	packFolders: [
 		{

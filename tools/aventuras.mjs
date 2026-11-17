@@ -51,7 +51,7 @@ export const AVENTURAS = [
 		itens: ["rwWEolS3jX8b9wu9", "3FQoVWxdKvK6kNUq"],
 		tabelas: ["2INq4Ge5gYyS4dJ9", "XCNldSHNt8P8CO9O", "l3sUAI3lTomjkKag", "bdOJOfultA9Lhwqy", "uWedfkqBtcbAM0Ga"],
 		macros: ["sqQaXE7GZfXgKRs3"],
-		aviso: "A macro \"É Guerra!\" abre uma janela com os quatro tipos de evento e rola a tabela escolhida (não precisa de outros módulos)."
+		aviso: "A macro \"É Guerra!\" abre o painel de Batalha em Massa (Apêndice B): escolha a batalha, mova os heróis entre as posições, role eventos e inimigos e os testes dos generais, com placar de pontos de vitória."
 	}
 ];
 
