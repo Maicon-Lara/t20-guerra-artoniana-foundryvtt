@@ -36,6 +36,7 @@ No mundo, ative o módulo, abra o compêndio **Aventuras (importar por arco)**, 
 
 ```
 python -I tools/imagens.py tools/drive-arquivos.json src module/assets/tokens
+python -I tools/webp.py
 npm run build
 ```
 

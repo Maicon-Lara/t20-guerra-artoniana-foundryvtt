@@ -14,7 +14,7 @@ export const AVENTURAS = [
 	{
 		nome: "Guerra Artoniana — Arco 1",
 		legenda: "Arco 1: aventuras 1 a 7 e os NPCs de Karst.",
-		capa: "token-g-coronel-reggar-wortric.png",
+		capa: "token-g-coronel-reggar-wortric.webp",
 		atores: "dyhAvmSziVnbH7GW",
 		itens: ["FwXbeT79yKEBTcPG", "NmHxY7V9FvrNkimP", "kJOB7pr21cVwo74x", "kAwvIXe2kPRtXFix"],
 		tabelas: ["uWSW83V11BXOyheu"]
@@ -22,7 +22,7 @@ export const AVENTURAS = [
 	{
 		nome: "Guerra Artoniana — Arco 2",
 		legenda: "Arco 2: aventuras 11 a 16, com as batalhas de Norm, Hippiontar, Zakharin e do Iörvaen.",
-		capa: "token-m-rainha-imperatriz-shivara.png",
+		capa: "token-m-rainha-imperatriz-shivara.webp",
 		atores: "uEuy5vhWkyWomx6B",
 		itens: ["SxwjKt8w6OQ14TrK", "ZJl6C9gy6Oll6zsh", "QJO8B2UlyM80vMWM", "vSKMKnHxbR1JziMX", "7znCNJ3hNbcngkUV"],
 		tabelas: ["6EFhHD5mKH1Knj2D", "kYGxwkOTer0tIyt3"]
@@ -30,7 +30,7 @@ export const AVENTURAS = [
 	{
 		nome: "Guerra Artoniana — Arco 3",
 		legenda: "Arco 3: aventuras 17 a 20, até o Cerco de Valkaria.",
-		capa: "token-m-hermann-von-krauser.png",
+		capa: "token-m-hermann-von-krauser.webp",
 		atores: "Gto91ZOQ1piGJGCM",
 		itens: ["6lMqL05NKGwrSi7q", "eMw24vyz4uVbE4Q6"],
 		tabelas: []
@@ -38,7 +38,7 @@ export const AVENTURAS = [
 	{
 		nome: "Guerra Artoniana — Interlúdio",
 		legenda: "Interlúdio: Artefato de Cross, O Retorno dos Mortos e Piratas de Khubar.",
-		capa: "token-g-bando-pirata.png",
+		capa: "token-g-bando-pirata.webp",
 		atores: "hT4Wy308vLfW5A2G",
 		itens: ["FWzb81B6H4mbYOXU"],
 		tabelas: []
