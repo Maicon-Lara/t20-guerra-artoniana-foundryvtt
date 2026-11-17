@@ -17,7 +17,7 @@ No mundo, ative o módulo, abra o compêndio **Aventuras (importar por arco)**, 
 ## Publicar uma versão
 
 1. Suba `VERSAO` em `tools/build.mjs` e rode `npm run build`.
-2. `tar -a -c -f dist/guerra-artoniana.zip -C module module.json assets packs`
+2. `python -I tools/zip.py`
 3. `gh release create vX.Y.Z dist/guerra-artoniana.zip module/module.json`
 
 ## Estrutura
