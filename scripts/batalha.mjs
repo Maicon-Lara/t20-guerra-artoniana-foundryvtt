@@ -505,10 +505,18 @@ class PainelBatalha extends ApplicationV2 {
 		const t = TAMANHOS[b.tamanho];
 		await postar(
 			`${b.nome} começa!`,
-			`<p><b>${esc(estado.aliado.nome)}</b> (Guerra ${sinal(estado.aliado.guerra)}) vs. <b>${esc(estado.inimigo.nome)}</b> (Guerra ${sinal(estado.inimigo.guerra)})</p>
+			`<p><b>${esc(estado.aliado.nome)}</b> vs. <b>${esc(estado.inimigo.nome)}</b></p>
 			<p>${t.nome}: CD ${t.cd} nas perícias de eventos, +1 ao general a cada ${t.limiar} de dano. Vence quem chegar a ${limiarVitoria(estado)} pontos de vitória.</p>
 			${estado.pv.inimigo || estado.pv.aliado ? `<p>Placar inicial: ${estado.pv.aliado} × ${estado.pv.inimigo}</p>` : ""}
 			<p>Os heróis começam na <b>${esc(b.zonas.retaguarda)}</b> (retaguarda).${estado.lobos ? " Regra Lobos Solitários: cada herói escolhe sua posição e enfrenta o próprio evento." : ""}</p>`
+		);
+		// Só para o Mestre: modificadores dos generais e a tabela de inimigos.
+		await postar(
+			`${b.nome}: notas do Mestre`,
+			`<p>${esc(estado.aliado.nome)}: Guerra ${sinal(estado.aliado.guerra)} · ${esc(estado.inimigo.nome)}: Guerra ${sinal(estado.inimigo.guerra)}</p>
+			${b.inimigos.length ? `<p><b>Inimigos (1d${b.inimigos.length}):</b> ${b.inimigos.map((x, i) => `${i + 1}. ${esc(x.nome)}`).join(" · ")}</p>` : ""}`,
+			[],
+			true
 		);
 		this.render();
 	}
