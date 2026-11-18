@@ -1,0 +1,28 @@
+{
+  "name": "Parceiros",
+  "type": "script",
+  "command": "// Parceiros — abre o painel de parceiros do módulo Guerra Artoniana (Foundry v13).\n// Escolha o parceiro, o nível e o herói: o poder \"Parceiro: Nome\" vai para a ficha com os bônus.\nconst api = game.modules.get(\"guerra-artoniana\")?.active ? game.modules.get(\"guerra-artoniana\").api : null;\nif (api?.abrirParceiros) api.abrirParceiros();\nelse ui.notifications.warn(\"Ative o módulo Guerra Artoniana (versão 2.4 ou mais nova) para usar o painel de parceiros.\");",
+  "img": "icons/environment/people/group.webp",
+  "author": "PaWgKaP6BJWNZCI4",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "bgO7rzWt9IoLIDCl": 3,
+    "PaWgKaP6BJWNZCI4": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "tormenta20",
+    "systemVersion": "1.4.213",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "PaWgKaP6BJWNZCI4"
+  },
+  "_id": "GAparceirosMcr01",
+  "sort": 0,
+  "_key": "!macros!GAparceirosMcr01"
+}

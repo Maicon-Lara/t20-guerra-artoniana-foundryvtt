@@ -45,13 +45,13 @@ export const AVENTURAS = [
 	},
 	{
 		nome: "Guerra Artoniana — Batalhas em Massa e Extras",
-		legenda: "Tabelas de eventos de batalha, a macro \"É Guerra!\" e itens usados em vários arcos.",
+		legenda: "Tabelas de eventos de batalha, as macros \"É Guerra!\" e \"Parceiros\" e itens usados em vários arcos.",
 		capaFixa: "icons/environment/people/infantry-army.webp",
 		atores: null,
 		itens: ["rwWEolS3jX8b9wu9", "3FQoVWxdKvK6kNUq"],
 		tabelas: ["2INq4Ge5gYyS4dJ9", "XCNldSHNt8P8CO9O", "l3sUAI3lTomjkKag", "bdOJOfultA9Lhwqy", "uWedfkqBtcbAM0Ga"],
-		macros: ["sqQaXE7GZfXgKRs3"],
-		aviso: "A macro \"É Guerra!\" abre o painel de Batalha em Massa (Apêndice B): escolha a batalha, mova os heróis entre as posições, role eventos e inimigos e os testes dos generais, com placar de pontos de vitória."
+		macros: ["sqQaXE7GZfXgKRs3", "GAparceirosMcr01"],
+		aviso: "A macro \"É Guerra!\" abre o painel de Batalha em Massa (Apêndice B): escolha a batalha, mova os heróis entre as posições, role eventos e inimigos e os testes dos generais, com placar de pontos de vitória. A macro \"Parceiros\" abre o painel de parceiros: escolha o parceiro, o nível e o herói, e o poder com os bônus vai para a ficha."
 	}
 ];
 

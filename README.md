@@ -57,3 +57,13 @@ posição dos heróis, rolagem de evento e inimigo, bônus por dano/perícia/est
 pontos de vitória, fuga, destruição e baixas. Os dados de cada batalha ficam em `scripts/batalhas-dados.mjs`.
 Regra opcional **Lobos Solitários**: cada personagem de jogador vira uma frente, com posição, evento e bônus próprios (dá para alternar no meio da batalha).
 O estado fica salvo no mundo; "Desfazer" volta a última ação do painel.
+
+## Parceiros
+
+A macro **Parceiros** abre o painel de parceiros (`scripts/parceiros.mjs`, dados em `scripts/parceiros-dados.mjs`).
+Ele lista os 39 parceiros do livro por arco, com recrutamento, evolução e página. Para cada um, escolha o nível (ou a fase,
+como Ayleth na Aventura 5/6/16) e o herói, e clique em **Dar ao herói**. O poder "Parceiro: Nome" vai para a ficha:
+bônus fixos (perícias, Defesa, ataque, deslocamento, atributo) como efeito ativo, e bônus de uso ("uma vez por rodada
++1d6 de dano") como efeito "ao usar", que o jogador marca na janela de rolagem. Esses efeitos de uso são copiados
+do compêndio `tormenta20.parceiros` do sistema. **Passar / atualizar** move o parceiro de herói (ou muda o nível).
+O botão de dispensar tira o parceiro da ficha. Os ajudantes têm as perícias marcáveis no painel.

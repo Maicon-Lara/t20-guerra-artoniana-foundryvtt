@@ -1,6 +1,7 @@
 // Painel de Batalha em Massa (Apêndice B de Jornada Heroica: Guerra Artoniana) para Foundry v13.
 // Abra com a macro "É Guerra!" ou: game.modules.get("guerra-artoniana").api.abrirBatalha()
 import { BATALHAS, EVENTOS, MECANICAS, POSICOES, TAMANHOS } from "./batalhas-dados.mjs";
+import { abrirParceiros, darParceiro, PARCEIROS, registrarParceiros } from "./parceiros.mjs";
 
 const ID = "guerra-artoniana";
 const CHAVE = "batalha";
@@ -582,9 +583,10 @@ function abrirBatalha() {
 
 Hooks.once("init", () => {
 	game.settings.register(ID, CHAVE, { scope: "world", config: false, type: Object, default: {} });
+	registrarParceiros();
 });
 
 Hooks.once("ready", () => {
 	const mod = game.modules.get(ID);
-	if (mod) mod.api = { abrirBatalha, BATALHAS, EVENTOS };
+	if (mod) mod.api = { abrirBatalha, BATALHAS, EVENTOS, abrirParceiros, PARCEIROS, darParceiro };
 });
