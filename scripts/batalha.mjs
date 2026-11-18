@@ -269,13 +269,20 @@ async function testeGenerais(app) {
 
 	await postar(
 		`Rodada ${estado.rodada}: teste dos generais`,
-		`<p>${esc(estado.aliado.nome)}: <b>${rA.total}</b> (Guerra ${sinal(estado.aliado.guerra)}${bonus ? `, heróis ${sinal(bonus)}` : ""})
+		`<p>${esc(estado.aliado.nome)}: <b>${rA.total}</b>${bonus ? ` (heróis ${sinal(bonus)})` : ""}
 		${partes.length ? `<br><small>${esc(partes.join(" · "))}</small>` : ""}</p>
-		<p>${esc(estado.inimigo.nome)}: <b>${rI.total}</b> (Guerra ${sinal(estado.inimigo.guerra)})</p>
+		<p>${esc(estado.inimigo.nome)}: <b>${rI.total}</b></p>
 		<p>${vencedor ? `<b>${esc(estado[vencedor].nome)}</b> vence e ganha <b>${pontos}</b> ponto(s) de vitória.` : "Empate total: ninguém pontua."}</p>
 		<p>Placar: ${esc(estado.aliado.nome)} <b>${estado.pv.aliado}</b> × <b>${estado.pv.inimigo}</b> ${esc(estado.inimigo.nome)} (vitória com ${limiar})</p>
-		${linhas.join("")}`,
-		[rA, rI]
+		${linhas.join("")}`
+	);
+	// As rolagens (com o Guerra de cada general na fórmula) vão só para o Mestre.
+	await postar(
+		`Rodada ${estado.rodada}: rolagens dos generais`,
+		`<p>${esc(estado.aliado.nome)}: Guerra ${sinal(estado.aliado.guerra)}${bonus ? `, heróis ${sinal(bonus)}` : ""} → <b>${rA.total}</b></p>
+		<p>${esc(estado.inimigo.nome)}: Guerra ${sinal(estado.inimigo.guerra)} → <b>${rI.total}</b></p>`,
+		[rA, rI],
+		true
 	);
 	if (!estado.fim) {
 		estado.rodada++;
@@ -291,15 +298,17 @@ async function generalCaiu(app, lado) {
 	guardar(estado);
 	const b = preset(estado);
 	const g = estado[lado];
-	const antes = `${g.nome} (Guerra ${sinal(g.guerra)})`;
+	const antes = g.nome;
+	const guerraAntes = g.guerra;
 	const rolls = [];
+	const rollsMestre = [];
 	if (!g.substituido) {
 		g.nome = b[lado].substituto.nome;
 		g.guerra = b[lado].substituto.guerra;
 		g.substituido = true;
 	} else {
 		const r = await new Roll("1d6 + 1").evaluate();
-		rolls.push(r);
+		rollsMestre.push(r);
 		g.nome = `Oficial (no lugar de ${g.nome})`;
 		g.guerra -= r.total;
 	}
@@ -313,9 +322,15 @@ async function generalCaiu(app, lado) {
 	await gravarEstado(estado);
 	await postar(
 		lado === "inimigo" ? "General inimigo derrotado!" : "General aliado caiu!",
-		`<p>${esc(antes)} sai de cena. Assume <b>${esc(g.nome)}</b>, Guerra ${sinal(g.guerra)}.</p>${extra}
+		`<p>${esc(antes)} sai de cena. Assume <b>${esc(g.nome)}</b>.</p>${extra}
 		<p>Placar: ${estado.pv.aliado} × ${estado.pv.inimigo}</p>`,
 		rolls
+	);
+	await postar(
+		"Novo general: notas do Mestre",
+		`<p>${esc(antes)} (Guerra ${sinal(guerraAntes)}) → <b>${esc(g.nome)}</b>, Guerra ${sinal(g.guerra)}${rollsMestre.length ? ` (–${rollsMestre[0].total}, 1d6+1)` : ""}.</p>`,
+		rollsMestre,
+		true
 	);
 	app.render();
 }
