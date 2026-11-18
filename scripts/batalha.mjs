@@ -17,14 +17,41 @@ const tamanho = (estado) => TAMANHOS[estado.tamanho];
 
 function lerEstado() {
 	const v = game.settings.get(ID, CHAVE);
-	return v?.batalha ? foundry.utils.deepClone(v) : null;
+	if (!v?.batalha) return null;
+	const estado = foundry.utils.deepClone(v);
+	// Batalhas salvas antes dos Lobos Solitários (2.2.x): converte para uma frente só.
+	if (!estado.frentes) {
+		const e = estado.entrada ?? {};
+		estado.frentes = [novaFrente("grupo", "Grupo", null, estado.posicao)];
+		Object.assign(estado.frentes[0], { evento: estado.evento ?? null, dano: e.dano ?? 0, danoCapitao: e.danoCapitao ?? 0, pericia: !!e.pericia, ajuste: e.ajuste ?? 0 });
+		estado.outros = e.outros ?? 0;
+		estado.lobos = false;
+		delete estado.posicao; delete estado.evento; delete estado.entrada;
+	}
+	return estado;
+}
+
+function novaFrente(id, nome, ator, posicao = "retaguarda") {
+	return { id, nome, ator, posicao, ajuste: 0, evento: null, dano: 0, danoCapitao: 0, pericia: false };
+}
+
+// Personagens dos jogadores: o personagem atribuído a cada usuário; sem isso, atores de jogador.
+function herois() {
+	let atores = game.users.filter((u) => !u.isGM && u.character).map((u) => u.character);
+	if (!atores.length) atores = game.actors.filter((a) => a.type === "character" && a.hasPlayerOwner);
+	return [...new Map(atores.map((a) => [a.id, a])).values()];
+}
+
+function frentesDosHerois(posicao) {
+	const lista = herois().map((a) => novaFrente(a.id, a.name, a.uuid, posicao));
+	return lista.length ? lista : [novaFrente("heroi1", "Herói 1", null, posicao)];
 }
 
 async function gravarEstado(estado) {
 	await game.settings.set(ID, CHAVE, estado ?? {});
 }
 
-function novoEstado(b, opcoesMarcadas, limiarVariado) {
+function novoEstado(b, opcoesMarcadas, limiarVariado, lobos) {
 	const opcoes = (b.opcoes ?? []).filter((o) => opcoesMarcadas.includes(o.id));
 	const somar = (campo) => opcoes.reduce((t, o) => t + (o[campo] ?? 0), 0);
 	return {
@@ -38,10 +65,10 @@ function novoEstado(b, opcoesMarcadas, limiarVariado) {
 		fuga: null,
 		aliado: { nome: b.aliado.nome, guerra: b.aliado.guerra + somar("guerraAliado"), substituido: false },
 		inimigo: { nome: b.inimigo.nome, guerra: b.inimigo.guerra + somar("guerraInimigo"), substituido: false },
-		posicao: "retaguarda",
+		lobos,
+		frentes: lobos ? frentesDosHerois("retaguarda") : [novaFrente("grupo", "Grupo")],
 		estandartes: 0,
-		evento: null,
-		entrada: { dano: 0, danoCapitao: 0, pericia: false, outros: 0, ajuste: 0 },
+		outros: 0,
 		fim: null,
 		historico: []
 	};
@@ -61,27 +88,37 @@ function posicoes(estado) {
 	return lista;
 }
 
-function cdPericia(estado) {
+function cdPericia(estado, f) {
 	const b = preset(estado);
-	return tamanho(estado).cd + (estado.posicao === "ceus" ? b.ceus?.cd ?? 0 : 0);
+	return tamanho(estado).cd + (f?.posicao === "ceus" ? b.ceus?.cd ?? 0 : 0);
 }
 
-function bonusEvento(estado) {
-	const ev = EVENTOS.find((e) => e.id === estado.evento?.id);
+function bonusFrente(estado, f) {
+	const ev = EVENTOS.find((e) => e.id === f.evento?.id);
 	const t = tamanho(estado);
-	const e = estado.entrada;
 	const partes = [];
 	let bonus = 0;
 	if (ev) {
-		const dano = (Number(e.dano) || 0) * (ev.danoDobrado ? 2 : 1) - (ev.capitao ? Number(e.danoCapitao) || 0 : 0);
+		const dano = (Number(f.dano) || 0) * (ev.danoDobrado ? 2 : 1) - (ev.capitao ? Number(f.danoCapitao) || 0 : 0);
 		const porDano = Math.floor(Math.max(0, dano) / t.limiar);
 		if (porDano) partes.push(`${sinal(porDano)} dano (${Math.max(0, dano)} ÷ ${t.limiar})`);
 		bonus += porDano;
 		if (ev.capitao && porDano >= 2) { bonus += 2; partes.push("+2 capitão"); }
-		if (e.pericia && ["pericia", "atacarPericia"].includes(ev.mecanica)) { bonus += 2; partes.push("+2 perícia"); }
-		if (estado.posicao === "ceus" && bonus > 0) { bonus += preset(estado).ceus.bonus; partes.push(`+${preset(estado).ceus.bonus} sob os céus`); }
+		if (f.pericia && ["pericia", "atacarPericia"].includes(ev.mecanica)) { bonus += 2; partes.push("+2 perícia"); }
+		if (f.posicao === "ceus" && bonus > 0) { bonus += preset(estado).ceus.bonus; partes.push(`+${preset(estado).ceus.bonus} sob os céus`); }
 	}
-	const outros = Number(e.outros) || 0;
+	return { bonus, partes };
+}
+
+function bonusEvento(estado) {
+	const partes = [];
+	let bonus = 0;
+	for (const f of estado.frentes) {
+		const r = bonusFrente(estado, f);
+		bonus += r.bonus;
+		if (r.partes.length) partes.push(estado.lobos ? `${f.nome}: ${r.partes.join(", ")}` : r.partes.join(", "));
+	}
+	const outros = Number(estado.outros) || 0;
 	if (outros) { bonus += outros; partes.push(`${sinal(outros)} outros`); }
 	if (estado.estandartes) { bonus += 2 * estado.estandartes; partes.push(`+${2 * estado.estandartes} estandarte(s)`); }
 	return { bonus, partes };
@@ -136,16 +173,14 @@ function htmlInimigo(inimigo, dado) {
 
 /* ---------------- ações ---------------- */
 
-async function rolarEvento(app) {
-	const estado = lerEstado();
-	guardar(estado);
+async function rolarEventoFrente(estado, f) {
 	const b = preset(estado);
-	const pos = posicoes(estado).find((p) => p.id === estado.posicao);
-	const ajuste = Number(estado.entrada.ajuste) || 0;
+	const pos = posicoes(estado).find((p) => p.id === f.posicao) ?? posicoes(estado)[1];
+	const ajuste = Number(f.ajuste) || 0;
 	const roll = await new Roll(d20(pos.mod + ajuste)).evaluate();
 	let ev = EVENTOS.find((e) => roll.total <= e.ate);
 	let obs = "";
-	if (estado.curandeiroNoAcampamento && estado.posicao === "acampamento") {
+	if (estado.curandeiroNoAcampamento && f.posicao === "acampamento") {
 		ev = EVENTOS[0];
 		obs = "<p><i>Opção da batalha: no acampamento o evento é sempre Curandeiro.</i></p>";
 	}
@@ -155,21 +190,29 @@ async function rolarEvento(app) {
 		rollInimigo = await new Roll(`1d${b.inimigos.length}`).evaluate();
 		inimigo = b.inimigos[rollInimigo.total - 1];
 	}
-	estado.evento = { id: ev.id, total: roll.total, inimigo: rollInimigo ? rollInimigo.total - 1 : null };
-	estado.entrada = { ...estado.entrada, dano: 0, danoCapitao: 0, pericia: false, outros: 0 };
-	await gravarEstado(estado);
+	Object.assign(f, { evento: { id: ev.id, total: roll.total, inimigo: rollInimigo ? rollInimigo.total - 1 : null }, dano: 0, danoCapitao: 0, pericia: false });
 
-	const cd = cdPericia(estado);
+	const cd = cdPericia(estado, f);
 	const mec = MECANICAS[ev.mecanica].replace("{cd}", cd).replace("{pericia}", ev.pericia ?? "");
+	const quem = estado.lobos ? (f.ator ? `@UUID[${f.ator}]{${f.nome}}` : esc(f.nome)) + ": " : "";
 	await postar(
-		`Rodada ${estado.rodada}: ${ev.nome}`,
-		`<p><b>${esc(pos.zona)}</b> (${pos.nome}, ${sinal(pos.mod)}${ajuste ? `, ajuste ${sinal(ajuste)}` : ""}) → ${roll.total}</p>
+		`Rodada ${estado.rodada}: ${estado.lobos ? esc(f.nome) + " — " : ""}${ev.nome}`,
+		`<p>${quem}<b>${esc(pos.zona)}</b> (${pos.nome}, ${sinal(pos.mod)}${ajuste ? `, ajuste ${sinal(ajuste)}` : ""}) → ${roll.total}</p>
 		${obs}<p>${esc(ev.texto)}</p><p><i>${esc(mec)}</i></p>
 		${ev.mecanica === "pericia" ? `<p><b>Perícia:</b> ${esc(ev.pericia)} — CD ${cd}</p>` : ""}
 		${htmlInimigo(inimigo, rollInimigo ? `1d${b.inimigos.length} = ${rollInimigo.total}` : "")}
 		${ev.combate && ev.mecanica !== "combate" ? `<p><small>Bônus: +1 a cada ${tamanho(estado).limiar} de dano. Magias em área causam 1,5× o dano.</small></p>` : ""}`,
 		[roll, rollInimigo].filter(Boolean)
 	);
+}
+
+async function rolarEvento(app, indice) {
+	const estado = lerEstado();
+	if (estado.fim) return;
+	guardar(estado);
+	const alvos = indice == null ? estado.frentes : [estado.frentes[indice]];
+	for (const f of alvos) await rolarEventoFrente(estado, f);
+	await gravarEstado(estado);
 	app.render();
 }
 
@@ -212,7 +255,7 @@ async function testeGenerais(app) {
 	await postar(
 		`Rodada ${estado.rodada}: teste dos generais`,
 		`<p>${esc(estado.aliado.nome)}: <b>${rA.total}</b> (Guerra ${sinal(estado.aliado.guerra)}${bonus ? `, heróis ${sinal(bonus)}` : ""})
-		${partes.length ? `<br><small>${esc(partes.join(", "))}</small>` : ""}</p>
+		${partes.length ? `<br><small>${esc(partes.join(" · "))}</small>` : ""}</p>
 		<p>${esc(estado.inimigo.nome)}: <b>${rI.total}</b> (Guerra ${sinal(estado.inimigo.guerra)})</p>
 		<p>${vencedor ? `<b>${esc(estado[vencedor].nome)}</b> vence e ganha <b>${pontos}</b> ponto(s) de vitória.` : "Empate total: ninguém pontua."}</p>
 		<p>Placar: ${esc(estado.aliado.nome)} <b>${estado.pv.aliado}</b> × <b>${estado.pv.inimigo}</b> ${esc(estado.inimigo.nome)} (vitória com ${limiar})</p>
@@ -221,8 +264,8 @@ async function testeGenerais(app) {
 	);
 	if (!estado.fim) {
 		estado.rodada++;
-		estado.evento = null;
-		estado.entrada = { ...estado.entrada, dano: 0, danoCapitao: 0, pericia: false, outros: 0, ajuste: 0 };
+		estado.outros = 0;
+		for (const f of estado.frentes) Object.assign(f, { evento: null, dano: 0, danoCapitao: 0, pericia: false, ajuste: 0 });
 	}
 	await gravarEstado(estado);
 	app.render();
@@ -273,7 +316,10 @@ class PainelBatalha extends ApplicationV2 {
 		actions: {
 			comecar: PainelBatalha.#comecar,
 			posicao: PainelBatalha.#posicao,
-			evento: function () { return rolarEvento(this); },
+			evento: function (ev, alvo) { return rolarEvento(this, alvo.dataset.frente == null ? null : Number(alvo.dataset.frente)); },
+			remover: PainelBatalha.#remover,
+			sincronizar: PainelBatalha.#sincronizar,
+			modo: PainelBatalha.#modo,
 			generais: function () { return testeGenerais(this); },
 			caiuInimigo: function () { return generalCaiu(this, "inimigo"); },
 			caiuAliado: function () { return generalCaiu(this, "aliado"); },
@@ -284,7 +330,7 @@ class PainelBatalha extends ApplicationV2 {
 		}
 	};
 
-	escolha = { batalha: BATALHAS[0].id, opcoes: [], limiarVariado: false };
+	escolha = { batalha: BATALHAS[0].id, opcoes: [], limiarVariado: false, lobos: false };
 
 	async _renderHTML() {
 		const estado = lerEstado();
@@ -299,6 +345,9 @@ class PainelBatalha extends ApplicationV2 {
 			.ga-batalha .placar{font-size:1.3em;text-align:center}
 			.ga-batalha input[type=number]{width:70px}
 			.ga-batalha small, .ga-batalha .nota{opacity:.85}
+			.ga-batalha .frente{border-top:1px dashed var(--color-border, #7a7971);padding-top:6px;margin-top:6px}
+			.ga-batalha .frente:first-of-type{border-top:0;margin-top:0;padding-top:0}
+			.ga-batalha .frente h5{margin:0 0 4px;font-weight:bold;display:flex;justify-content:space-between}
 		</style>${estado ? this.#htmlBatalha(estado) : this.#htmlEscolha()}`;
 	}
 
@@ -324,6 +373,8 @@ class PainelBatalha extends ApplicationV2 {
 			vs. <b>${esc(b.inimigo.nome)}</b> Guerra ${sinal(b.inimigo.guerra)} <small>(${esc(b.inimigo.detalhe)})</small></p>
 			${b.notas ? `<p class="nota">${esc(b.notas)}</p>` : ""}
 			${(b.opcoes ?? []).map((o) => `<label class="linha"><input type="checkbox" data-campo="escolha.opcao" value="${o.id}" ${this.escolha.opcoes.includes(o.id) ? "checked" : ""}> ${esc(o.rotulo)}</label>`).join("")}
+			<label class="linha"><input type="checkbox" data-campo="escolha.lobos" ${this.escolha.lobos ? "checked" : ""}> Regra opcional: Lobos Solitários (cada herói escolhe sua posição e enfrenta o próprio evento)</label>
+			${this.escolha.lobos ? `<p class="nota"><small>Heróis: ${esc(herois().map((a) => a.name).join(", ") || "nenhum personagem de jogador encontrado — atribua um personagem a cada jogador")}</small></p>` : ""}
 			<label class="linha"><input type="checkbox" data-campo="escolha.limiarVariado" ${this.escolha.limiarVariado ? "checked" : ""}> Regra opcional: limiar de vitória pelo tamanho (${t.vitoria} pontos em vez de 10)</label>
 			<button type="button" data-action="comecar"><i class="fa-solid fa-flag"></i> Começar batalha</button>
 		</section>`;
@@ -332,14 +383,12 @@ class PainelBatalha extends ApplicationV2 {
 	#htmlBatalha(estado) {
 		const b = preset(estado);
 		const t = tamanho(estado);
-		const ev = EVENTOS.find((e) => e.id === estado.evento?.id);
 		const { bonus, partes } = bonusEvento(estado);
-		const inimigo = estado.evento?.inimigo != null ? b.inimigos[estado.evento.inimigo] : null;
 		const fim = estado.fim;
 		const dis = fim ? "disabled" : "";
 		return `
 		<section>
-			<div class="linha" style="justify-content:space-between"><h4>${esc(b.nome)} — rodada ${estado.rodada}${b.rodadasMax ? ` de ${b.rodadasMax}` : ""}</h4><small>${t.nome} · CD ${cdPericia(estado)} · +1/${t.limiar} dano</small></div>
+			<div class="linha" style="justify-content:space-between"><h4>${esc(b.nome)} — rodada ${estado.rodada}${b.rodadasMax ? ` de ${b.rodadasMax}` : ""}</h4><small>${t.nome} · CD ${cdPericia(estado)} nas perícias · +1/${t.limiar} dano</small></div>
 			<div class="placar">${esc(estado.aliado.nome)} <b>${estado.pv.aliado}</b> × <b>${estado.pv.inimigo}</b> ${esc(estado.inimigo.nome)}</div>
 			<div class="linha" style="justify-content:center">
 				<button type="button" data-action="pontos" data-lado="aliado" data-valor="-1" title="Ajustar pontos do aliado">−</button>
@@ -359,26 +408,21 @@ class PainelBatalha extends ApplicationV2 {
 				<button type="button" data-action="caiuInimigo" ${dis} title="Heróis derrotaram o general inimigo: +1d4+1 pontos e assume o substituto">Derrotado pelos heróis</button></div>
 		</section>
 		<section>
-			<h4>1. Posição dos heróis</h4>
-			<div class="pos">${posicoes(estado).map((p) => `<button type="button" data-action="posicao" data-pos="${p.id}" class="${p.id === estado.posicao ? "ativo" : ""}" ${dis}>${esc(p.zona)}<br><small>${p.nome} ${sinal(p.mod)}</small></button>`).join("")}</div>
-			${estado.posicao === "ceus" ? `<p class="nota"><small>${esc(b.ceus.regra)}</small></p>` : ""}
-			<div class="linha"><label title="Regra opcional: teste de Guerra contra a CD da batalha">Posicionamento avançado</label>
-				<select data-campo="entrada.ajuste">${[-2, 0, 2].map((v) => `<option value="${v}" ${Number(estado.entrada.ajuste) === v ? "selected" : ""}>${v ? sinal(v) : "nenhum"}</option>`).join("")}</select>
-				<span>Estandartes com os heróis: <b>${estado.estandartes}</b></span>
-				<button type="button" data-action="estandarte" data-valor="-1">−</button><button type="button" data-action="estandarte" data-valor="1">+</button></div>
-			<button type="button" data-action="evento" ${dis}><i class="fa-solid fa-dice-d20"></i> Rolar evento</button>
+			<div class="linha" style="justify-content:space-between">
+				<h4>1–2. ${estado.lobos ? "Heróis (Lobos Solitários)" : "Heróis"}</h4>
+				<span class="linha">
+					${estado.lobos ? `<button type="button" data-action="sincronizar" title="Incluir personagens de jogadores que não estão na lista"><i class="fa-solid fa-user-plus"></i></button>
+					<button type="button" data-action="evento" ${dis}><i class="fa-solid fa-dice-d20"></i> Rolar todos</button>` : ""}
+					<button type="button" data-action="modo" ${dis} title="Alternar entre o grupo junto e Lobos Solitários">${estado.lobos ? "Juntar o grupo" : "Lobos Solitários"}</button>
+				</span>
+			</div>
+			${estado.frentes.map((f, i) => this.#htmlFrente(estado, f, i, dis)).join("")}
 		</section>
 		<section>
-			<h4>2. Resolver o evento ${ev ? `— ${esc(ev.nome)} (${estado.evento.total})` : ""}</h4>
-			${ev ? `<p><small>${esc(MECANICAS[ev.mecanica].replace("{cd}", cdPericia(estado)).replace("{pericia}", ev.pericia ?? ""))}</small></p>` : "<p><small>Role o evento primeiro (ou só informe bônus em “outros”).</small></p>"}
-			${inimigo ? `<p><small><b>${esc(inimigo.nome)}</b> — Defesa ${inimigo.def} · ${esc(inimigo.res)} · ${esc(inimigo.ataque)}</small></p>` : ""}
-			<div class="linha">
-				${ev?.combate && ev.mecanica !== "combate" ? `<label>Dano dos heróis${ev.danoDobrado ? " (no líder; conta em dobro)" : ""}</label><input type="number" min="0" data-campo="entrada.dano" value="${estado.entrada.dano}">` : ""}
-				${ev?.capitao ? `<label>Dano do capitão</label><input type="number" min="0" data-campo="entrada.danoCapitao" value="${estado.entrada.danoCapitao}">` : ""}
-				${ev && ["pericia", "atacarPericia"].includes(ev.mecanica) ? `<label><input type="checkbox" data-campo="entrada.pericia" ${estado.entrada.pericia ? "checked" : ""}> passou na perícia</label>` : ""}
-				<label>Outros</label><input type="number" data-campo="entrada.outros" value="${estado.entrada.outros}">
-			</div>
-			<p>Bônus dos heróis para o general: <b>${sinal(bonus)}</b> ${partes.length ? `<small>(${esc(partes.join(", "))})</small>` : ""}</p>
+			<div class="linha"><span>Estandartes com os heróis: <b>${estado.estandartes}</b></span>
+				<button type="button" data-action="estandarte" data-valor="-1">−</button><button type="button" data-action="estandarte" data-valor="1">+</button>
+				<label>Outros bônus</label><input type="number" data-campo="outros" value="${estado.outros}"></div>
+			<p>Bônus dos heróis para o general: <b>${sinal(bonus)}</b> ${partes.length ? `<small>(${esc(partes.join(" · "))})</small>` : ""}</p>
 		</section>
 		<section>
 			<h4>3. Teste dos generais</h4>
@@ -391,10 +435,40 @@ class PainelBatalha extends ApplicationV2 {
 		</section>`;
 	}
 
+	#htmlFrente(estado, f, i, dis) {
+		const b = preset(estado);
+		const ev = EVENTOS.find((e) => e.id === f.evento?.id);
+		const inimigo = f.evento?.inimigo != null ? b.inimigos[f.evento.inimigo] : null;
+		const cd = cdPericia(estado, f);
+		const p = `frentes.${i}`;
+		const { bonus } = bonusFrente(estado, f);
+		const posicaoHtml = estado.lobos
+			? `<select data-campo="${p}.posicao" ${dis}>${posicoes(estado).map((x) => `<option value="${x.id}" ${x.id === f.posicao ? "selected" : ""}>${esc(x.zona)} (${x.nome} ${sinal(x.mod)})</option>`).join("")}</select>`
+			: `<div class="pos">${posicoes(estado).map((x) => `<button type="button" data-action="posicao" data-frente="${i}" data-pos="${x.id}" class="${x.id === f.posicao ? "ativo" : ""}" ${dis}>${esc(x.zona)}<br><small>${x.nome} ${sinal(x.mod)}</small></button>`).join("")}</div>`;
+		return `<div class="frente">
+			${estado.lobos ? `<h5><span>${esc(f.nome)}</span><span>${bonus ? `bônus ${sinal(bonus)} ` : ""}<a data-action="remover" data-frente="${i}" title="Tirar da batalha"><i class="fa-solid fa-xmark"></i></a></span></h5>` : ""}
+			${posicaoHtml}
+			${f.posicao === "ceus" ? `<p class="nota"><small>${esc(b.ceus.regra)}</small></p>` : ""}
+			<div class="linha">
+				<label title="Regra opcional: teste de Guerra contra a CD da batalha">Posicionamento avançado</label>
+				<select data-campo="${p}.ajuste" data-numero>${[-2, 0, 2].map((v) => `<option value="${v}" ${Number(f.ajuste) === v ? "selected" : ""}>${v ? sinal(v) : "nenhum"}</option>`).join("")}</select>
+				<button type="button" data-action="evento" data-frente="${i}" ${dis}><i class="fa-solid fa-dice-d20"></i> Rolar evento</button>
+			</div>
+			${ev ? `<p><b>${esc(ev.nome)}</b> (${f.evento.total}) — <small>${esc(MECANICAS[ev.mecanica].replace("{cd}", cd).replace("{pericia}", ev.pericia ?? ""))}</small></p>` : ""}
+			${inimigo ? `<p><small><b>${esc(inimigo.nome)}</b> — Defesa ${inimigo.def} · ${esc(inimigo.res)} · ${esc(inimigo.ataque)}</small></p>` : ""}
+			${ev ? `<div class="linha">
+				${ev.combate && ev.mecanica !== "combate" ? `<label>Dano${estado.lobos ? "" : " dos heróis"}${ev.danoDobrado ? " (no líder; conta em dobro)" : ""}</label><input type="number" min="0" data-campo="${p}.dano" value="${f.dano}">` : ""}
+				${ev.capitao ? `<label>Dano do capitão</label><input type="number" min="0" data-campo="${p}.danoCapitao" value="${f.danoCapitao}">` : ""}
+				${["pericia", "atacarPericia"].includes(ev.mecanica) ? `<label><input type="checkbox" data-campo="${p}.pericia" ${f.pericia ? "checked" : ""}> passou na perícia</label>` : ""}
+			</div>` : ""}
+		</div>`;
+	}
+
 	async #mudou(el) {
 		const campo = el.dataset.campo;
 		if (campo.startsWith("escolha.")) {
-			if (campo === "escolha.batalha") this.escolha = { batalha: el.value, opcoes: [], limiarVariado: this.escolha.limiarVariado };
+			if (campo === "escolha.batalha") this.escolha = { ...this.escolha, batalha: el.value, opcoes: [] };
+			else if (campo === "escolha.lobos") this.escolha.lobos = el.checked;
 			else if (campo === "escolha.opcao") {
 				const s = new Set(this.escolha.opcoes);
 				el.checked ? s.add(el.value) : s.delete(el.value);
@@ -403,7 +477,7 @@ class PainelBatalha extends ApplicationV2 {
 			return this.render();
 		}
 		const estado = lerEstado();
-		const valor = el.type === "checkbox" ? el.checked : el.type === "number" || el.tagName === "SELECT" ? Number(el.value) || 0 : el.value;
+		const valor = el.type === "checkbox" ? el.checked : el.type === "number" || el.dataset.numero != null ? Number(el.value) || 0 : el.value;
 		foundry.utils.setProperty(estado, campo, valor);
 		await gravarEstado(estado);
 		this.render();
@@ -411,7 +485,7 @@ class PainelBatalha extends ApplicationV2 {
 
 	static async #comecar() {
 		const b = BATALHAS.find((x) => x.id === this.escolha.batalha);
-		const estado = novoEstado(b, this.escolha.opcoes, this.escolha.limiarVariado);
+		const estado = novoEstado(b, this.escolha.opcoes, this.escolha.limiarVariado, this.escolha.lobos);
 		await gravarEstado(estado);
 		const t = TAMANHOS[b.tamanho];
 		await postar(
@@ -419,14 +493,44 @@ class PainelBatalha extends ApplicationV2 {
 			`<p><b>${esc(estado.aliado.nome)}</b> (Guerra ${sinal(estado.aliado.guerra)}) vs. <b>${esc(estado.inimigo.nome)}</b> (Guerra ${sinal(estado.inimigo.guerra)})</p>
 			<p>${t.nome}: CD ${t.cd} nas perícias de eventos, +1 ao general a cada ${t.limiar} de dano. Vence quem chegar a ${limiarVitoria(estado)} pontos de vitória.</p>
 			${estado.pv.inimigo || estado.pv.aliado ? `<p>Placar inicial: ${estado.pv.aliado} × ${estado.pv.inimigo}</p>` : ""}
-			<p>Os heróis começam na <b>${esc(b.zonas.retaguarda)}</b> (retaguarda).</p>`
+			<p>Os heróis começam na <b>${esc(b.zonas.retaguarda)}</b> (retaguarda).${estado.lobos ? " Regra Lobos Solitários: cada herói escolhe sua posição e enfrenta o próprio evento." : ""}</p>`
 		);
 		this.render();
 	}
 
 	static async #posicao(ev, alvo) {
 		const estado = lerEstado();
-		estado.posicao = alvo.dataset.pos;
+		estado.frentes[Number(alvo.dataset.frente ?? 0)].posicao = alvo.dataset.pos;
+		await gravarEstado(estado);
+		this.render();
+	}
+
+	static async #remover(ev, alvo) {
+		const estado = lerEstado();
+		if (estado.frentes.length <= 1) return ui.notifications.warn("Precisa haver pelo menos um herói.");
+		guardar(estado);
+		estado.frentes.splice(Number(alvo.dataset.frente), 1);
+		await gravarEstado(estado);
+		this.render();
+	}
+
+	// Inclui personagens de jogadores que ainda não estão na batalha (mantém os que já estão).
+	static async #sincronizar() {
+		const estado = lerEstado();
+		const ids = new Set(estado.frentes.map((f) => f.id));
+		const novos = herois().filter((a) => !ids.has(a.id)).map((a) => novaFrente(a.id, a.name, a.uuid, "retaguarda"));
+		if (!novos.length) return ui.notifications.info("Nenhum personagem de jogador novo.");
+		estado.frentes = estado.frentes.filter((f) => !/^heroi\d+$/.test(f.id)).concat(novos);
+		await gravarEstado(estado);
+		this.render();
+	}
+
+	static async #modo() {
+		const estado = lerEstado();
+		guardar(estado);
+		const posicao = estado.frentes[0]?.posicao ?? "retaguarda";
+		estado.lobos = !estado.lobos;
+		estado.frentes = estado.lobos ? frentesDosHerois(posicao) : [novaFrente("grupo", "Grupo", null, posicao)];
 		await gravarEstado(estado);
 		this.render();
 	}

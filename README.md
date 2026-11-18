@@ -55,4 +55,5 @@ A macro **É Guerra!** abre o painel de batalha (`scripts/batalha.mjs`), com as 
 escolha da batalha (Karst, Svalas, Norm, Hippiontar, Zakharin, Iörvaen ×2, Cerco de Valkaria ou personalizada),
 posição dos heróis, rolagem de evento e inimigo, bônus por dano/perícia/estandarte, teste dos generais,
 pontos de vitória, fuga, destruição e baixas. Os dados de cada batalha ficam em `scripts/batalhas-dados.mjs`.
+Regra opcional **Lobos Solitários**: cada personagem de jogador vira uma frente, com posição, evento e bônus próprios (dá para alternar no meio da batalha).
 O estado fica salvo no mundo; "Desfazer" volta a última ação do painel.
