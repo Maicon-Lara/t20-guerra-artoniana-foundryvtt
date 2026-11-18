@@ -1,5 +1,0 @@
-2026/11/18-12:57:55.427 831c Delete type=3 #1
-2026/11/18-12:57:55.456 9adc Level-0 table #5: started
-2026/11/18-12:57:55.459 9adc Level-0 table #5: 11125 bytes OK
-2026/11/18-12:57:55.460 9adc Delete type=0 #3
-2026/11/18-12:57:55.460 9adc Manual compaction at level-0 from '!folders!2INq4Ge5gYyS4dJ9' @ 72057594037927935 : 1 .. '!tables.results!uWedfkqBtcbAM0Ga.yU0H5CLB6Tihb6hE' @ 0 : 0; will stop at (end)
