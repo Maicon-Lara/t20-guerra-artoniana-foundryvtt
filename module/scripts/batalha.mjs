@@ -155,13 +155,20 @@ function uuidInimigo(inimigo) {
 
 /* ---------------- chat ---------------- */
 
-async function postar(titulo, corpo, rolls = []) {
+async function postar(titulo, corpo, rolls = [], soMestre = false) {
 	return ChatMessage.create({
 		speaker: { alias: "Batalha em Massa" },
 		content: `<div class="ga-cartao"><h3><i class="fa-solid fa-chess-rook"></i> ${titulo}</h3>${corpo}</div>`,
 		rolls,
-		sound: rolls.length ? CONFIG.sounds.dice : undefined
+		sound: rolls.length ? CONFIG.sounds.dice : undefined,
+		whisper: soMestre ? game.users.filter((u) => u.isGM).map((u) => u.id) : []
 	});
+}
+
+// Para os jogadores: só o nome do inimigo sorteado (estatísticas vão sussurradas ao Mestre).
+function htmlInimigoPublico(inimigo, dado) {
+	if (!inimigo) return "";
+	return `<p><b>Inimigo (${dado}):</b> ${esc(inimigo.nome)}</p>`;
 }
 
 function htmlInimigo(inimigo, dado) {
@@ -201,10 +208,17 @@ async function rolarEventoFrente(estado, f) {
 		`<p>${quem}<b>${esc(pos.zona)}</b> (${pos.nome}, ${sinal(pos.mod)}${ajuste ? `, ajuste ${sinal(ajuste)}` : ""}) → ${roll.total}</p>
 		${obs}<p>${esc(ev.texto)}</p><p><i>${esc(mec)}</i></p>
 		${ev.mecanica === "pericia" ? `<p><b>Perícia:</b> ${esc(ev.pericia)} — CD ${cd}</p>` : ""}
-		${htmlInimigo(inimigo, rollInimigo ? `1d${b.inimigos.length} = ${rollInimigo.total}` : "")}
-		${ev.combate && ev.mecanica !== "combate" ? `<p><small>Bônus: +1 a cada ${tamanho(estado).limiar} de dano. Magias em área causam 1,5× o dano.</small></p>` : ""}`,
+		${htmlInimigoPublico(inimigo, rollInimigo ? `1d${b.inimigos.length} = ${rollInimigo.total}` : "")}`,
 		[roll, rollInimigo].filter(Boolean)
 	);
+	if (inimigo)
+		await postar(
+			`${estado.lobos ? esc(f.nome) + " — " : ""}Ficha do inimigo`,
+			`${htmlInimigo(inimigo, rollInimigo.total)}
+			${ev.combate && ev.mecanica !== "combate" ? `<p><small>Bônus: +1 a cada ${tamanho(estado).limiar} de dano. Magias em área causam 1,5× o dano.</small></p>` : ""}`,
+			[],
+			true
+		);
 }
 
 async function rolarEvento(app, indice) {
