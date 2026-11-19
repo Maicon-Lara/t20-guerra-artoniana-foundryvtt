@@ -92,7 +92,7 @@ export const BATALHAS = [
 			com({ nome: "Bandido preso", def: 13, res: "Fort +1, Ref +3, Von –1", ataque: "Clava +7 (1d6+3)" }, "wChzNq9mB427gEHn"),
 			{ nome: "Recruta purista", def: 16, res: "Fort +6, Ref +2, Von +0", ataque: "Alabarda +8 (1d10+5, x3)" },
 			com({ nome: "Soldado purista", def: 20, res: "Fort +10, Ref +4, Von +1", ataque: "Espada bastarda +9 (1d10+9, 19)" }, "vGRXgiIQkVGsKbOm"),
-			{ nome: "Grupo de assalto alabardeiro", def: 18, res: "Fort +10, Ref +4, Von +1", ataque: "Alabarda +12 (2d8+9, 19)" },
+			com({ nome: "Grupo de assalto alabardeiro", def: 18, res: "Fort +10, Ref +4, Von +1", ataque: "Alabarda +12 (2d8+9, 19)" }, "Fz6Jf7kLEaPm8ECO"),
 			{ nome: "Sargento-mor", def: 24, res: "Fort +14, Ref +9, Von +5", ataque: "Espada bastarda +14 (1d12+15, 19)" }
 		]
 	},
@@ -123,7 +123,7 @@ export const BATALHAS = [
 			com({ nome: "Centopeia-dragão acorrentada", def: 27, res: "Fort +15, Ref +20, Von +9", ataque: "Mordida +24 (2d8+18 mais 2d6 fogo)" }, "fMI80OLNr8noLA2E"),
 			com({ nome: "Gnoll caçador de cabeças", def: 33, res: "Fort +16, Ref +7, Von +15", ataque: "Espada longa x2 +26 (1d8+15, 19) e mordida +26 (1d6+15)" }, "L5wwuLUkJ2xDyiZy"),
 			com({ nome: "Quimera acorrentada", def: 33, res: "Fort +21, Ref +15, Von +8", ataque: "Três mordidas +26 (3d12+12)" }, "RJxIErBRA0nxz2Tw"),
-			{ nome: "Trog mercenário", sistema: "Trog", aproximada: true, def: 33, res: "Fort +22, Ref +6, Von +16, +1 de dano por dado de dano de frio", ataque: "Machado de guerra +26 (3d6+20, x3) e mordida +26 (2d6+18)" },
+			com({ nome: "Trog mercenário", def: 33, res: "Fort +22, Ref +6, Von +16, +1 de dano por dado de dano de frio", ataque: "Machado de guerra +26 (3d6+20, x3) e mordida +26 (2d6+18)" }, "0rpWdeAyk3MlcobX"),
 			com({ nome: "Cavaleiro traidor", def: 34, res: "Fort +21, Ref +10, Von +15, RD 5", ataque: "Espada longa x2 +27 (2d8+23, 19)" }, "a9JGqMfz57O59F1l"),
 			com({ nome: "Furioso púrpura", def: 31, res: "Fort +21, Ref +15, Von +9, RD 10", ataque: "Machado de batalha x2 +25 (2d12+20, x3)" }, "zd7cDM6lnyEjz0NJ"),
 			com({ nome: "Agente do Graath", def: 33, res: "Fort +10, Ref +16, Von +22, resistência a magia +2", ataque: "Espada longa +27 (2d8+30, 19, mais 12d6 trevas)" }, "WwTeYZAKmDzSJAHF")
@@ -174,7 +174,7 @@ export const BATALHAS = [
 			com(LEOPARDO, "SvAxWzH3MiFNEZzM"),
 			com({ ...SERPE, def: 37, res: "Fort +18, Ref +8, Von +22" }, "kwlKUX8POVVHzPkx"),
 			{ nome: "Arcano de guerra veterano", def: 41, res: "Fort +18, Ref +24, Von +11, evasão, imunidade a medo", ataque: "Açoite flamejante x2 (6d8 fogo e fica em chamas, Ref CD 33 reduz à metade)" },
-			{ nome: "Companhia blindada (nome em branco no livro)", def: 41, res: "Fort +11, Ref +24, Von +18, RD 30 contra o primeiro dano da rodada, resistência a magia +5", ataque: "Martelo de guerra x2 +27 (2d8+12, x3)" },
+			com({ nome: "Companhia blindada (nome em branco no livro)", def: 41, res: "Fort +11, Ref +24, Von +18, RD 30 contra o primeiro dano da rodada, resistência a magia +5", ataque: "Martelo de guerra x2 +27 (2d8+12, x3)" }, "CCvlJ5cOA80HIvWY"),
 			com(MESTRE_CACADOR, "cSiBbPa90sgnuCnb"),
 			com(COMANDANTE, "tFaUCLeuQiY1Pc4J")
 		]
@@ -195,7 +195,7 @@ export const BATALHAS = [
 			com(GOLEM_ASSALTO, "yRFCiGVIPXJHqcjT"),
 			com(COMANDANTE, "ICDnuCtMyymWTX34"),
 			com({ nome: "Artilharia mecanomágica", def: 42, res: "Fort +27, Ref +11, Von +21, RD 10, resistência a magia +2", ataque: "Saraivada elemental (6d12 ácido, 6d12 eletricidade, 6d12 frio, 6d12 fogo, Ref CD 37 reduz à metade)" }, "T9qPvpi8pmZIBQkZ"),
-			BLINDADO_PESADO,
+			com(BLINDADO_PESADO, "ItGCeL4wyyXWJFhI"),
 			com(COLOSSO, "dciceCkxbotCyRyv")
 		]
 	},
@@ -211,7 +211,7 @@ export const BATALHAS = [
 			com(GOLEM_ASSALTO, "Cuh9eIj00obf97yV"),
 			com(COMANDANTE, "WUMrmiUG1vhdjFmK"),
 			com({ nome: "Artilharia mecanomágica pesada", def: 42, res: "Fort +27, Ref +11, Von +21, RD 10, resistência a magia +2", ataque: "Saraivada elemental (6d12 ácido, 6d12 eletricidade, 6d12 frio, 6d12 fogo, alcance longo, Ref CD 37 reduz à metade)" }, "Ga0HsqWodKXNenWr"),
-			BLINDADO_PESADO,
+			com(BLINDADO_PESADO, "sb54gLcqBcj1hNYR"),
 			com(COLOSSO, "zR4XpsCaCgXkSC44"),
 			com({ nome: "Bastião móvel", def: 48, res: "Fort +33, Ref +21, Von +22, RD 15, resistência a magia +5", ataque: "Quatro balistas +46 (4d12+25, 19, alcance médio)" }, "OavhcxwarfA9qbZ3"),
 			com({ nome: "Soldado superior", def: 50, res: "Fort +28, Ref +28, Von +20, imunidade a doenças, efeitos mentais, medo e veneno, redução de corte, impacto e perfuração 15", ataque: "Ataque desarmado x4 +47 (2d12+30, 17/x3)" }, "m5L91dt16RI1gWTC")
