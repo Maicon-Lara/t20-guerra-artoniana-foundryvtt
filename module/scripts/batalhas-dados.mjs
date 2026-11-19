@@ -225,3 +225,35 @@ export const BATALHAS = [
 		inimigos: []
 	}
 ];
+
+// Fichas de batalha: quando a ficha da aventura tem números diferentes da tabela do exército, o painel abre
+// uma cópia com os números da tabela (pasta da batalha, nome "... (batalha)"). Chave: "<id da batalha>|<nome>".
+const FICHAS_DE_BATALHA = {
+	"svalas|Companhia blindada de elite": "rW9F6kCTHb4me5Lb",
+	"hippiontar|Companhia blindada de elite": "rW9F6kCTHb4me5Lb",
+	"zakharin|Companhia blindada de elite": "rW9F6kCTHb4me5Lb",
+	"hippiontar|Cavaleiro de serpe": "o8VYJCRgUmOXEOhB",
+	"zakharin|Cavaleiro de serpe": "o8VYJCRgUmOXEOhB",
+	"iorvaen-primeiro|Cavaleiro de serpe": "o8VYJCRgUmOXEOhB",
+	"hippiontar|Ginete purista veterano": "Fmqo364uzZbANpxT",
+	"zakharin|Ginete purista veterano": "Fmqo364uzZbANpxT",
+	"zakharin|Golem de reconhecimento": "SG0WaVSQhbhBcyKo",
+	"iorvaen-leste|Golem de reconhecimento": "SG0WaVSQhbhBcyKo",
+	"svalas|Soldado blindado veterano": "gXN97j6NV2TWn4ZB",
+	"norm|Centopeia-dragão acorrentada": "veuLeNuYFG6uGuur",
+	"norm|Gnoll caçador de cabeças": "7RKzR1XHzV9uLCNl",
+	"norm|Cavaleiro traidor": "IckGwl5o8cEedPgv",
+	"norm|Furioso púrpura": "jOeZ353FccyHkhoh",
+	"norm|Agente do Graath": "TBB0yd7meXfF5CaK",
+	"iorvaen-leste|Cavaleiro de serpe": "OI57jl1DpEvS2cGw",
+	"iorvaen-leste|Arcano de guerra veterano": "8JDhQmMhsoHUlTvz",
+	"iorvaen-primeiro|Companhia blindada veterana": "RvdYiJLXBl0tTxxA",
+	"iorvaen-primeiro|Companhia blindada de elite": "56dIi9qTJy1Lh24A",
+	"iorvaen-primeiro|Artilharia alquímica": "GyCcEf0LptVqTrII",
+	"iorvaen-primeiro|Artilharia mecanomágica": "llPWJvpYZdWMhuiy",
+	"valkaria|Companhia blindada veterana": "SHSdOcUNLnxtQ3Wu",
+	"valkaria|Cavaleiro de serpe": "kZ13eAmwsPnwsQza",
+	"valkaria|Artilharia mecanomágica pesada": "QUilkA4aZxpTXhLl",
+	"valkaria|Bastião móvel": "nXS2wLfTbYfTKuzg"
+};
+for (const b of BATALHAS) b.inimigos = b.inimigos.map((i) => (FICHAS_DE_BATALHA[`${b.id}|${i.nome}`] ? { ...i, ficha: FICHAS_DE_BATALHA[`${b.id}|${i.nome}`] } : i));

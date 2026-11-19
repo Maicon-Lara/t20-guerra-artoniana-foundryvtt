@@ -57,6 +57,9 @@ posição dos heróis, rolagem de evento e inimigo, bônus por dano/perícia/est
 pontos de vitória, fuga, destruição e baixas. Os dados de cada batalha ficam em `scripts/batalhas-dados.mjs`.
 Regra opcional **Lobos Solitários**: cada personagem de jogador vira uma frente, com posição, evento e bônus próprios (dá para alternar no meio da batalha).
 O estado fica salvo no mundo; "Desfazer" volta a última ação do painel.
+Todo inimigo das tabelas tem ficha com os números da tabela do exército: quando a ficha da aventura é diferente,
+o painel abre uma cópia "Nome (batalha)", na pasta da batalha. Estatísticas, Guerra dos generais e rolagens dos
+generais vão sussurradas só para o Mestre.
 
 ## Parceiros
 

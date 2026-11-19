@@ -2,10 +2,10 @@
   "id": "guerra-artoniana",
   "title": "Guerra Artoniana — NPCs e Ameaças",
   "description": "NPCs, ameaças, itens e tabelas de encontro da campanha Jornada Heroica: Guerra Artoniana, com os tokens dos handouts. Uso pessoal da mesa.",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "url": "https://github.com/Maicon-Lara/t20-guerra-artoniana-foundryvtt",
   "manifest": "https://github.com/Maicon-Lara/t20-guerra-artoniana-foundryvtt/releases/latest/download/module.json",
-  "download": "https://github.com/Maicon-Lara/t20-guerra-artoniana-foundryvtt/releases/download/v2.4.0/guerra-artoniana.zip",
+  "download": "https://github.com/Maicon-Lara/t20-guerra-artoniana-foundryvtt/releases/download/v2.4.1/guerra-artoniana.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
